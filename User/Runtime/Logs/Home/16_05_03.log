@@ -1,0 +1,1847 @@
+[ 2016-05-03T00:08:15+08:00 ] 45.78.14.185 /Home/Index/home.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Undefined variable: home /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 758 行.
+NOTIC: [8] Undefined variable: news /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 761 行.
+NOTIC: [8] Undefined variable: she_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 765 行.
+NOTIC: [8] Undefined variable: de_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 769 行.
+NOTIC: [8] Undefined variable: reg /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 773 行.
+NOTIC: [8] Undefined variable: profile /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 777 行.
+NOTIC: [8] Undefined variable: manage /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 780 行.
+NOTIC: [8] Undefined variable: cwmx /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 789 行.
+NOTIC: [8] Undefined variable: detail /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 794 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2016-05-03T00:13:14+08:00 ] 45.78.14.185 /Home/Index/home.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+NOTIC: [8] Undefined variable: home /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 758 行.
+NOTIC: [8] Undefined variable: news /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 761 行.
+NOTIC: [8] Undefined variable: she_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 765 行.
+NOTIC: [8] Undefined variable: de_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 769 行.
+NOTIC: [8] Undefined variable: reg /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 773 行.
+NOTIC: [8] Undefined variable: profile /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 777 行.
+NOTIC: [8] Undefined variable: manage /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 780 行.
+NOTIC: [8] Undefined variable: cwmx /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 789 行.
+NOTIC: [8] Undefined variable: detail /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 794 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2016-05-03T00:25:46+08:00 ] 45.78.14.185 /Home/Index/home.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Undefined variable: home /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 758 行.
+NOTIC: [8] Undefined variable: news /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 761 行.
+NOTIC: [8] Undefined variable: she_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 765 行.
+NOTIC: [8] Undefined variable: de_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 769 行.
+NOTIC: [8] Undefined variable: reg /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 773 行.
+NOTIC: [8] Undefined variable: profile /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 777 行.
+NOTIC: [8] Undefined variable: manage /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 780 行.
+NOTIC: [8] Undefined variable: cwmx /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 789 行.
+NOTIC: [8] Undefined variable: detail /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 794 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2016-05-03T00:30:47+08:00 ] 45.78.14.185 /Home/Index/home.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Undefined variable: home /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 758 行.
+NOTIC: [8] Undefined variable: news /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 761 行.
+NOTIC: [8] Undefined variable: she_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 765 行.
+NOTIC: [8] Undefined variable: de_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 769 行.
+NOTIC: [8] Undefined variable: reg /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 773 行.
+NOTIC: [8] Undefined variable: profile /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 777 行.
+NOTIC: [8] Undefined variable: manage /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 780 行.
+NOTIC: [8] Undefined variable: cwmx /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 789 行.
+NOTIC: [8] Undefined variable: detail /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 794 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-05-03T00:44:07+08:00 ] 45.78.14.185 /Home/Index/home.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Undefined variable: home /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 758 行.
+NOTIC: [8] Undefined variable: news /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 761 行.
+NOTIC: [8] Undefined variable: she_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 765 行.
+NOTIC: [8] Undefined variable: de_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 769 行.
+NOTIC: [8] Undefined variable: reg /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 773 行.
+NOTIC: [8] Undefined variable: profile /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 777 行.
+NOTIC: [8] Undefined variable: manage /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 780 行.
+NOTIC: [8] Undefined variable: cwmx /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 789 行.
+NOTIC: [8] Undefined variable: detail /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 794 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2016-05-03T00:49:08+08:00 ] 45.78.14.185 /Home/Index/home.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+NOTIC: [8] Undefined variable: home /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 758 行.
+NOTIC: [8] Undefined variable: news /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 761 行.
+NOTIC: [8] Undefined variable: she_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 765 行.
+NOTIC: [8] Undefined variable: de_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 769 行.
+NOTIC: [8] Undefined variable: reg /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 773 行.
+NOTIC: [8] Undefined variable: profile /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 777 行.
+NOTIC: [8] Undefined variable: manage /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 780 行.
+NOTIC: [8] Undefined variable: cwmx /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 789 行.
+NOTIC: [8] Undefined variable: detail /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 794 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2016-05-03T00:54:08+08:00 ] 116.18.189.231 /Home/Index/home.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000300s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+NOTIC: [8] Undefined variable: home /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 758 行.
+NOTIC: [8] Undefined variable: news /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 761 行.
+NOTIC: [8] Undefined variable: she_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 765 行.
+NOTIC: [8] Undefined variable: de_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 769 行.
+NOTIC: [8] Undefined variable: reg /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 773 行.
+NOTIC: [8] Undefined variable: profile /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 777 行.
+NOTIC: [8] Undefined variable: manage /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 780 行.
+NOTIC: [8] Undefined variable: cwmx /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 789 行.
+NOTIC: [8] Undefined variable: detail /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 794 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-05-03T01:08:31+08:00 ] 45.78.14.185 /Home/Index/home.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+NOTIC: [8] Undefined variable: home /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 758 行.
+NOTIC: [8] Undefined variable: news /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 761 行.
+NOTIC: [8] Undefined variable: she_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 765 行.
+NOTIC: [8] Undefined variable: de_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 769 行.
+NOTIC: [8] Undefined variable: reg /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 773 行.
+NOTIC: [8] Undefined variable: profile /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 777 行.
+NOTIC: [8] Undefined variable: manage /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 780 行.
+NOTIC: [8] Undefined variable: cwmx /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 789 行.
+NOTIC: [8] Undefined variable: detail /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 794 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2016-05-03T01:13:32+08:00 ] 45.78.14.185 /Home/Index/home.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Undefined variable: home /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 758 行.
+NOTIC: [8] Undefined variable: news /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 761 行.
+NOTIC: [8] Undefined variable: she_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 765 行.
+NOTIC: [8] Undefined variable: de_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 769 行.
+NOTIC: [8] Undefined variable: reg /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 773 行.
+NOTIC: [8] Undefined variable: profile /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 777 行.
+NOTIC: [8] Undefined variable: manage /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 780 行.
+NOTIC: [8] Undefined variable: cwmx /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 789 行.
+NOTIC: [8] Undefined variable: detail /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 794 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2016-05-03T01:18:32+08:00 ] 45.78.14.185 /Home/Index/home.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Undefined variable: home /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 758 行.
+NOTIC: [8] Undefined variable: news /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 761 行.
+NOTIC: [8] Undefined variable: she_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 765 行.
+NOTIC: [8] Undefined variable: de_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 769 行.
+NOTIC: [8] Undefined variable: reg /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 773 行.
+NOTIC: [8] Undefined variable: profile /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 777 行.
+NOTIC: [8] Undefined variable: manage /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 780 行.
+NOTIC: [8] Undefined variable: cwmx /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 789 行.
+NOTIC: [8] Undefined variable: detail /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 794 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2016-05-03T01:23:33+08:00 ] 45.78.14.185 /Home/Index/home.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+NOTIC: [8] Undefined variable: home /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 758 行.
+NOTIC: [8] Undefined variable: news /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 761 行.
+NOTIC: [8] Undefined variable: she_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 765 行.
+NOTIC: [8] Undefined variable: de_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 769 行.
+NOTIC: [8] Undefined variable: reg /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 773 行.
+NOTIC: [8] Undefined variable: profile /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 777 行.
+NOTIC: [8] Undefined variable: manage /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 780 行.
+NOTIC: [8] Undefined variable: cwmx /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 789 行.
+NOTIC: [8] Undefined variable: detail /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 794 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2016-05-03T01:50:04+08:00 ] 45.78.14.185 /Home/Index/home.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = 'admin@qq.com' AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+NOTIC: [8] Undefined variable: home /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 758 行.
+NOTIC: [8] Undefined variable: news /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 761 行.
+NOTIC: [8] Undefined variable: she_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 765 行.
+NOTIC: [8] Undefined variable: de_list /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 769 行.
+NOTIC: [8] Undefined variable: reg /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 773 行.
+NOTIC: [8] Undefined variable: profile /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 777 行.
+NOTIC: [8] Undefined variable: manage /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 780 行.
+NOTIC: [8] Undefined variable: cwmx /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 789 行.
+NOTIC: [8] Undefined variable: detail /phpstudy/www/mmm.bianji.cn/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 794 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2016-05-03T12:47:33+08:00 ] 219.133.40.16 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = null [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 97 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-05-03T12:47:34+08:00 ] 219.133.40.16 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-05-03T12:47:34+08:00 ] 219.133.40.16 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2016-05-03T12:47:35+08:00 ] 119.139.174.220 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-05-03T12:47:36+08:00 ] 101.226.66.192 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-05-03T12:47:58+08:00 ] 219.133.40.16 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = null [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 97 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-05-03T12:47:58+08:00 ] 183.232.118.14 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-05-03T12:47:59+08:00 ] 219.133.40.16 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2016-05-03T12:47:59+08:00 ] 119.139.174.220 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-05-03T12:48:14+08:00 ] 116.18.189.231 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = null [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 97 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-05-03T12:48:14+08:00 ] 116.18.189.231 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-05-03T12:48:14+08:00 ] 116.18.189.231 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2016-05-03T12:48:15+08:00 ] 116.18.189.231 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-05-03T12:48:19+08:00 ] 119.139.174.220 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = null [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 97 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-05-03T12:48:19+08:00 ] 119.139.174.220 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-05-03T12:48:19+08:00 ] 116.18.189.231 /Home/Reg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2016-05-03T12:48:19+08:00 ] 119.139.174.220 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2016-05-03T12:48:20+08:00 ] 119.139.174.220 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-05-03T12:48:22+08:00 ] 219.133.40.16 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = null [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 97 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-05-03T12:48:22+08:00 ] 163.177.93.244 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = null [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 97 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-05-03T12:48:22+08:00 ] 183.232.118.14 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-05-03T12:48:23+08:00 ] 219.133.40.16 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2016-05-03T12:48:23+08:00 ] 116.18.189.231 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2016-05-03T12:48:23+08:00 ] 119.139.174.220 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-05-03T12:48:51+08:00 ] 219.133.40.16 /Home/Reg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2016-05-03T12:50:40+08:00 ] 219.133.40.16 /Home/Reg/regadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Undefined index: question /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 637 行.
+NOTIC: [8] Undefined index: answer /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 639 行.
+NOTIC: [8] Use of undefined constant User - assumed 'User' /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 651 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: validate /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13868848858' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '123456' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-05-03T12:51:12+08:00 ] 219.133.40.16 /Home/Reg/regadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8] Undefined index: question /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 637 行.
+NOTIC: [8] Undefined index: answer /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 639 行.
+NOTIC: [8] Use of undefined constant User - assumed 'User' /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 651 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: validate /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13868848858' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-05-03T12:51:29+08:00 ] 219.133.40.16 /Home/Reg/regadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+NOTIC: [8] Undefined index: question /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 637 行.
+NOTIC: [8] Undefined index: answer /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 639 行.
+NOTIC: [8] Use of undefined constant User - assumed 'User' /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 651 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: validate /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13868848858' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-05-03T12:56:05+08:00 ] 117.136.40.177 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = null [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 97 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-05-03T12:56:05+08:00 ] 117.136.40.177 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-05-03T12:56:05+08:00 ] 117.136.40.177 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-05-03T12:56:06+08:00 ] 117.136.40.177 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-05-03T12:59:39+08:00 ] 117.136.40.177 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = null [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 97 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-05-03T12:59:39+08:00 ] 117.136.40.177 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-05-03T12:59:39+08:00 ] 117.136.40.177 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2016-05-03T12:59:40+08:00 ] 117.136.40.177 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-05-03T12:59:44+08:00 ] 117.136.40.177 /Home/Reg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2016-05-03T13:01:34+08:00 ] 117.136.40.177 /Home/Reg/regadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+NOTIC: [8] Undefined index: question /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 637 行.
+NOTIC: [8] Undefined index: answer /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 639 行.
+NOTIC: [8] Use of undefined constant User - assumed 'User' /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 651 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: validate /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13662201618' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-05-03T13:01:58+08:00 ] 117.136.40.177 /Home/Reg/regadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Undefined index: question /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 637 行.
+NOTIC: [8] Undefined index: answer /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 639 行.
+NOTIC: [8] Use of undefined constant User - assumed 'User' /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 651 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: validate /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13662201618' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = '86e9c0700af28bb53e1a52abd28b326c' AND `zt` = '0' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `ot_user` (`UE_account`,`UE_accName`,`UE_theme`,`UE_password`,`pin`,`UE_secpwd`,`UE_status`,`UE_level`,`UE_check`,`UE_truename`,`UE_phone`,`UE_question`,`UE_answer`,`UE_regIP`,`zcr`,`UE_regTime`) VALUES ('13662201618','admin@qq.com','明晗','e10adc3949ba59abbe56e057f20f883e','86e9c0700af28bb53e1a52abd28b326c','e10adc3949ba59abbe56e057f20f883e','0','0','1','明晗','13662201618',NULL,NULL,'117.136.40.177','admin@qq.com','2016-05-03 13:01:58') [ RunTime:0.0002s ]
+SQL: UPDATE `ot_pin` SET `zt`='1',`sy_user`='13662201618',`sy_date`='2016-05-03 13:01:58' WHERE `pin` = '86e9c0700af28bb53e1a52abd28b326c' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_accName` = 'admin@qq.com'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0006s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_ppdd` WHERE `p_user` = '13662201618' AND `zt` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_ppdd` WHERE `p_user` = '13266776666' AND `zt` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_ppdd` WHERE `p_user` = '13266776667' AND `zt` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_ppdd` WHERE `p_user` = '18623720555' AND `zt` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' AND `zt` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `ot_user` SET `tj_num`=tj_num+1 WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_user_jl` [ RunTime:0.0005s ]
+SQL: INSERT INTO `ot_user_jl` (`user`,`r_id`,`date`,`note`,`jb`,`jj`,`ds`) VALUES ('13662201618','0','2016-05-03 13:01:58','新用户注册奖励0元','0','0','0') [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant UE_account - assumed 'UE_account' /phpstudy/www/mmm.bianji.cn/User/Home/Common/function.php 第 700 行.
+SQL: UPDATE `ot_user` SET `UE_money`=UE_money+0 WHERE `UE_account` = '13662201618' [ RunTime:0.0001s ]
+
+[ 2016-05-03T13:01:59+08:00 ] 117.136.40.177 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2016-05-03T13:01:59+08:00 ] 117.136.40.177 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-05-03T13:02:04+08:00 ] 117.136.40.177 /Home/Login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-05-03T13:02:38+08:00 ] 117.136.40.177 /Home/Login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '611043241@163.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-05-03T13:02:41+08:00 ] 117.136.40.177 /Home/Login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '611043241@163.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-05-03T13:02:42+08:00 ] 117.136.40.177 /Home/Login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '611043241@163.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-05-03T13:02:49+08:00 ] 117.136.40.177 /Home/Reg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-05-03T13:03:06+08:00 ] 117.136.40.177 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2016-05-03T13:03:27+08:00 ] 117.136.40.177 /Home/Login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '611043241@163.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-05-03T13:03:50+08:00 ] 117.136.40.177 /Home/Login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '611043241@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-05-03T13:04:10+08:00 ] 117.136.40.177 /Home/Reg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2016-05-03T13:06:21+08:00 ] 117.136.40.177 /Home/Reg/regadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index: question /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 637 行.
+NOTIC: [8] Undefined index: answer /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 639 行.
+NOTIC: [8] Use of undefined constant User - assumed 'User' /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 651 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: validate /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13662201618' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-05-03T13:06:25+08:00 ] 117.136.40.177 /Home/Reg/regadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Undefined index: question /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 637 行.
+NOTIC: [8] Undefined index: answer /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 639 行.
+NOTIC: [8] Use of undefined constant User - assumed 'User' /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 651 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: validate /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13662201618' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-05-03T13:06:56+08:00 ] 117.136.40.177 /Home/Reg/regadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [8] Undefined index: question /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 637 行.
+NOTIC: [8] Undefined index: answer /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 639 行.
+NOTIC: [8] Use of undefined constant User - assumed 'User' /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 651 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: validate /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13662201618' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-05-03T13:07:31+08:00 ] 117.136.40.177 /Home/Reg/regadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Undefined index: question /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 637 行.
+NOTIC: [8] Undefined index: answer /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 639 行.
+NOTIC: [8] Use of undefined constant User - assumed 'User' /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 651 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: validate /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13600401699' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = '86e9c0700af28bb53e1a52abd28b326c' AND `zt` = '0' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-05-03T14:08:29+08:00 ] 117.136.40.177 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = null [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 97 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-05-03T14:08:30+08:00 ] 117.136.40.177 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-05-03T14:08:30+08:00 ] 117.136.40.177 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2016-05-03T14:08:31+08:00 ] 117.136.40.177 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-05-03T14:08:34+08:00 ] 117.136.40.177 /Home/Reg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-05-03T14:10:09+08:00 ] 117.136.40.177 /Home/Reg/regadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined index: question /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 637 行.
+NOTIC: [8] Undefined index: answer /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 639 行.
+NOTIC: [8] Use of undefined constant User - assumed 'User' /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 651 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: validate /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13600401699' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = 'c4226b2e57c881c5bb16eb31a7a6c28d' AND `zt` = '0' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-05-03T14:10:48+08:00 ] 117.136.40.177 /Home/Reg/regadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined index: question /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 637 行.
+NOTIC: [8] Undefined index: answer /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 639 行.
+NOTIC: [8] Use of undefined constant User - assumed 'User' /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 651 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: validate /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13600401699' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = 'c4226b2e57c881c5bb16eb31a7a6c28d' AND `zt` = '0' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-05-03T14:11:58+08:00 ] 117.136.40.177 /Home/Reg/regadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] Undefined index: question /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 637 行.
+NOTIC: [8] Undefined index: answer /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 639 行.
+NOTIC: [8] Use of undefined constant User - assumed 'User' /phpstudy/www/mmm.bianji.cn/User/Home/Controller/RegController.class.php 第 651 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: validate /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13600401699' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = 'c4226b2e57c881c5bb16eb31a7a6c28d' AND `zt` = '0' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-05-03T14:12:09+08:00 ] 117.136.40.177 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2016-05-03T14:21:15+08:00 ] 117.136.40.177 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = null [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 97 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-05-03T14:21:15+08:00 ] 117.136.40.177 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.bianji.cn/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-05-03T14:21:15+08:00 ] 117.136.40.177 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2016-05-03T14:21:16+08:00 ] 117.136.40.177 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-05-03T14:21:23+08:00 ] 117.136.40.177 /Home/Reg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2016-05-03T14:21:41+08:00 ] 117.136.40.177 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+

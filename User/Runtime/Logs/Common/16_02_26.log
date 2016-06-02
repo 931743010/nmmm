@@ -1,0 +1,108 @@
+[ 2016-02-26T11:07:42+08:00 ] ::1 /apple-touch-icon-precomposed.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+ERR: 无法加载模块:Apple-touch-icon-precomposed
+
+[ 2016-02-26T11:07:42+08:00 ] ::1 /apple-touch-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+ERR: 无法加载模块:Apple-touch-icon
+
+[ 2016-02-26T11:29:43+08:00 ] ::1 /bitStyle/js/fn/fn_nl2br.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+ERR: 无法加载模块:BitStyle
+
+[ 2016-02-26T21:19:57+08:00 ] ::1 /bitStyle/js/fn/fn_nl2br.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+ERR: 无法加载模块:BitStyle
+
+[ 2016-02-26T21:20:16+08:00 ] ::1 /bitStyle/templates/default/js/plugins/fileupload/bootstrap-fileupload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+ERR: 无法加载模块:BitStyle
+
+[ 2016-02-26T21:20:16+08:00 ] ::1 /bitStyle/css/plugins/fileupload.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+ERR: 无法加载模块:BitStyle
+
+[ 2016-02-26T21:20:28+08:00 ] ::1 /bitStyle/templates/default/js/plugins/fileupload/bootstrap-fileupload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+ERR: 无法加载模块:BitStyle
+
+[ 2016-02-26T21:20:28+08:00 ] ::1 /bitStyle/css/plugins/fileupload.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+ERR: 无法加载模块:BitStyle
+
+[ 2016-02-26T21:20:34+08:00 ] ::1 /bitStyle/templates/default/js/plugins/fileupload/bootstrap-fileupload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+ERR: 无法加载模块:BitStyle
+
+[ 2016-02-26T21:20:34+08:00 ] ::1 /bitStyle/css/plugins/fileupload.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+ERR: 无法加载模块:BitStyle
+
+[ 2016-02-26T21:20:58+08:00 ] ::1 /bitStyle/templates/default/js/plugins/fileupload/bootstrap-fileupload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载模块:BitStyle
+
+[ 2016-02-26T21:20:58+08:00 ] ::1 /bitStyle/css/plugins/fileupload.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+ERR: 无法加载模块:BitStyle
+
+[ 2016-02-26T21:29:29+08:00 ] ::1 /bitStyle/templates/default/js/plugins/fileupload/bootstrap-fileupload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+ERR: 无法加载模块:BitStyle
+
+[ 2016-02-26T21:29:29+08:00 ] ::1 /bitStyle/css/plugins/fileupload.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+ERR: 无法加载模块:BitStyle
+
+[ 2016-02-26T21:30:02+08:00 ] ::1 /bitStyle/templates/default/js/plugins/fileupload/bootstrap-fileupload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+ERR: 无法加载模块:BitStyle
+
+[ 2016-02-26T21:30:02+08:00 ] ::1 /bitStyle/css/plugins/fileupload.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+ERR: 无法加载模块:BitStyle
+
+[ 2016-02-26T21:30:04+08:00 ] ::1 /bitStyle/templates/default/js/plugins/fileupload/bootstrap-fileupload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+ERR: 无法加载模块:BitStyle
+
+[ 2016-02-26T21:30:04+08:00 ] ::1 /bitStyle/css/plugins/fileupload.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+ERR: 无法加载模块:BitStyle
+

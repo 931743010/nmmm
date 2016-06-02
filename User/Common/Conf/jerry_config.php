@@ -1,0 +1,1 @@
+<?php	return array ( 'lixi1' => '1.5', 'lixi2' => '0', 'tiqian_time' => '0', 'tiqian_lx' => '0', 'submit' => '提交', );?>

@@ -1,0 +1,624 @@
+[ 2016-02-14T21:10:11+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002099s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:10:15+08:00 ] ::1 /framework/css/images/ui-bg_gloss-wave_70_ffdd57_500x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:10:27+08:00 ] ::1 /assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T21:10:27+08:00 ] ::1 /assets/fonts/pe-icon-7-stroke/css/helper.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T21:10:29+08:00 ] ::1 /img/printout.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+ERR: 无法加载模块:Img
+
+[ 2016-02-14T21:10:29+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:15:00+08:00 ] ::1 /assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002051s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T21:15:00+08:00 ] ::1 /assets/fonts/pe-icon-7-stroke/css/helper.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000321s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003985s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T21:15:00+08:00 ] ::1 /public_html/img/ui-bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+ERR: 无法加载模块:Public_html
+
+[ 2016-02-14T21:15:00+08:00 ] ::1 /assets/images/button-img1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T21:15:00+08:00 ] ::1 /assets/images/button-img2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T21:15:00+08:00 ] ::1 /assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T21:15:00+08:00 ] ::1 /assets/vendor/fontawesome/fonts/fontawesome-webfont.woff?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T21:15:00+08:00 ] ::1 /assets/vendor/fontawesome/fonts/fontawesome-webfont.ttf?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T21:15:00+08:00 ] ::1 /assets/vendor/fontawesome/fonts/fontawesome-webfont.svg?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T21:15:30+08:00 ] ::1 /framework/css/images/blank.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:15:30+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:15:32+08:00 ] ::1 /framework/css/images/ui-bg_gloss-wave_70_ffdd57_500x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:15:42+08:00 ] ::1 /assets/fonts/pe-icon-7-stroke/css/helper.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T21:15:42+08:00 ] ::1 /assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T21:15:42+08:00 ] ::1 /assets/images/button-img1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T21:15:42+08:00 ] ::1 /assets/images/button-img2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T21:15:42+08:00 ] ::1 /public_html/img/ui-bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+ERR: 无法加载模块:Public_html
+
+[ 2016-02-14T21:15:43+08:00 ] ::1 /assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T21:15:43+08:00 ] ::1 /assets/vendor/fontawesome/fonts/fontawesome-webfont.woff?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T21:15:43+08:00 ] ::1 /assets/vendor/fontawesome/fonts/fontawesome-webfont.ttf?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T21:15:43+08:00 ] ::1 /assets/vendor/fontawesome/fonts/fontawesome-webfont.svg?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T21:15:43+08:00 ] ::1 /framework/css/images/ui-bg_gloss-wave_70_ffdd57_500x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:17:32+08:00 ] ::1 /img/printout.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:Img
+
+[ 2016-02-14T21:17:32+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:18:46+08:00 ] ::1 /framework/css/images/ui-bg_gloss-wave_70_ffdd57_500x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:18:52+08:00 ] ::1 /img/printout.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+ERR: 无法加载模块:Img
+
+[ 2016-02-14T21:18:53+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:18:58+08:00 ] ::1 /assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T21:18:58+08:00 ] ::1 /assets/fonts/pe-icon-7-stroke/css/helper.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T21:19:34+08:00 ] ::1 /assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T21:19:34+08:00 ] ::1 /assets/fonts/pe-icon-7-stroke/css/helper.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T21:19:55+08:00 ] ::1 /framework/css/images/blank.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:19:55+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:19:57+08:00 ] ::1 /framework/css/images/ui-bg_gloss-wave_70_ffdd57_500x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:20:04+08:00 ] ::1 /img/printout.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+ERR: 无法加载模块:Img
+
+[ 2016-02-14T21:20:04+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:20:04+08:00 ] ::1 /framework/css/images/ui-bg_gloss-wave_70_ffdd57_500x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:20:06+08:00 ] ::1 /framework/css/images/blank.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:20:08+08:00 ] ::1 /framework/css/images/ui-bg_gloss-wave_70_ffdd57_500x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:23:35+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:31:01+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:33:16+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:34:13+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:35:26+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:35:30+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:37:52+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:37:54+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:38:33+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:39:30+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:40:40+08:00 ] ::1 /Uploads/145327330183174.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-02-14T21:40:57+08:00 ] ::1 /framework/css/images/blank.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:41:01+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:41:04+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:41:08+08:00 ] ::1 /Uploads/145327330183174.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-02-14T21:41:15+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:41:28+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:41:34+08:00 ] ::1 /framework/css/images/ui-bg_gloss-wave_70_ffdd57_500x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:43:23+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:44:53+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:46:40+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:47:54+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:48:16+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:48:35+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:49:00+08:00 ] ::1 /framework/css/images/blank.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:49:05+08:00 ] ::1 /Uploads/145327330183174.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-02-14T21:51:01+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:51:08+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:53:15+08:00 ] ::1 /img/printout.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+ERR: 无法加载模块:Img
+
+[ 2016-02-14T21:53:15+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:54:48+08:00 ] ::1 /img/printout.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+ERR: 无法加载模块:Img
+
+[ 2016-02-14T21:54:48+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:55:10+08:00 ] ::1 /img/printout.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+ERR: 无法加载模块:Img
+
+[ 2016-02-14T21:55:10+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:57:46+08:00 ] ::1 /img/printout.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:Img
+
+[ 2016-02-14T21:57:46+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:58:13+08:00 ] ::1 /img/printout.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+ERR: 无法加载模块:Img
+
+[ 2016-02-14T21:58:13+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T21:59:02+08:00 ] ::1 /framework/css/images/ui-bg_gloss-wave_70_ffdd57_500x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T22:04:57+08:00 ] ::1 /framework/assets/vendor/metisMenu/dist/metisMenu.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T22:04:57+08:00 ] ::1 /framework/assets/vendor/jquery/dist/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T22:04:57+08:00 ] ::1 /framework/assets/vendor/bootstrap/dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T22:04:57+08:00 ] ::1 /framework/assets/vendor/slimScroll/jquery.slimscroll.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T22:04:57+08:00 ] ::1 /framework/assets/vendor/jquery-ui/jquery-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T22:04:57+08:00 ] ::1 /framework/assets/vendor/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T22:04:57+08:00 ] ::1 /framework/assets/vendor/toastr/build/toastr.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T22:04:57+08:00 ] ::1 /framework/assets/vendor/sparkline/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005300s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T22:04:57+08:00 ] ::1 /framework/assets/scripts/alert.js?v=1439998281
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T22:04:57+08:00 ] ::1 /framework/assets/scripts/homer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T22:10:37+08:00 ] ::1 /framework/css/images/ui-bg_gloss-wave_70_ffdd57_500x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T22:10:49+08:00 ] ::1 /assets/fonts/pe-icon-7-stroke/css/helper.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T22:10:49+08:00 ] ::1 /assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T22:10:51+08:00 ] ::1 /img/printout.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+ERR: 无法加载模块:Img
+
+[ 2016-02-14T22:10:51+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T22:12:35+08:00 ] ::1 /framework/css/images/ui-bg_gloss-wave_70_ffdd57_500x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T23:43:51+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T23:44:00+08:00 ] ::1 /framework/assets/styles/img/green.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+ERR: 无法加载模块:Framework
+
+[ 2016-02-14T23:52:00+08:00 ] ::1 /assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-02-14T23:52:00+08:00 ] ::1 /assets/fonts/pe-icon-7-stroke/css/helper.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+ERR: 无法加载模块:Assets
+

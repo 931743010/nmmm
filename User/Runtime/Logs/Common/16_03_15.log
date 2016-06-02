@@ -1,0 +1,42 @@
+[ 2016-03-15T05:43:02+08:00 ] 66.249.66.46 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Robots
+
+[ 2016-03-15T05:43:02+08:00 ] 66.249.66.46 /css/css?family=Roboto:500,400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Css
+
+[ 2016-03-15T20:18:45+08:00 ] 114.55.34.179 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-15T21:13:57+08:00 ] 122.241.193.194 /apple-touch-icon-120x120-precomposed.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Apple-touch-icon-120x120-precomposed
+
+[ 2016-03-15T21:13:57+08:00 ] 122.241.193.194 /apple-touch-icon-120x120.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Apple-touch-icon-120x120
+
+[ 2016-03-15T21:13:57+08:00 ] 122.241.193.194 /apple-touch-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Apple-touch-icon
+
+[ 2016-03-15T21:13:57+08:00 ] 122.241.193.194 /apple-touch-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Apple-touch-icon
+

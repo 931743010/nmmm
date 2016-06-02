@@ -1,0 +1,2874 @@
+[ 2016-01-14T23:13:57+08:00 ] 123.129.101.221 /assets/vendor/jquery/dist/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:13:57+08:00 ] 123.129.101.221 /assets/vendor/jquery-ui/jquery-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:13:58+08:00 ] 123.129.101.221 /assets/vendor/slimScroll/jquery.slimscroll.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:13:58+08:00 ] 123.129.101.221 /assets/vendor/bootstrap/dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:13:58+08:00 ] 123.129.101.221 /assets/vendor/metisMenu/dist/metisMenu.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:13:58+08:00 ] 123.129.101.221 /assets/vendor/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:13:59+08:00 ] 123.129.101.221 /assets/vendor/sparkline/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:13:59+08:00 ] 123.129.101.221 /assets/vendor/toastr/build/toastr.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:13:59+08:00 ] 123.129.101.221 /assets/scripts/alert.js?v=1439998281
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:13:59+08:00 ] 123.129.101.221 /assets/scripts/homer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:14:01+08:00 ] 123.129.101.221 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-01-14T23:14:18+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.woff?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:14:18+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.ttf?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:14:18+08:00 ] 123.129.101.221 /assets/styles/images/green@2x.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:14:19+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.svg?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:14:22+08:00 ] 123.129.101.221 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-01-14T23:14:30+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:14:30+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:14:31+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:14:31+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:14:32+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:14:33+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:14:35+08:00 ] 123.129.101.221 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-01-14T23:14:36+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.015625s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:15:03+08:00 ] 123.129.101.221 /admin.php/Home/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Admin.php
+
+[ 2016-01-14T23:15:03+08:00 ] 123.129.101.221 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-01-14T23:15:28+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:15:29+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:15:29+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:15:29+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:15:30+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:15:30+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:15:30+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:15:31+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:16:18+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:16:29+08:00 ] 123.129.101.221 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-01-14T23:17:02+08:00 ] 123.129.101.221 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-01-14T23:17:14+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:17:15+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:17:15+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:17:15+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:17:16+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:17:16+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:17:19+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:17:35+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:18:17+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:18:18+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:18:20+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:18:31+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:18:31+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:18:31+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:18:32+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:18:32+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:18:33+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:19:19+08:00 ] 123.129.101.221 /assets/vendor/jquery/dist/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:19:19+08:00 ] 123.129.101.221 /assets/vendor/jquery-ui/jquery-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:19:20+08:00 ] 123.129.101.221 /assets/vendor/slimScroll/jquery.slimscroll.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:19:20+08:00 ] 123.129.101.221 /assets/vendor/bootstrap/dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:19:20+08:00 ] 123.129.101.221 /assets/vendor/metisMenu/dist/metisMenu.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:19:20+08:00 ] 123.129.101.221 /assets/vendor/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:19:20+08:00 ] 123.129.101.221 /assets/vendor/sparkline/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:19:20+08:00 ] 123.129.101.221 /assets/vendor/toastr/build/toastr.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:19:21+08:00 ] 123.129.101.221 /assets/scripts/alert.js?v=1439998281
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:19:21+08:00 ] 123.129.101.221 /assets/scripts/homer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:19:21+08:00 ] 123.129.101.221 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-01-14T23:19:29+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:19:30+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:19:30+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:19:31+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:19:31+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:19:31+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:19:32+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:19:32+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:19:53+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:20:17+08:00 ] 123.129.101.221 /public_html/img/ui-bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public_html
+
+[ 2016-01-14T23:20:17+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.woff?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:20:18+08:00 ] 123.129.101.221 /assets/styles/images/green@2x.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:20:19+08:00 ] 123.129.101.221 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-01-14T23:20:19+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.ttf?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:20:19+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.svg?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:20:40+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:20:46+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:20:47+08:00 ] 123.129.101.221 /public_html/img/ui-bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public_html
+
+[ 2016-01-14T23:20:47+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.woff?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:20:49+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.ttf?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:20:50+08:00 ] 123.129.101.221 /assets/styles/images/green@2x.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:20:51+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.svg?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:20:51+08:00 ] 123.129.101.221 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-01-14T23:20:52+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.woff?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:20:53+08:00 ] 123.129.101.221 /public_html/img/ui-bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public_html
+
+[ 2016-01-14T23:20:53+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.ttf?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:20:54+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.svg?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:20:57+08:00 ] 123.129.101.221 /assets/styles/images/green@2x.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:20:58+08:00 ] 123.129.101.221 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-01-14T23:21:19+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:21:19+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:21:20+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:21:20+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:21:20+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:21:21+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:21:21+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:21:25+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:21:27+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:22:20+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:22:24+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:22:24+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:22:25+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:22:25+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:22:25+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:22:26+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:22:27+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:22:41+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.woff?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:22:41+08:00 ] 123.129.101.221 /public_html/img/ui-bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public_html
+
+[ 2016-01-14T23:22:41+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.ttf?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:22:42+08:00 ] 123.129.101.221 /assets/styles/images/green@2x.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:22:42+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.svg?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:22:43+08:00 ] 123.129.101.221 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-01-14T23:22:50+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:22:50+08:00 ] 123.129.101.221 /assets/vendor/jquery/dist/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:22:50+08:00 ] 123.129.101.221 /assets/vendor/jquery-ui/jquery-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:22:51+08:00 ] 123.129.101.221 /assets/vendor/slimScroll/jquery.slimscroll.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:22:51+08:00 ] 123.129.101.221 /assets/vendor/bootstrap/dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:22:51+08:00 ] 123.129.101.221 /assets/vendor/metisMenu/dist/metisMenu.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:22:51+08:00 ] 123.129.101.221 /assets/vendor/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:22:51+08:00 ] 123.129.101.221 /assets/vendor/sparkline/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:22:51+08:00 ] 123.129.101.221 /assets/vendor/toastr/build/toastr.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:22:52+08:00 ] 123.129.101.221 /assets/scripts/alert.js?v=1439998281
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:22:52+08:00 ] 123.129.101.221 /assets/scripts/homer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:22:52+08:00 ] 123.129.101.221 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-01-14T23:23:01+08:00 ] 123.129.101.221 /assets/vendor/jquery/dist/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:23:01+08:00 ] 123.129.101.221 /assets/vendor/jquery-ui/jquery-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:23:01+08:00 ] 123.129.101.221 /assets/vendor/slimScroll/jquery.slimscroll.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:23:01+08:00 ] 123.129.101.221 /assets/vendor/bootstrap/dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:23:01+08:00 ] 123.129.101.221 /assets/vendor/metisMenu/dist/metisMenu.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:23:02+08:00 ] 123.129.101.221 /assets/vendor/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:23:02+08:00 ] 123.129.101.221 /assets/vendor/sparkline/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:23:02+08:00 ] 123.129.101.221 /assets/vendor/toastr/build/toastr.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:23:02+08:00 ] 123.129.101.221 /assets/scripts/alert.js?v=1439998281
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:23:02+08:00 ] 123.129.101.221 /assets/scripts/homer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:23:02+08:00 ] 123.129.101.221 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-01-14T23:23:17+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.woff?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:23:17+08:00 ] 123.129.101.221 /public_html/img/ui-bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public_html
+
+[ 2016-01-14T23:23:17+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.ttf?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:23:18+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.svg?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:23:18+08:00 ] 123.129.101.221 /assets/styles/images/green@2x.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:23:19+08:00 ] 123.129.101.221 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-01-14T23:23:20+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:23:31+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:23:31+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:23:31+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:23:32+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:23:32+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:23:32+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:23:33+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:24:18+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:24:18+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:24:19+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:24:19+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:24:19+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:24:20+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:24:20+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:24:23+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:24:34+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:24:46+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.woff?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:24:46+08:00 ] 123.129.101.221 /public_html/img/ui-bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015624s ]
+ERR: 无法加载模块:Public_html
+
+[ 2016-01-14T23:24:46+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.ttf?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:24:47+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.svg?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:24:48+08:00 ] 123.129.101.221 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-01-14T23:25:22+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:25:22+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:25:22+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:25:23+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:25:23+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:25:23+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:25:24+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:25:34+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.woff?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:25:34+08:00 ] 123.129.101.221 /public_html/img/ui-bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public_html
+
+[ 2016-01-14T23:25:35+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.ttf?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:25:36+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.svg?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:25:36+08:00 ] 123.129.101.221 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-01-14T23:25:39+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:25:44+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.woff?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:25:44+08:00 ] 123.129.101.221 /public_html/img/ui-bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public_html
+
+[ 2016-01-14T23:25:44+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.ttf?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:25:45+08:00 ] 123.129.101.221 /assets/styles/images/green@2x.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:25:45+08:00 ] 123.129.101.221 /assets/vendor/fontawesome/fonts/fontawesome-webfont.svg?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:25:45+08:00 ] 123.129.101.221 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-01-14T23:26:16+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:26:21+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:26:34+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:26:35+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:26:35+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:26:35+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:26:36+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:26:36+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:26:37+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:27:32+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:27:37+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:27:38+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:27:38+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:27:38+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:27:39+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:27:39+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:27:40+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:28:19+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:28:44+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:28:45+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:28:45+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:28:46+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:28:47+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:28:47+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:28:48+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:29:23+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:29:29+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:29:29+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:29:29+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:29:30+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:29:30+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:29:30+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:29:31+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:30:33+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:30:36+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:30:36+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:30:37+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:30:37+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:30:37+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:30:38+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:30:38+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:30:40+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:31:25+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:31:29+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:31:46+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:31:47+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:31:47+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:31:48+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:32:24+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:32:24+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:32:25+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:32:37+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:32:40+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:32:41+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:33:17+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:33:40+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:33:40+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:33:40+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:33:41+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:33:45+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:34:28+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:34:34+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:34:35+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:34:36+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:34:42+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:34:43+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:34:43+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:34:46+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:35:19+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:35:20+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:35:21+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:35:28+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:35:29+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:35:29+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:35:35+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:36:15+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:36:18+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:36:18+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:36:18+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:36:27+08:00 ] 183.198.200.122 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-01-14T23:36:29+08:00 ] 183.198.200.122 /assets/vendor/jquery/dist/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:36:29+08:00 ] 183.198.200.122 /assets/vendor/slimScroll/jquery.slimscroll.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:36:29+08:00 ] 183.198.200.122 /assets/vendor/jquery-ui/jquery-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:36:30+08:00 ] 183.198.200.122 /assets/vendor/metisMenu/dist/metisMenu.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:36:30+08:00 ] 183.198.200.122 /assets/vendor/bootstrap/dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:36:30+08:00 ] 183.198.200.122 /assets/vendor/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:36:30+08:00 ] 183.198.200.122 /assets/vendor/sparkline/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:36:30+08:00 ] 183.198.200.122 /assets/vendor/toastr/build/toastr.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:36:32+08:00 ] 183.198.200.122 /assets/scripts/alert.js?v=1439998281
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:36:32+08:00 ] 183.198.200.122 /assets/scripts/homer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:36:33+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:36:33+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:36:34+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:36:35+08:00 ] 183.198.200.122 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-01-14T23:37:17+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:37:17+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:37:19+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:37:19+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:37:19+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:37:25+08:00 ] 101.199.108.54 /assets/vendor/jquery/dist/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:37:25+08:00 ] 101.199.108.54 /assets/vendor/jquery-ui/jquery-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:37:25+08:00 ] 101.199.108.54 /assets/vendor/slimScroll/jquery.slimscroll.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:37:25+08:00 ] 101.199.108.54 /assets/vendor/bootstrap/dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:37:25+08:00 ] 101.199.108.54 /assets/vendor/metisMenu/dist/metisMenu.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:37:25+08:00 ] 101.199.108.54 /assets/vendor/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:37:25+08:00 ] 101.199.108.54 /assets/vendor/sparkline/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:37:25+08:00 ] 101.199.108.54 /assets/vendor/toastr/build/toastr.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:37:26+08:00 ] 101.199.108.54 /assets/scripts/alert.js?v=1439998281
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:37:26+08:00 ] 101.199.108.54 /assets/scripts/homer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:37:36+08:00 ] 101.199.112.49 /assets/vendor/jquery/dist/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:37:36+08:00 ] 101.199.112.49 /assets/vendor/jquery-ui/jquery-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:37:36+08:00 ] 101.199.112.49 /assets/vendor/slimScroll/jquery.slimscroll.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:37:36+08:00 ] 101.199.112.49 /assets/vendor/bootstrap/dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:37:36+08:00 ] 101.199.112.49 /assets/vendor/metisMenu/dist/metisMenu.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:37:36+08:00 ] 101.199.112.49 /assets/vendor/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:37:36+08:00 ] 101.199.112.49 /assets/vendor/sparkline/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:37:36+08:00 ] 101.199.112.49 /assets/vendor/toastr/build/toastr.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:37:37+08:00 ] 101.199.112.49 /assets/scripts/alert.js?v=1439998281
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.015626s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015626s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:37:37+08:00 ] 101.199.112.49 /assets/scripts/homer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-01-14T23:37:40+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:38:25+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:38:25+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:38:26+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:38:27+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:38:35+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:38:35+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:38:51+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:38:51+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:38:51+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:39:23+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:39:24+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:39:24+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:39:34+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:39:34+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:39:35+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:39:39+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:40:23+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:40:23+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:40:24+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:40:24+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:40:25+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:40:36+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:40:36+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:40:37+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:41:24+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:41:24+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015626s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:41:25+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:41:28+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:41:28+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:41:33+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015626s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:41:40+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:41:40+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:41:40+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:42:23+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:42:24+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:42:24+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:42:24+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:42:25+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:42:31+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:42:36+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:42:36+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:42:37+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:43:18+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:43:18+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:43:18+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:43:32+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:43:32+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:43:33+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:44:16+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:44:16+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:44:17+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:44:22+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:44:23+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:44:24+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:44:29+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:44:30+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:44:33+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:45:27+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:45:27+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:45:28+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:45:29+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:45:29+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:46:21+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:46:30+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:46:31+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:46:31+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:46:36+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:46:37+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:46:37+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:46:37+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:47:17+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:47:34+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:47:35+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:47:39+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:47:39+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:47:40+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:47:41+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:48:24+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:48:24+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:48:30+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:48:30+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:48:31+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:48:32+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:48:34+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:48:34+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:49:17+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:49:18+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:49:19+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:49:28+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:49:28+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:49:34+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:49:34+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:49:35+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:50:16+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:50:26+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:50:26+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:50:27+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:50:34+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:50:34+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:51:18+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:51:18+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:51:28+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:51:30+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:51:32+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:51:33+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:51:33+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:51:34+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:51:34+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:52:19+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:52:28+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:52:28+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015626s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:52:29+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:52:34+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:52:35+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:52:36+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:52:46+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:52:46+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:53:33+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:53:33+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:53:33+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:53:34+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:53:44+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:53:45+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:53:48+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:53:49+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:53:50+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:54:19+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:54:19+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:54:19+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:54:21+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:54:22+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:54:24+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:54:24+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:54:41+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:55:21+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:55:22+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:55:23+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:55:23+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:56:38+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:56:38+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:56:39+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:56:39+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:56:39+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:56:43+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:56:52+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:57:24+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:57:25+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:57:33+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:57:33+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:57:34+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:57:34+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:57:34+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:57:39+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:57:46+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:58:16+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:58:17+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015626s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:58:22+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:58:35+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:58:38+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015626s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:58:39+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:58:39+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:58:39+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:58:39+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:59:18+08:00 ] 121.40.253.107 /cron/job.php?sys=3&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:59:18+08:00 ] 121.40.253.107 /cron/job.php?sys=4&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:59:19+08:00 ] 121.40.253.107 /cron/job.php?sys=5&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:59:19+08:00 ] 121.40.253.107 /cron/job.php?sys=6&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:59:19+08:00 ] 121.40.253.107 /cron/job.php?sys=7&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:59:20+08:00 ] 121.40.253.107 /cron/job.php?sys=8&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:59:20+08:00 ] 121.40.253.107 /cron/newsid.php?&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:59:21+08:00 ] 121.40.253.107 /cron/job.php?sys=1&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+
+[ 2016-01-14T23:59:41+08:00 ] 121.40.253.107 /cron/job.php?sys=2&key=sky123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Cron
+

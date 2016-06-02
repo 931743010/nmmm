@@ -1,0 +1,1379 @@
+[ 2016-04-05T19:27:42+08:00 ] 162.158.56.215 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015346s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-04-05T19:27:43+08:00 ] 162.158.56.215 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2016-04-05T19:27:43+08:00 ] 162.158.56.215 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002768s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-04-05T19:31:09+08:00 ] 162.158.255.32 /Home/Index/messageInbox.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0043s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-05T19:31:09+08:00 ] 162.158.255.32 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2016-04-05T19:36:08+08:00 ] 162.158.255.32 /Home/Index/messageInbox.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003526s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-05T19:36:10+08:00 ] 162.158.255.32 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-04-05T19:41:09+08:00 ] 162.158.255.32 /Home/Index/messageInbox.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-04-05T19:41:10+08:00 ] 162.158.255.32 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2016-04-05T19:46:09+08:00 ] 162.158.255.32 /Home/Index/messageInbox.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0151s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-04-05T19:46:10+08:00 ] 162.158.255.32 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002056s ]
+
+[ 2016-04-05T19:51:09+08:00 ] 162.158.254.71 /Home/Index/messageInbox.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-04-05T19:51:09+08:00 ] 162.158.254.71 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004961s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000780s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2016-04-05T19:56:09+08:00 ] 162.158.255.32 /Home/Index/messageInbox.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003835s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-04-05T19:56:10+08:00 ] 162.158.252.161 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002452s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002655s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005444s ]
+
+[ 2016-04-05T20:01:09+08:00 ] 162.158.255.32 /Home/Index/messageInbox.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004278s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0093s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2016-04-05T20:01:10+08:00 ] 162.158.255.32 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015224s ]
+
+[ 2016-04-05T20:06:09+08:00 ] 162.158.255.32 /Home/Index/messageInbox.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010367s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0178s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-05T20:06:09+08:00 ] 162.158.255.32 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011913s ]
+
+[ 2016-04-05T20:11:10+08:00 ] 162.158.255.32 /Home/Index/messageInbox.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014453s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0123s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2016-04-05T20:11:10+08:00 ] 162.158.255.32 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001648s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2016-04-05T20:12:58+08:00 ] 108.162.215.114 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004717s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0252s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0141s ]
+
+[ 2016-04-05T20:12:59+08:00 ] 108.162.215.114 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002816s ]
+
+[ 2016-04-05T20:13:00+08:00 ] 108.162.215.114 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001868s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-04-05T20:13:07+08:00 ] 108.162.215.114 /Home/Login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006942s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18258783004' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0023s ]
+NOTIC: [2] Missing argument 2 for Think\Crypt::decrypt(), called in /phpstudy/www/mmm.gsoroscn.com/User/Home/Common/function.php on line 591 and defined /phpstudy/www/mmm.gsoroscn.com/ThinkPHP/Library/Think/Crypt.class.php 第 46 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/mmm.gsoroscn.com/ThinkPHP/Library/Think/Crypt.class.php 第 51 行.
+NOTIC: [2] Missing argument 2 for Think\Crypt::encrypt(), called in /phpstudy/www/mmm.gsoroscn.com/User/Home/Common/function.php on line 762 and defined /phpstudy/www/mmm.gsoroscn.com/ThinkPHP/Library/Think/Crypt.class.php 第 32 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/mmm.gsoroscn.com/ThinkPHP/Library/Think/Crypt.class.php 第 37 行.
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '18258783004' AND `zt` = 0  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant ue_id - assumed 'ue_id' /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/LoginController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/LoginController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/LoginController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.7907s ]
+SQL: INSERT INTO `ot_drrz` (`date`,`ip`,`user`,`leixin`) VALUES ('2016-04-05 20:13:06','','18258783004','0') [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant sf - assumed 'sf' /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/LoginController.class.php 第 131 行.
+
+[ 2016-04-05T20:13:09+08:00 ] 108.162.222.242 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18258783004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18258783004' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18258783004' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 57 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-05T20:13:10+08:00 ] 108.162.222.242 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001943s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18258783004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18258783004' LIMIT 1   [ RunTime:0.0042s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18258783004' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 57 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = '18258783004' LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '18258783004' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = '18258783004' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '18258783004' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '18258783004' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = '18258783004' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '18258783004' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = '18258783004' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '18258783004' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000400s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000722s ]
+NOTIC: [8] Undefined variable: home /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 758 行.
+NOTIC: [8] Undefined variable: news /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 761 行.
+NOTIC: [8] Undefined variable: she_list /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 765 行.
+NOTIC: [8] Undefined variable: de_list /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 769 行.
+NOTIC: [8] Undefined variable: reg /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 773 行.
+NOTIC: [8] Undefined variable: profile /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 777 行.
+NOTIC: [8] Undefined variable: manage /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 780 行.
+NOTIC: [8] Undefined variable: cwmx /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 788 行.
+NOTIC: [8] Undefined variable: detail /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 793 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.301289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.301416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2016-04-05T20:13:11+08:00 ] 108.162.222.242 /Home/Index/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002668s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18258783004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0274s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18258783004' LIMIT 1   [ RunTime:0.0018s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18258783004' [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 57 LIMIT 1   [ RunTime:0.0010s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-04-05T20:13:11+08:00 ] 108.162.222.242 /Home/Index/google.h.h
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0138s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18258783004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18258783004' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18258783004' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 57 LIMIT 1   [ RunTime:0.0006s ]
+ERR: 非法操作:google.h.h
+
+[ 2016-04-05T20:13:13+08:00 ] 108.162.222.140 /Home/Index/google.js.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001768s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0111s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18258783004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18258783004' LIMIT 1   [ RunTime:0.0110s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18258783004' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 57 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:google.js.js
+
+[ 2016-04-05T20:16:09+08:00 ] 162.158.255.32 /Home/Index/messageInbox.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000555s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007156s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-05T20:16:10+08:00 ] 162.158.255.32 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2016-04-05T20:21:09+08:00 ] 162.158.255.32 /Home/Index/messageInbox.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002702s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-05T20:21:09+08:00 ] 162.158.255.32 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008945s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000638s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2016-04-05T20:26:09+08:00 ] 162.158.254.71 /Home/Index/messageInbox.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0117s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-05T20:26:09+08:00 ] 162.158.254.71 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007623s ]
+
+[ 2016-04-05T20:31:10+08:00 ] 162.158.254.71 /Home/Index/messageInbox.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-05T20:31:10+08:00 ] 162.158.254.71 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.014573s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2016-04-05T20:36:09+08:00 ] 162.158.255.32 /Home/Index/messageInbox.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007053s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-04-05T20:36:10+08:00 ] 162.158.255.32 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2016-04-05T20:41:10+08:00 ] 162.158.255.32 /Home/Index/messageInbox.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001916s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-05T20:41:10+08:00 ] 162.158.255.32 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2016-04-05T20:46:09+08:00 ] 162.158.255.32 /Home/Index/messageInbox.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005744s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-05T20:46:09+08:00 ] 162.158.255.32 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2016-04-05T21:07:22+08:00 ] 108.162.222.236 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = null [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uid /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 95 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-05T21:07:22+08:00 ] 108.162.222.236 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-05T21:07:23+08:00 ] 108.162.222.236 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2016-04-05T21:07:24+08:00 ] 108.162.222.236 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-04-05T21:07:40+08:00 ] 108.162.222.236 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000548s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2016-04-05T21:07:41+08:00 ] 108.162.222.236 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-04-05T21:07:49+08:00 ] 108.162.222.236 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001708s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2016-04-05T21:08:02+08:00 ] 108.162.222.236 /Home/Login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '15905886087' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0013s ]
+NOTIC: [2] Missing argument 2 for Think\Crypt::decrypt(), called in /phpstudy/www/mmm.gsoroscn.com/User/Home/Common/function.php on line 591 and defined /phpstudy/www/mmm.gsoroscn.com/ThinkPHP/Library/Think/Crypt.class.php 第 46 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/mmm.gsoroscn.com/ThinkPHP/Library/Think/Crypt.class.php 第 51 行.
+NOTIC: [2] Missing argument 2 for Think\Crypt::encrypt(), called in /phpstudy/www/mmm.gsoroscn.com/User/Home/Common/function.php on line 762 and defined /phpstudy/www/mmm.gsoroscn.com/ThinkPHP/Library/Think/Crypt.class.php 第 32 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/mmm.gsoroscn.com/ThinkPHP/Library/Think/Crypt.class.php 第 37 行.
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '15905886087' AND `zt` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant ue_id - assumed 'ue_id' /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/LoginController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/LoginController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/LoginController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.0045s ]
+SQL: INSERT INTO `ot_drrz` (`date`,`ip`,`user`,`leixin`) VALUES ('2016-04-05 21:08:02','','15905886087','0') [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant sf - assumed 'sf' /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/LoginController.class.php 第 131 行.
+
+[ 2016-04-05T21:08:02+08:00 ] 108.162.222.236 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003797s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '15905886087' AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '15905886087' LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '15905886087' [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 56 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-04-05T21:08:03+08:00 ] 108.162.222.236 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000318s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '15905886087' AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '15905886087' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '15905886087' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 56 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = '15905886087' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '15905886087' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = '15905886087' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '15905886087' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '15905886087' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = '15905886087' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '15905886087' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = '15905886087' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '15905886087' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+NOTIC: [8] Undefined variable: home /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 758 行.
+NOTIC: [8] Undefined variable: news /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 761 行.
+NOTIC: [8] Undefined variable: she_list /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 765 行.
+NOTIC: [8] Undefined variable: de_list /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 769 行.
+NOTIC: [8] Undefined variable: reg /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 773 行.
+NOTIC: [8] Undefined variable: profile /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 777 行.
+NOTIC: [8] Undefined variable: manage /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 780 行.
+NOTIC: [8] Undefined variable: cwmx /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 788 行.
+NOTIC: [8] Undefined variable: detail /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 793 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '15105780650' LIMIT 1   [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001372s ]
+
+[ 2016-04-05T21:08:05+08:00 ] 108.162.222.236 /Home/Index/google.h.h
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '15905886087' AND `zt` = 0 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '15905886087' LIMIT 1   [ RunTime:0.0021s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '15905886087' [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 56 LIMIT 1   [ RunTime:0.0006s ]
+ERR: 非法操作:google.h.h
+
+[ 2016-04-05T21:08:05+08:00 ] 108.162.222.236 /Home/Index/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0099s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '15905886087' AND `zt` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '15905886087' LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '15905886087' [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 56 LIMIT 1   [ RunTime:0.0042s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-04-05T21:08:05+08:00 ] 108.162.222.140 /Home/Index/google.js.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '15905886087' AND `zt` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '15905886087' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '15905886087' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 56 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:google.js.js
+
+[ 2016-04-05T21:08:32+08:00 ] 108.162.222.236 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '15905886087' AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '15905886087' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '15905886087' [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 56 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = '15905886087' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '15905886087' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = '15905886087' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '15905886087' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '15905886087' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = '15905886087' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '15905886087' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = '15905886087' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '15905886087' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000538s ]
+NOTIC: [8] Undefined variable: home /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 758 行.
+NOTIC: [8] Undefined variable: news /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 761 行.
+NOTIC: [8] Undefined variable: she_list /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 765 行.
+NOTIC: [8] Undefined variable: de_list /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 769 行.
+NOTIC: [8] Undefined variable: reg /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 773 行.
+NOTIC: [8] Undefined variable: profile /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 777 行.
+NOTIC: [8] Undefined variable: manage /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 780 行.
+NOTIC: [8] Undefined variable: cwmx /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 788 行.
+NOTIC: [8] Undefined variable: detail /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 793 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '15105780650' LIMIT 1   [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.153454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002043s ]
+
+[ 2016-04-05T21:08:39+08:00 ] 108.162.222.236 /Home/Index/jsbzcl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003243s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '15905886087' AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '15905886087' LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '15905886087' [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 56 LIMIT 1   [ RunTime:0.0056s ]
+NOTIC: [8] Use of undefined constant UE_account - assumed 'UE_account' /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/IndexController.class.php 第 1033 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '15905886087' LIMIT 1   [ RunTime:0.0024s ]
+NOTIC: [8] Use of undefined constant UE_account - assumed 'UE_account' /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/IndexController.class.php 第 1039 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '15905886087' LIMIT 1   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: UE_regTime /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/IndexController.class.php 第 1040 行.
+
+[ 2016-04-05T21:08:42+08:00 ] 108.162.222.140 /Home/Index/google.js.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '15905886087' AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '15905886087' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '15905886087' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 56 LIMIT 1   [ RunTime:0.0006s ]
+ERR: 非法操作:google.js.js
+
+[ 2016-04-05T21:08:54+08:00 ] 108.162.222.236 /Home/Reg/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+
+[ 2016-04-05T21:08:54+08:00 ] 108.162.222.236 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001226s ]
+
+[ 2016-04-05T21:08:55+08:00 ] 108.162.222.236 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-04-05T21:24:09+08:00 ] 220.181.108.155 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = null [ RunTime:0.0035s ]
+NOTIC: [8] Undefined index: uid /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 95 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-05T21:24:10+08:00 ] 220.181.108.160 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0077s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-05T21:24:11+08:00 ] 220.181.108.180 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2016-04-05T23:06:49+08:00 ] 108.162.215.114 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-05T23:06:49+08:00 ] 108.162.215.114 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002540s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000402s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.008916s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003782s ]
+
+[ 2016-04-05T23:06:50+08:00 ] 108.162.215.114 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-04-05T23:06:55+08:00 ] 108.162.215.114 /Home/Login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18258783004' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0200s ]
+NOTIC: [2] Missing argument 2 for Think\Crypt::decrypt(), called in /phpstudy/www/mmm.gsoroscn.com/User/Home/Common/function.php on line 591 and defined /phpstudy/www/mmm.gsoroscn.com/ThinkPHP/Library/Think/Crypt.class.php 第 46 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/mmm.gsoroscn.com/ThinkPHP/Library/Think/Crypt.class.php 第 51 行.
+NOTIC: [2] Missing argument 2 for Think\Crypt::encrypt(), called in /phpstudy/www/mmm.gsoroscn.com/User/Home/Common/function.php on line 762 and defined /phpstudy/www/mmm.gsoroscn.com/ThinkPHP/Library/Think/Crypt.class.php 第 32 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/mmm.gsoroscn.com/ThinkPHP/Library/Think/Crypt.class.php 第 37 行.
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '18258783004' AND `zt` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant ue_id - assumed 'ue_id' /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/LoginController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/LoginController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/LoginController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.0013s ]
+SQL: INSERT INTO `ot_drrz` (`date`,`ip`,`user`,`leixin`) VALUES ('2016-04-05 23:06:55','','18258783004','0') [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant sf - assumed 'sf' /phpstudy/www/mmm.gsoroscn.com/User/Home/Controller/LoginController.class.php 第 131 行.
+
+[ 2016-04-05T23:06:56+08:00 ] 108.162.222.242 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000876s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010356s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18258783004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18258783004' LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18258783004' [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 57 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-04-05T23:06:56+08:00 ] 108.162.222.242 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18258783004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18258783004' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18258783004' [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 57 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = '18258783004' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '18258783004' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = '18258783004' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '18258783004' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '18258783004' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = '18258783004' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '18258783004' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = '18258783004' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '18258783004' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000380s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000497s ]
+NOTIC: [8] Undefined variable: home /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 758 行.
+NOTIC: [8] Undefined variable: news /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 761 行.
+NOTIC: [8] Undefined variable: she_list /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 765 行.
+NOTIC: [8] Undefined variable: de_list /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 769 行.
+NOTIC: [8] Undefined variable: reg /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 773 行.
+NOTIC: [8] Undefined variable: profile /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 777 行.
+NOTIC: [8] Undefined variable: manage /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 780 行.
+NOTIC: [8] Undefined variable: cwmx /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 788 行.
+NOTIC: [8] Undefined variable: detail /phpstudy/www/mmm.gsoroscn.com/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 793 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.181110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.181236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001731s ]
+
+[ 2016-04-05T23:06:58+08:00 ] 108.162.222.242 /Home/Index/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18258783004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18258783004' LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18258783004' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 57 LIMIT 1   [ RunTime:0.0005s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-04-05T23:06:58+08:00 ] 108.162.222.242 /Home/Index/google.h.h
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18258783004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18258783004' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18258783004' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 57 LIMIT 1   [ RunTime:0.0012s ]
+ERR: 非法操作:google.h.h
+
+[ 2016-04-05T23:06:59+08:00 ] 108.162.222.140 /Home/Index/google.js.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006674s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18258783004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18258783004' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18258783004' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 57 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:google.js.js
+

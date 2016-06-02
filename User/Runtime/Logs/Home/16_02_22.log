@@ -1,0 +1,1534 @@
+[ 2016-02-22T09:59:14+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002841s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0877s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61754 LIMIT 1   [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-02-22T09:59:14+08:00 ] ::1 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61754 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0049s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000343s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000511s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001773s ]
+
+[ 2016-02-22T09:59:17+08:00 ] ::1 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61754 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000476s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000736s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2016-02-22T09:59:22+08:00 ] ::1 /Home/Index/news/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61754 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_info` [ RunTime:0.0128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_info` WHERE `IF_type` = 'news' LIMIT 1   [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ot_info` WHERE `IF_type` = 'news' ORDER BY IF_ID DESC LIMIT 0,20   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_info` WHERE `IF_type` = 'bzzx' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_info` WHERE `IF_type` = 'bzzx' ORDER BY IF_ID DESC LIMIT 0,100   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2016-02-22T09:59:46+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002903s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61754 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-02-22T09:59:46+08:00 ] ::1 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61754 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2016-02-22T10:04:30+08:00 ] ::1 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007433s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61754 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 965 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 965 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1223 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1336 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1363 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1509 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1516 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1535 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1542 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1549 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1574 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1574 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.183985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.184133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012443s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.006201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008235s ]
+
+[ 2016-02-22T10:11:03+08:00 ] ::1 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007059s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61754 LIMIT 1   [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0023s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.173679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.173984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012360s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.006488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008403s ]
+
+[ 2016-02-22T10:12:46+08:00 ] ::1 /Home/Index/news/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61754 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0021s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_info` [ RunTime:0.0089s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_info` WHERE `IF_type` = 'news' LIMIT 1   [ RunTime:0.0064s ]
+SQL: SELECT * FROM `ot_info` WHERE `IF_type` = 'news' ORDER BY IF_ID DESC LIMIT 0,20   [ RunTime:0.0126s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_info` WHERE `IF_type` = 'bzzx' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_info` WHERE `IF_type` = 'bzzx' ORDER BY IF_ID DESC LIMIT 0,100   [ RunTime:0.0071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005843s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.012081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006168s ]
+
+[ 2016-02-22T10:13:55+08:00 ] ::1 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61754 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000407s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000567s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.205189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.205333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011312s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.006127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007446s ]
+
+[ 2016-02-22T10:14:16+08:00 ] ::1 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007106s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61754 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005970s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.006801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007249s ]
+
+[ 2016-02-22T10:15:01+08:00 ] ::1 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008296s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61754 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000350s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000630s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006193s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.006362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007683s ]
+
+[ 2016-02-22T10:15:43+08:00 ] ::1 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61754 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0061s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001585s ]
+
+[ 2016-02-22T10:15:53+08:00 ] ::1 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61754 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2016-02-22T10:16:07+08:00 ] ::1 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007421s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61754 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018299s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.006654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001614s ]
+
+[ 2016-02-22T10:16:41+08:00 ] ::1 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61754 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002634s ]
+
+[ 2016-02-22T10:17:22+08:00 ] ::1 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012014s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61754 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0168s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000530s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000816s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0027s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006101s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.006632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008054s ]
+
+[ 2016-02-22T18:25:31+08:00 ] ::1 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0719s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61754 LIMIT 1   [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0062s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001184s ]
+
+[ 2016-02-22T18:27:04+08:00 ] ::1 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61754 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2016-02-22T18:28:54+08:00 ] ::1 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61754 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '878147015@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2016-02-22T18:29:02+08:00 ] ::1 /Home/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+
+[ 2016-02-22T18:29:02+08:00 ] ::1 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2016-02-22T18:29:13+08:00 ] ::1 /Home/Login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' AND `zt` = 0 AND `ts_zt` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant ue_id - assumed 'ue_id' /Library/WebServer/Documents/User/Home/Controller/LoginController.class.php 第 109 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' /Library/WebServer/Documents/User/Home/Controller/LoginController.class.php 第 111 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' /Library/WebServer/Documents/User/Home/Controller/LoginController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.0105s ]
+SQL: INSERT INTO `ot_drrz` (`date`,`ip`,`user`,`leixin`) VALUES ('2016-02-22 18:29:13','','admin@qq.com','0') [ RunTime:0.0092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000999s ]
+
+[ 2016-02-22T18:29:14+08:00 ] ::1 /Home/Login/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2016-02-22T18:29:16+08:00 ] ::1 /Home/Index/home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61451 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001185s ]
+
+[ 2016-02-22T18:30:39+08:00 ] ::1 /Home/Index/home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61451 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2016-02-22T18:30:55+08:00 ] ::1 /Home/Index/home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61451 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000369s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000512s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2016-02-22T18:31:15+08:00 ] ::1 /Home/Index/home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61451 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0079s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2016-02-22T18:31:57+08:00 ] ::1 /Home/Index/home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61451 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2016-02-22T18:38:32+08:00 ] ::1 /Home/Index/home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001743s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61451 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001161s ]
+
+[ 2016-02-22T22:01:59+08:00 ] ::1 /Home/Index/home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001793s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61451 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2016-02-22T22:02:05+08:00 ] ::1 /Home/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+
+[ 2016-02-22T22:02:05+08:00 ] ::1 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-02-22T22:02:22+08:00 ] ::1 /Home/Login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '274742194@qq.com' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '274742194@qq.com' AND `zt` = 0 AND `ts_zt` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant ue_id - assumed 'ue_id' /Library/WebServer/Documents/User/Home/Controller/LoginController.class.php 第 109 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' /Library/WebServer/Documents/User/Home/Controller/LoginController.class.php 第 111 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' /Library/WebServer/Documents/User/Home/Controller/LoginController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.0041s ]
+SQL: INSERT INTO `ot_drrz` (`date`,`ip`,`user`,`leixin`) VALUES ('2016-02-22 22:02:22','','274742194@qq.com','0') [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001050s ]
+
+[ 2016-02-22T22:02:24+08:00 ] ::1 /Home/Index/home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61756 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '274742194@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: str /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 105 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '274742194@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '274742194@qq.com' AND `jb` = '1500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '274742194@qq.com' AND `jb` = '2000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = '274742194@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '274742194@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = '274742194@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '274742194@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = '274742194@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '274742194@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = '274742194@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '274742194@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+NOTIC: [2] include(./User/Home/Conf/settings.php): failed to open stream: No such file or directory /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [2] include(): Failed opening './User/Home/Conf/settings.php' for inclusion (include_path='.:/usr/local/php5/lib/php') /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 953 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1211 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1324 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1351 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1497 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1504 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1523 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1530 行.
+NOTIC: [8] Undefined variable: a /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1537 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+NOTIC: [8] Undefined variable: System_bt /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+

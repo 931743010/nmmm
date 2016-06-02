@@ -1,0 +1,70 @@
+
+.table-pd {
+    background:rgba(39, 175, 106, 0.65);
+    border:none;
+    border-radius: 16px;
+    color: #FFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    margin-bottom: 8px;
+    padding: 4px 10px;
+}
+
+.table-pd > tbody > tr > td {
+    border: none;
+    border-radius: 16px;
+}
+.table-pd > tbody > tr {
+    border: none;
+    border-radius: 16px;
+}
+.table-pd > tbody{
+    border: none;
+    border-radius: 16px;
+}
+.table-pd i.hireTable {
+    background-color: white;
+    border-radius: 6px;
+    color: black;
+    font-style: normal;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.table-gd {
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(252, 234, 187, 1) 0%, rgba(252, 205, 77, 1) 46%, rgba(248, 181, 0, 1) 60%, rgba(251, 223, 147, 1) 100%) repeat scroll 0 0;
+    border: 1px solid #949494;
+    border-radius: 16px;
+    color: #050505;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    margin-bottom: 8px;
+    padding: 4px 10px;
+}
+.table-gd > tbody > tr > td {
+}
+.table-gd i.hireTable {
+    background-color: white;
+    border-radius: 6px;
+    color: black;
+    font-style: normal;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+i.hireTable {
+    border-radius: 0 0 0 4px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    padding: 4px 10px;
+    position: absolute;
+    right: -11px;
+    top: -11px;
+    z-index: 10;
+}
+.table-donations {
+    border-top: 1px solid #ddd;
+    color: #79787d;
+    font-size: 12px;
+    margin: 0;
+}

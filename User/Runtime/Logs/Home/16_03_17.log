@@ -1,0 +1,1305 @@
+[ 2016-03-17T23:43:25+08:00 ] 115.213.162.14 /Home/Index/google.js.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:google.js.js
+
+[ 2016-03-17T23:45:28+08:00 ] 115.213.162.14 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M1' WHERE `UE_account` = null [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 95 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-17T23:45:28+08:00 ] 115.213.162.14 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-17T23:45:28+08:00 ] 115.213.162.14 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-17T23:45:28+08:00 ] 115.213.162.14 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-03-17T23:45:39+08:00 ] 115.213.162.14 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-17T23:45:40+08:00 ] 115.213.162.14 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: home D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 753 行.
+NOTIC: [8] Undefined variable: news D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 756 行.
+NOTIC: [8] Undefined variable: she_list D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 760 行.
+NOTIC: [8] Undefined variable: de_list D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 764 行.
+NOTIC: [8] Undefined variable: reg D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 768 行.
+NOTIC: [8] Undefined variable: profile D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 772 行.
+NOTIC: [8] Undefined variable: manage D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 775 行.
+NOTIC: [8] Undefined variable: cwmx D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 783 行.
+NOTIC: [8] Undefined variable: detail D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 788 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '15656567650' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18976762123' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13654556600' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'a1@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-17T23:45:40+08:00 ] 115.213.162.14 /Home/Index/google.h.h
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:google.h.h
+
+[ 2016-03-17T23:45:40+08:00 ] 115.213.162.14 /Home/Index/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-03-17T23:45:41+08:00 ] 115.213.162.14 /Home/Index/google.js.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:google.js.js
+
+[ 2016-03-17T23:46:41+08:00 ] 27.155.139.165 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M1' WHERE `UE_account` = null [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 95 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-17T23:46:41+08:00 ] 27.155.139.165 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-17T23:46:41+08:00 ] 27.155.139.165 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-17T23:46:42+08:00 ] 27.155.139.165 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-03-17T23:46:48+08:00 ] 61.135.169.9 /Home/Login/index.html?WebShieldDRSessionVerify=iHMCaxiV22HSCG5MxtLJ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-17T23:46:50+08:00 ] 61.135.169.9 /Home/Login/google.h.c?WebShieldDRSessionVerify=F7iXBdh02BJZ1lpwIeAR
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-03-17T23:47:15+08:00 ] 27.155.139.165 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0156s ]
+SQL: UPDATE `ot_user` SET `levelname`='M1' WHERE `UE_account` = null [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 95 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-17T23:47:15+08:00 ] 115.213.162.14 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0156s ]
+SQL: UPDATE `ot_user` SET `levelname`='M1' WHERE `UE_account` = null [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 95 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-17T23:47:15+08:00 ] 27.155.139.165 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-17T23:47:16+08:00 ] 27.155.139.165 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-17T23:47:16+08:00 ] 115.213.162.14 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-17T23:47:16+08:00 ] 27.155.139.165 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-03-17T23:47:16+08:00 ] 115.213.162.14 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2016-03-17T23:47:16+08:00 ] 115.213.162.14 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-03-17T23:47:30+08:00 ] 115.213.162.14 /Home/Login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0156s ]
+NOTIC: [2] Missing argument 2 for Think\Crypt::decrypt(), called in D:\wwwroot\newmmm\User\Home\Common\function.php on line 591 and defined D:\wwwroot\newmmm\ThinkPHP\Library\Think\Crypt.class.php 第 46 行.
+NOTIC: [8] Undefined variable: key D:\wwwroot\newmmm\ThinkPHP\Library\Think\Crypt.class.php 第 51 行.
+NOTIC: [2] Missing argument 2 for Think\Crypt::encrypt(), called in D:\wwwroot\newmmm\User\Home\Common\function.php on line 762 and defined D:\wwwroot\newmmm\ThinkPHP\Library\Think\Crypt.class.php 第 32 行.
+NOTIC: [8] Undefined variable: key D:\wwwroot\newmmm\ThinkPHP\Library\Think\Crypt.class.php 第 37 行.
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' AND `zt` = 0  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant ue_id - assumed 'ue_id' D:\wwwroot\newmmm\User\Home\Controller\LoginController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' D:\wwwroot\newmmm\User\Home\Controller\LoginController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' D:\wwwroot\newmmm\User\Home\Controller\LoginController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.0156s ]
+SQL: INSERT INTO `ot_drrz` (`date`,`ip`,`user`,`leixin`) VALUES ('2016-03-17 23:47:30','','admin@qq.com','0') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant sf - assumed 'sf' D:\wwwroot\newmmm\User\Home\Controller\LoginController.class.php 第 131 行.
+
+[ 2016-03-17T23:47:30+08:00 ] 115.213.162.14 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-17T23:47:30+08:00 ] 115.213.162.14 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: home D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 753 行.
+NOTIC: [8] Undefined variable: news D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 756 行.
+NOTIC: [8] Undefined variable: she_list D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 760 行.
+NOTIC: [8] Undefined variable: de_list D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 764 行.
+NOTIC: [8] Undefined variable: reg D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 768 行.
+NOTIC: [8] Undefined variable: profile D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 772 行.
+NOTIC: [8] Undefined variable: manage D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 775 行.
+NOTIC: [8] Undefined variable: cwmx D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 783 行.
+NOTIC: [8] Undefined variable: detail D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 788 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '15656567650' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18976762123' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13654556600' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'a1@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-17T23:47:41+08:00 ] 27.155.139.165 /Home/Reg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-17T23:47:42+08:00 ] 61.135.165.8 /Home/Reg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-17T23:47:50+08:00 ] 119.147.225.176 /Home/Login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-17T23:47:50+08:00 ] 119.147.225.176 /Home/Login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-17T23:48:02+08:00 ] 115.213.162.14 /Home/Index/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.015625s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-03-17T23:48:03+08:00 ] 115.213.162.14 /Home/Index/google.h.h
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:google.h.h
+
+[ 2016-03-17T23:48:03+08:00 ] 115.213.162.14 /Home/Index/google.js.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:google.js.js
+
+[ 2016-03-17T23:48:06+08:00 ] 115.213.162.14 /Home/Login/loginadmin/account/admin@qq.com/password/e10adc3949ba59abbe56e057f20f883e/secpw/9eb36d70ca4db55b86a722f4d3eaa24d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant ue_id - assumed 'ue_id' D:\wwwroot\newmmm\User\Home\Controller\LoginController.class.php 第 202 行.
+NOTIC: [8] Use of undefined constant ue_id - assumed 'ue_id' D:\wwwroot\newmmm\User\Home\Controller\LoginController.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' D:\wwwroot\newmmm\User\Home\Controller\LoginController.class.php 第 206 行.
+
+[ 2016-03-17T23:48:06+08:00 ] 115.213.162.14 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-17T23:48:07+08:00 ] 115.213.162.14 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: home D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 753 行.
+NOTIC: [8] Undefined variable: news D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 756 行.
+NOTIC: [8] Undefined variable: she_list D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 760 行.
+NOTIC: [8] Undefined variable: de_list D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 764 行.
+NOTIC: [8] Undefined variable: reg D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 768 行.
+NOTIC: [8] Undefined variable: profile D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 772 行.
+NOTIC: [8] Undefined variable: manage D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 775 行.
+NOTIC: [8] Undefined variable: cwmx D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 783 行.
+NOTIC: [8] Undefined variable: detail D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 788 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '15656567650' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18976762123' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13654556600' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'a1@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-17T23:48:07+08:00 ] 115.213.162.14 /Home/Index/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-03-17T23:48:07+08:00 ] 115.213.162.14 /Home/Index/google.h.h
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:google.h.h
+
+[ 2016-03-17T23:48:08+08:00 ] 115.213.162.14 /Home/Index/google.js.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:google.js.js
+
+[ 2016-03-17T23:48:30+08:00 ] 27.155.139.165 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M1' WHERE `UE_account` = null [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 95 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-17T23:48:30+08:00 ] 27.155.139.165 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-17T23:48:30+08:00 ] 27.155.139.165 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2016-03-17T23:48:31+08:00 ] 27.155.139.165 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-03-17T23:48:40+08:00 ] 27.155.139.165 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0156s ]
+SQL: UPDATE `ot_user` SET `levelname`='M1' WHERE `UE_account` = null [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 95 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-17T23:48:40+08:00 ] 27.155.139.165 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\newmmm\User\Home\Controller\CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-17T23:48:40+08:00 ] 27.155.139.165 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2016-03-17T23:48:40+08:00 ] 27.155.139.165 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-03-17T23:49:04+08:00 ] 27.155.139.165 /Home/Login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0156s ]
+NOTIC: [2] Missing argument 2 for Think\Crypt::decrypt(), called in D:\wwwroot\newmmm\User\Home\Common\function.php on line 591 and defined D:\wwwroot\newmmm\ThinkPHP\Library\Think\Crypt.class.php 第 46 行.
+NOTIC: [8] Undefined variable: key D:\wwwroot\newmmm\ThinkPHP\Library\Think\Crypt.class.php 第 51 行.
+NOTIC: [2] Missing argument 2 for Think\Crypt::encrypt(), called in D:\wwwroot\newmmm\User\Home\Common\function.php on line 762 and defined D:\wwwroot\newmmm\ThinkPHP\Library\Think\Crypt.class.php 第 32 行.
+NOTIC: [8] Undefined variable: key D:\wwwroot\newmmm\ThinkPHP\Library\Think\Crypt.class.php 第 37 行.
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' AND `zt` = 0  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant ue_id - assumed 'ue_id' D:\wwwroot\newmmm\User\Home\Controller\LoginController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' D:\wwwroot\newmmm\User\Home\Controller\LoginController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' D:\wwwroot\newmmm\User\Home\Controller\LoginController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.0000s ]
+SQL: INSERT INTO `ot_drrz` (`date`,`ip`,`user`,`leixin`) VALUES ('2016-03-17 23:49:04','','admin@qq.com','0') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant sf - assumed 'sf' D:\wwwroot\newmmm\User\Home\Controller\LoginController.class.php 第 131 行.
+
+[ 2016-03-17T23:49:04+08:00 ] 27.155.139.165 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-17T23:49:04+08:00 ] 27.155.139.165 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Undefined variable: home D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 753 行.
+NOTIC: [8] Undefined variable: news D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 756 行.
+NOTIC: [8] Undefined variable: she_list D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 760 行.
+NOTIC: [8] Undefined variable: de_list D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 764 行.
+NOTIC: [8] Undefined variable: reg D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 768 行.
+NOTIC: [8] Undefined variable: profile D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 772 行.
+NOTIC: [8] Undefined variable: manage D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 775 行.
+NOTIC: [8] Undefined variable: cwmx D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 783 行.
+NOTIC: [8] Undefined variable: detail D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 788 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '15656567650' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18976762123' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13654556600' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'a1@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-17T23:49:36+08:00 ] 27.155.139.165 /Home/Index/google.h.h
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:google.h.h
+
+[ 2016-03-17T23:49:36+08:00 ] 27.155.139.165 /Home/Index/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-03-17T23:49:36+08:00 ] 27.155.139.165 /Home/Index/google.js.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:google.js.js
+
+[ 2016-03-17T23:52:26+08:00 ] 115.213.162.14 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-17T23:52:26+08:00 ] 115.213.162.14 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: home D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 753 行.
+NOTIC: [8] Undefined variable: news D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 756 行.
+NOTIC: [8] Undefined variable: she_list D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 760 行.
+NOTIC: [8] Undefined variable: de_list D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 764 行.
+NOTIC: [8] Undefined variable: reg D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 768 行.
+NOTIC: [8] Undefined variable: profile D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 772 行.
+NOTIC: [8] Undefined variable: manage D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 775 行.
+NOTIC: [8] Undefined variable: cwmx D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 783 行.
+NOTIC: [8] Undefined variable: detail D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 788 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '15656567650' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18976762123' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13654556600' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'a1@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-17T23:52:28+08:00 ] 115.213.162.14 /Home/Index/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0156s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-03-17T23:52:28+08:00 ] 115.213.162.14 /Home/Index/google.h.h
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:google.h.h
+
+[ 2016-03-17T23:52:28+08:00 ] 115.213.162.14 /Home/Index/google.js.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0156s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:google.js.js
+
+[ 2016-03-17T23:53:07+08:00 ] 115.213.162.14 /Home/Index/home.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: home D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 753 行.
+NOTIC: [8] Undefined variable: news D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 756 行.
+NOTIC: [8] Undefined variable: she_list D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 760 行.
+NOTIC: [8] Undefined variable: de_list D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 764 行.
+NOTIC: [8] Undefined variable: reg D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 768 行.
+NOTIC: [8] Undefined variable: profile D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 772 行.
+NOTIC: [8] Undefined variable: manage D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 775 行.
+NOTIC: [8] Undefined variable: cwmx D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 783 行.
+NOTIC: [8] Undefined variable: detail D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 788 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '15656567650' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18976762123' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13654556600' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'a1@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-17T23:58:07+08:00 ] 115.213.162.14 /Home/Index/home.html?aj=1&type=check_login&uid=82662186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ot_user` SET `levelname`='M4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: home D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 753 行.
+NOTIC: [8] Undefined variable: news D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 756 行.
+NOTIC: [8] Undefined variable: she_list D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 760 行.
+NOTIC: [8] Undefined variable: de_list D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 764 行.
+NOTIC: [8] Undefined variable: reg D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 768 行.
+NOTIC: [8] Undefined variable: profile D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 772 行.
+NOTIC: [8] Undefined variable: manage D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 775 行.
+NOTIC: [8] Undefined variable: cwmx D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 783 行.
+NOTIC: [8] Undefined variable: detail D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 788 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '15656567650' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18976762123' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13654556600' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'a1@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+NOTIC: [8] Undefined variable: b D:\wwwroot\newmmm\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1407 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

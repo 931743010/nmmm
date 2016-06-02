@@ -1,0 +1,207 @@
+<header class="navbar navbar-static-top" id="top" role="header">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse"
+        data-target=".navbar-collapse">
+          <span class="sr-only">
+            Toggle navigation
+          </span>
+          <span class="icon-bar">
+          </span>
+          <span class="icon-bar">
+          </span>
+          <span class="icon-bar">
+          </span>
+        </button>
+        <a href="{:U('Index/index')}" class="navbar-brand">
+          <img src="/bitStyle/images/logo_white.png" alt="">
+        </a>
+      </div>
+
+      <div class="form-group col-md-6" style="padding-top:10px;">
+        <label class="col-xs-4 col-md-2 control-label" style="padding-top:5px;">推广链接:</label>
+        <div class="col-xs-6 col-md-7"><input id="copy-num" class="form-control" type="text" value="{$tgurl}" style="max-width:300px;display:inline-block;color: #999;"></div>
+        <button onclick="jsCopy()" type="button" class="btn btn-sm">复制</button>
+      </div>
+      
+      <ul class="nav navbar-nav navbar-right" role="sub-navigation">
+        <li class="dropdown" id="lang_nav">
+          <a href="/" class="" data-toggle="dropdown">
+            <span class="language-sel-zh-CN fa-lang">
+            </span>
+            <span class="language-text hidden-xs">
+              简体中文
+            </span>
+          </a>
+          <ul class="dropdown-menu language-box allbox-shadow" role="languageMenu">
+              <li>
+              <a href="{:U('Index/index')}">
+                <span class="language-sel-zh-CN">
+                </span>
+                简体中文
+              </a>
+            </li>
+             <li>
+              <a href="{:U('Index/english')}">
+                <span class="language-sel-en">
+                </span>
+                English
+              </a>
+            </li>  
+             <li>
+              <a href="{:U('Index/korea')}">
+                <span class="language-sel-ko-KR">
+                </span>
+                 한국어
+              </a>
+            </li>           
+          </ul>
+        </li>
+        <li class="dropdown" id="wallet_nav">
+          <a href="#" class="" data-toggle="dropdown">
+            <span class="glyphicon glyphicon-usd">
+            </span>
+            <span class="hidden-xs">
+              电子钱包
+            </span>
+          </a>
+          <ul class="walletNav dropdown-menu allbox-shadow clearfix">
+            <li class="clearfix">
+              <img src="/bitStyle/images/e-wallet.png" alt="" class="img">
+              <span class="wallet">
+                <span class="tilte-w">
+                  总钱包
+                </span>
+                <strong class="wallet-color">
+                  {$userData.ue_money}RMB
+                </strong>
+              </span>
+            </li>
+            <li class="clearfix">
+              <img src="/bitStyle/images/r-wallet.png" alt="" class="img">
+              <span class="wallet">
+                经理奖钱包
+                <br>
+                <strong class="wallet-color">
+                  {$userData.jl_he}RMB
+                </strong>
+              </span>
+            </li>
+            <li class="clearfix">
+              <img src="/bitStyle/images/n-wallet.png" alt="" class="img">
+              <span class="wallet">
+                推荐奖钱包
+                <br>
+                <strong class="wallet-color">
+                  {$userData.tj_he}RMB
+                </strong>
+              </span>
+            </li>
+            <li class="clearfix">
+              <img src="/bitStyle/images/i-wallet.png" alt="" class="img">
+              <span class="wallet">
+                PIN
+                <br>
+                <strong class="wallet-color">
+                  {$pin_zs}
+                </strong>
+              </span>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown" id="profile_nav">
+          <a href="" class="top-button" data-toggle="dropdown">
+            <span class="glyphicon glyphicon-user top-button">
+            </span>
+            <span class="hidden-xs">
+              我的档案
+            </span>
+          </a>
+          <ul class="dropdown-menu allbox-shadow pull-right" id="user-details">
+            <li class="clearfix">
+              <span class="details">
+                编号
+              </span>
+              <span class="count">
+                71456{$userData['ue_id']}
+              </span>
+            </li>
+            <li class="clearfix">
+              <span class="details">
+                账号
+              </span>
+              <span class="count">
+                {$userData['ue_account']}
+              </span>
+            </li>
+            <li class="clearfix">
+              <span class="details">
+                手机号
+              </span>
+              <span class="count">
+               {$userData['ue_phone']}
+              </span>
+            </li>
+            <li class="clearfix">
+              <span class="details">
+                钱包
+              </span>
+              <span class="count">
+                
+                  {$userData['ue_money']}
+               
+                <script data-cfhash='f9e31' type="text/javascript">
+                  function jsCopy(){
+                    var e=document.getElementById("copy-num");//对象是copy-num1
+                    e.select(); //选择对象
+                    document.execCommand("Copy"); //执行浏览器复制命令
+                    alert("复制成功");
+                }
+                  /* <![CDATA[ */
+                  !
+                  function() {
+                    try {
+                      var t = "currentScript" in document ? document.currentScript: function() {
+                        for (var t = document.getElementsByTagName("script"), e = t.length; e--;) if (t[e].getAttribute("data-cfhash")) return t[e]
+                      } ();
+                      if (t && t.previousSibling) {
+                        var e, r, n, i, c = t.previousSibling,
+                        a = c.getAttribute("data-cfemail");
+                        if (a) {
+                          for (e = "", r = parseInt(a.substr(0, 2), 16), n = 2; a.length - n; n += 2) i = parseInt(a.substr(n, 2), 16) ^ r,
+                          e += String.fromCharCode(i);
+                          e = document.createTextNode(e),
+                          c.parentNode.replaceChild(e, c)
+                        }
+                        t.parentNode.removeChild(t);
+                      }
+                    } catch(u) {}
+                  } ()
+                  /* ]]> */
+                  
+                </script>
+              </span>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="{:U('Index/messageInbox')}">
+            <span class="glyphicon glyphicon-envelope">
+            </span>
+            <span class="hidden-xs">
+              信息
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="{:U('Reg/logout')}">
+            <span class="hidden-xs">
+              退出
+            </span>
+            <span class="glyphicon glyphicon-share-alt">
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>

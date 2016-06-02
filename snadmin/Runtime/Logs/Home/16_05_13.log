@@ -1,0 +1,238 @@
+[ 2016-05-13T19:02:25+08:00 ] 199.27.129.83 /admin.php/Home/Index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-05-13T19:02:25+08:00 ] 173.245.48.225 /admin.php/Home/Index/left.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2016-05-13T19:02:25+08:00 ] 199.27.129.83 /admin.php/Home/Index/top.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2016-05-13T19:02:26+08:00 ] 199.27.129.83 /admin.php/Home/Index/df1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_drrz` WHERE `user` = 'admin' AND `leixin` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_regTime`> '2016-05-13 00:00:00' AND `UE_regTime` < '2016-05-13 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_activeTime`> '2016-05-13 00:00:00' AND `UE_activeTime` < '2016-05-13 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_regTime`> '2016-05-12 00:00:00' AND `UE_regTime` < '2016-05-12 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_activeTime`> '2016-05-12 00:00:00' AND `UE_activeTime` < '2016-05-12 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' AND `UE_check` = '1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' AND `UE_check` = '1' AND `UE_stop` = '0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(UE_money) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(ybhe) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(zsbhe) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-05-13T19:02:26+08:00 ] 199.27.133.43 /admin.php/Home/Baksql/backall
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+
+[ 2016-05-13T19:02:30+08:00 ] 199.27.129.83 /admin.php/Home/Index/userlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/IndexController.class.php 第 300 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '127.0.0.1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '199.27.133.9' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '199.27.133.9' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '199.27.133.9' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '199.27.133.9' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2016-05-13T19:02:31+08:00 ] 199.27.129.83 /admin.php/Home/Index/main
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2016-05-13T19:02:32+08:00 ] 173.245.48.225 /admin.php/Home/Index/df1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_drrz` WHERE `user` = 'admin' AND `leixin` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_regTime`> '2016-05-13 00:00:00' AND `UE_regTime` < '2016-05-13 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_activeTime`> '2016-05-13 00:00:00' AND `UE_activeTime` < '2016-05-13 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_regTime`> '2016-05-12 00:00:00' AND `UE_regTime` < '2016-05-12 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_activeTime`> '2016-05-12 00:00:00' AND `UE_activeTime` < '2016-05-12 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' AND `UE_check` = '1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' AND `UE_check` = '1' AND `UE_stop` = '0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(UE_money) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(ybhe) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(zsbhe) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2016-05-13T19:02:32+08:00 ] 199.27.129.83 /admin.php/Home/Index/top.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-05-13T19:02:32+08:00 ] 199.27.129.83 /admin.php/Home/Index/left.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2016-05-13T19:05:47+08:00 ] 199.27.133.43 /admin.php/Home/Login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-05-13T19:08:44+08:00 ] 173.245.48.225 /admin.php/Home/Index/main
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+

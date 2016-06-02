@@ -1,0 +1,1563 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022) -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script src="/cssmmm/jquery.min.js"></script>
+<script src="/cssmmm/jquery-ui.min.js"></script>
+<script src="/cssmmm/jquery.slimscroll.min.js"></script>
+<script src="/cssmmm/bootstrap.min.js"></script>
+<script src="/cssmmm/jquery.flot.js"></script>
+<script src="/cssmmm/jquery.flot.resize.js"></script>
+<script src="/cssmmm/jquery.flot.pie.js"></script>
+<script src="/cssmmm/curvedLines.js"></script>
+<script src="/cssmmm/index.js"></script>
+<script src="/cssmmm/metisMenu.min.js"></script>
+<script src="/cssmmm/icheck.min.js"></script>
+<script src="/cssmmm/jquery.peity.min.js"></script>
+<script src="/cssmmm/index(1).js"></script>
+<script src="/cssmmm/sweet-alert.min.js"></script>
+<script src="/cssmmm/toastr.min.js"></script>
+<script src="/cssmmm/jquery.countdown.min.js"></script>
+
+
+<!-- App scripts -->
+<script src="/cssmmm/homer.js"></script>
+<script src="/cssmmm/alert.js"></script>
+<script src="/cssmmm/charts.js"></script>
+<script type="text/javascript" src="/cssmmm/socket.io.js"></script>
+    <!-- Page title -->
+    <title>通盈T30理财互助</title>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- Vendor styles -->
+    <link rel="stylesheet" href="/assets/vendor/fontawesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/assets/vendor/metisMenu/dist/metisMenu.css">
+    <link rel="stylesheet" href="/assets/vendor/animate.css/animate.css">
+    <link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/vendor/sweetalert/lib/sweet-alert.css">
+    <link rel="stylesheet" href="/assets/vendor/toastr/build/toastr.min.css">
+    
+
+    <!-- App styles -->
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/helper.css">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+
+<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+<body>
+<include file="User/Home/View/default/top.html" />
+<include file="User/Home/View/default/left.html" />
+
+
+<!-- Main Wrapper -->
+<div id="wrapper">
+
+    <div class="content">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="/cssmmm/MMM-banner.jpg" width="100%" style="margin-bottom: 10px;">
+            </div>
+        </div>
+
+
+        <div class="row">
+                    
+            
+
+            <div class=" col-xs-12 col-sm-12 col-md-6">
+                <div class="hpanel">
+                    <div class="panel-body" style="background: url(/assets/images/button-img1.jpg) no-repeat right bottom #fff; color:#fff; background-size:cover;">
+                        <div class="text-center">
+                            <h2 class="m-b-xs" style="text-shadow: 0 0 3px #000,0 0 3px #000,0 0 3px #000,0 0 3px #000 ">我要帮助其他人</h2>
+                            <p class="font-bold text-success" style="text-shadow: 0 0 3px #000,0 0 3px #000,0 0 3px #000,0 0 3px #000 ">购买保德信互助金</p>
+                            <div class="m" style="height: 40px;">
+                            </div>
+                            <p class="small" style="height: 60px;">
+                            </p>
+                           
+
+                            <button class="btn btn-success btn-lg" data-uid="1001864" data-toggle="modal" data-target="#myModal6"><strong>申请提供帮助</strong></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <div class="hpanel">
+                    <div class="panel-body" style="background: url(/assets/images/button-img2.jpg) no-repeat center bottom #fff; color:#fff; background-size:cover;">
+                        <div class="text-center">
+                            <h2 class="m-b-xs" style="text-shadow: 0 0 3px #000,0 0 3px #000,0 0 3px #000,0 0 3px #000 ">我需要别人帮助</h2>
+                            <p class="font-bold text-warning" style="text-shadow: 0 0 3px #000,0 0 3px #000,0 0 3px #000,0 0 3px #000 ">出售保德信互助金</p>
+                            <div class="m" style="height: 40px;">
+
+                            </div>
+                            <p class="small" style="height: 60px;">
+                            </p>
+                            <button class="btn btn-warning btn-lg btngethelp" data-wallet_type="cp" data-uid="1001864" data-toggle="modal" data-min="100" data-max="2000" data-cp="0"><strong>申请接受帮助</strong></button>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div> 
+         
+            <div class="col-md-3 hide">
+                <div class="hpanel" id="ad">
+                    <div class="panel-body">
+                        <div class="text-center" style="overflow:auto" id="bd">
+                            <h2 class="m-b-xs" id="total">0</h2>
+
+                            <div>
+                                <div class="small" id="show">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+
+    <div class="row" id="context">
+        <!-- group left start-->
+        <div class="col-md-9">
+            <div class="hpanel">
+                <div class="panel-body list">
+                    <div class="table-responsive project-list">
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+
+                                <th colspan="3"></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+
+                            <!--compley-->
+                            <foreach name='list3' item='v3'>
+
+                            <tr style="background-color: #f9f9f9;">
+                                    <td>
+                                        
+
+
+                                                                                
+                                                                               <i><if condition="$v3.zt eq 0" ><img src="/cssmmm/zt1.jpg"></if>
+											<if condition="$v3.zt eq 1" ><img src="/cssmmm/zt2.jpg"></if>
+											<if condition="$v3.zt eq 2" ><img src="/cssmmm/zt3.jpg"></if></i>    
+                                        <p style="margin-top: 5px;"><strong>R{$v3.id}</strong></p>
+
+                                        <!--<input   fa-exclamation-circle type="checkbox" class="i-checks" checked>-->                                    </td>
+                                    <td>匹配状态<br>(
+									
+											<if condition="$v3.zt eq 0" >待付款</if>
+											<if condition="$v3.zt eq 1" >已付款</if>
+											<if condition="$v3.zt eq 2" >交易成功</if>)</td>
+                                    <td>接受帮助(G{$v3.g_id})
+                                        <br>
+                                      <small><i class="fa fa-clock-o"></i> 配对时间{$a1=$v3.date}<div style="display: none">{$aab=$v3.p_user}</div></small><br>
+									  <if condition="$v3.zt eq 0" ><small><i class="fa fa-clock-o"></i> 到期打款时间{$aa1|datedqsj=$a1,###}<div style="display: none">{$aab=$v3.p_user}</div></small></if>
+									  <if condition="$v3.zt eq 1" >
+									   <small><i class="fa fa-clock-o"></i>汇款时间{$aa1=$v3.date_hk}<div style="display: none">{$aab=$v3.p_user}</div></small><br>
+									  <small><i class="fa fa-clock-o"></i> 到期确认时间{$aaa1|datedqsj=$aa1,###}<div style="display: none">{$aab=$v3.p_user}</div></small>
+									  </if>
+                                        <span class="text-danger" style="font-size:14px;">剩余：<small data-time="2015-05-19 09:58:18" class="time_countdown"></small></span>                                                                            </td>
+
+                                    <td>{$v3.p_user|cx_user}</td>
+                                    <td><if condition="$v3.zffs1 eq 1" >银行</if>
+		  <if condition="$v3.zffs2 eq 1" >支付宝</if>
+		  <if condition="$v3.zffs3 eq 1" >微信</if></td>
+                                    <td>&gt;</td>
+                                    <td>{$v3.jb}人民币<br>
+                                        <if condition="$v3.pic eq '0'" ><a href="/Home/Index/home_ddxx_pic_no" target="_blank"><i class="fa fa-file-image-o" style="font-size: 20px;background-image:url(/cssmmm/nav8.jpg);background-repeat: no-repeat;"></i></a><else/><a href="{$v3.pic}" target="_blank"><i class="fa fa-file-image-o" style="font-size: 20px;background-image:url(/cssmmm/nav8.jpg);background-repeat: no-repeat;"></i></a></if></td>
+                                    <td>&gt;</td>
+                                    <td>YOU</td>
+                                    <td></td>
+                              <td>
+                                        <input style="width:80px;" name="btn1" id="btn3{$v3.id}" type="button" value=" 留　言 " class="btn btn-info btn-xs addmsg" data-toggle="modal" data-id="8802104" data-target="#myModal7"><br>
+										<input style="width:80px;" name="btn1" id="btn4{$v3.id}" type="button" value="详细资料" class="btn_detail btn-primary btn-xs" data-toggle="modal" id="btn12" data-target="#myModal5" ><br>
+
+<if condition="$v3.zt eq 1" >
+<if condition="$v3.ts_zt eq '3'" >
+48小时未确认收款,<br>
+已被投诉,请联系对<br>
+方取消投诉!
+
+<else/>
+<input style="width:80px;" name="btn23" id="btn23{$v3.id}" type="button" value="确认收款" class="btn_detail btn-primary btn-xs" data-toggle="modal"  data-target="#myModa23">
+</if>
+<script>
+$(function(){
+$('#btn23{$v3.id}').click(function(){
+$("#mainframe188",parent.document.body).attr("src","/Home/Index/home_ddxx_gcz/id/{$v3.id}/") 
+$("#mainframe188").reload();
+})
+})
+</script>
+</if>
+
+<if condition="$v3.zt eq 0" >
+
+<span {$aa2|datedqsj2=$a1,###}>
+<input style="width:120px;" name="btn23" id="btn23{$v3.id}" type="button" value="48小时未打款投诉" class="btn_detail btn-primary btn-xs" data-toggle="modal"  data-target="#myModa23"></span>
+<script>
+$(function(){
+$('#btn23{$v3.id}').click(function(){
+$("#mainframe188",parent.document.body).attr("src","/Home/Index/home_ddxx_g_wdk/id/{$v3.id}/") 
+$("#mainframe188").reload();
+})
+})
+</script>
+
+</if>
+
+
+                                       
+                              </td>
+                              </tr>
+								<script>
+$(function(){
+
+
+
+$('#btn4{$v3.id}').click(function(){
+$("#mainframe11",parent.document.body).attr("src","/Home/Index/home_ddxx/id/{$v3.id}/") 
+$("#mainframe11").reload();
+})
+
+
+$('#btn3{$v3.id}').click(function(){
+$("#mainframe12",parent.document.body).attr("src","/Home/Index/home_ddxx_ly/id/{$v3.id}/") 
+$("#mainframe12").reload();
+})
+})
+
+
+</script>
+								</foreach>
+								
+								
+								
+								<foreach name='list2' item='v2'>
+								
+								
+								
+                            <tr style="background-color: #fff;">
+
+
+                                    <td>
+                                       
+
+
+                                                                                
+                                                                                 <i><if condition="$v2.zt eq 0" ><img src="/cssmmm/zt1.jpg"></if>
+											<if condition="$v2.zt eq 1" ><img src="/cssmmm/zt2.jpg"></if>
+											<if condition="$v2.zt eq 2" ><img src="/cssmmm/zt3.jpg"></if></i> 
+                                        <p style="margin-top: 5px;"><strong>R{$v2.id}</strong></p>
+                                        <!--<input type="checkbox" class="i-checks" checked>-->                                    </td>
+
+                                    <td width="100px;">匹配状态<br>(
+									
+											<if condition="$v2.zt eq 0" >待付款</if>
+											<if condition="$v2.zt eq 1" >已付款</if>
+											<if condition="$v2.zt eq 2" >交易成功</if>)</td>
+                                    <td>提供帮助(P{$v2.p_id})
+                                        <br>
+                                        <small><i class="fa fa-clock-o"></i> 配对时间:{$a1=$v2.date}<div style="display: none">{$aab=$v2.g_user}</div></small><br>	
+										 <if condition="$v2.zt eq 0" ><small><i class="fa fa-clock-o"></i> 到期打款时间{$aa1|datedqsj=$a1,###}<div style="display: none">{$aab=$v3.p_user}</div></small>	</if>	
+										  <if condition="$v2.zt eq 1" >
+									   <small><i class="fa fa-clock-o"></i>汇款时间{$aa1=$v2.date_hk}<div style="display: none">{$aab=$v2.p_user}</div></small><br>
+									  <small><i class="fa fa-clock-o"></i> 到期确认时间{$aaa1|datedqsj=$aa1,###}<div style="display: none">{$aab=$v2.p_user}</div></small>
+									  </if>
+										 																											                                     </td>
+
+                                    <td>YOU</td>
+                                    <td><if condition="$v2.zffs1 eq 1" >银行</if>
+		  <if condition="$v2.zffs2 eq 1" >支付宝</if>
+		  <if condition="$v2.zffs3 eq 1" >微信</if></td>
+                                    <td>&gt;</td>
+                                    <td>{$v2.jb}人民币
+                                        <br>
+                                        <if condition="$v2.pic eq '0'" ><a href="/Home/Index/home_ddxx_pic_no" target="_blank"><i class="fa fa-file-image-o" style="font-size: 20px;background-image:url(/cssmmm/nav8.jpg);background-repeat: no-repeat;"></i></a><else/><a href="{$v2.pic}" target="_blank"><i class="fa fa-file-image-o" style="font-size: 20px;background-image:url(/cssmmm/nav8.jpg);background-repeat: no-repeat;"></i></a></if></td>
+                                    <td>{$v2.g_user|cx_user}</td>
+                                    <td><if condition="$v2.zffs1 eq 1" >银行</if>
+		  <if condition="$v2.zffs2 eq 1" >支付宝</if>
+		  <if condition="$v2.zffs3 eq 1" >微信</if></td>
+		  <td></td>
+                                    <td>
+									<input style="width:80px;" name="btn2" id="btn2{$v2.id}" type="button" value="留　言" class="btn btn-info btn-xs addmsg" data-toggle="modal" data-id="8802104" data-target="#myModal7"><br>
+									<input style="width:80px;" name="btn" id="btn{$v2.id}" type="button" value="详细资料" class="btn_detail btn-primary btn-xs" data-toggle="modal"  data-target="#myModal5">
+									<br>
+									
+									<if condition="$v2.zt eq '0'" >
+									<if condition="$v2.ts_zt eq '1'" >
+									48小时未汇款<br>
+请联系对方取<br>
+消投诉!
+									
+									<else/>
+									<input style="width:80px;" name="btn3" id="btn33{$v2.id}" type="button" value="确认已付款" class="btn_detail btn-primary btn-xs" data-toggle="modal"  data-target="#myModa24">
+									<script>
+$(function(){
+$('#btn33{$v2.id}').click(function(){
+$("#mainframe13",parent.document.body).attr("src","/Home/Index/home_ddxx_pcz/id/{$v2.id}/") 
+$("#mainframe13").reload();
+})
+})
+
+
+</script>
+									</if>
+									
+									</if>
+									
+									
+									<if condition="$v2.zt eq 1" >
+									<if condition="$v2.ts_zt eq '2'" >
+									你已被对方投诉请与<br>
+对方取得联系!
+									<else/>
+									<span {$aa2|datedqsj3=$aa1,###}>
+									
+									<input style="width:120px;" name="btn3" id="btn33{$v2.id}" type="button" value="48小时未确认投诉" class="btn_detail btn-primary btn-xs" data-toggle="modal"  data-target="#myModa24"></span>
+									
+									<script>
+$(function(){
+$('#btn33{$v2.id}').click(function(){
+$("#mainframe13",parent.document.body).attr("src","/Home/Index/home_ddxx_g_wqr/id/{$v2.id}/") 
+$("#mainframe13").reload();
+})
+})
+
+
+</script>
+									</if>
+									</if>
+									
+                           </td>
+                                </tr>
+								<script>
+$(function(){
+
+
+
+$('#btn{$v2.id}').click(function(){
+$("#mainframe11",parent.document.body).attr("src","/Home/Index/home_ddxx/id/{$v2.id}/") 
+$("#mainframe11").reload();
+})
+
+
+$('#btn2{$v2.id}').click(function(){
+$("#mainframe12",parent.document.body).attr("src","/Home/Index/home_ddxx_ly/id/{$v2.id}/") 
+$("#mainframe12").reload();
+})
+
+
+
+
+
+})
+
+
+</script>
+								</foreach>
+								
+								                      <!--compley-->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- group left end-->
+        <!--group list start-->
+        
+        
+        <div class="col-md-3">
+        
+            
+                <div class="col-md-12">
+                    <div class="hpanel">
+                        <div class="panel-body no-padding">
+                          <div class="list-group ">
+						  
+						  
+						  
+						  <foreach name='list' item='v'>
+                                <div class="col-md-12" style="border-top:#ccc 1px solid;">
+                                        <a class="list-group-item " href="">
+                                            <h5 class="list-group-item-heading">申请提供帮助(p{$v.id})</h5>
+                                        </a>
+
+                                        <div style=" margin-left:2em; margin-bottom:1em; margin-right:1em">
+                                            <font>参与者:{$v.user_nc}</font><br>
+                                            <font>金额:{$v.jb|hk}</font><br>
+                                            <font>日期:{$v.date}</font><br>
+                                            <font>状态:
+											<if condition="$v.zt eq 0" >等待中</if>
+											<if condition="$v.zt eq 1" >匹配成功</if>
+											</font><br><if condition="$v.zt eq 1" >
+											<font>确认状态:<font color="#7CCD7C">
+											<if condition="$v.qr_zt eq 0" >未确认</if>
+											<if condition="$v.qr_zt eq 1" >已确认</if>
+											</font></font></if>
+											<if condition="$v.zt eq 0" >
+											 <div style="">
+                                               <!--<form method="post" id="wait" action="/tu/cancel_provide_request"> -->
+
+                                                
+												<a href="javascript:if(confirm(' 确定要取消此定单吗?'))location='/Home/Index/tgbz_del/id/{$v.id}/'"  class="btn btn-danger btn-xs">取消</a>                                             
+											   <!--<button type="button" class="btn btn-info btn-xs" style="float:right">详细资料>></button> -->
+                                            <!--</form>-->
+                                            </div>
+											</if><br>
+										
+                                            <div style="">
+                                               <!--<form method="post" id="wait" action="/tu/cancel_provide_request"> -->
+
+                                                                                                <!--<button type="button" class="btn btn-info btn-xs" style="float:right">详细资料>></button> -->
+                                            <!--</form>-->
+                                            </div>
+                                        </div>
+                              </div>
+							  
+							  
+							  
+							  </foreach>
+							  
+							  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            
+                <div class="col-md-12">
+                    <div class="hpanel">
+                        <div class="panel-body no-padding">
+                            <div class="list-group ">
+							
+							
+							<foreach name='list1' item='b'>
+							
+							
+                                <div class="col-md-12" style="border-top:#ccc 1px solid;">
+                                        <a class="list-group-item " href="">
+                                            <h5 class="list-group-item-heading">申请接受帮助(G{$b.id})</h5>
+                                        </a>
+
+                                        <div style=" margin-left:2em; margin-bottom:1em; margin-right:1em">
+                                            <font>参与者:{$b.user_nc}</font><br>
+                                            <font>金额:{$b.jb|hk}</font><br>
+                                            <font>钱包:
+											<if condition="$b.qb eq 0" >Mavro钱包</if>
+											<if condition="$b.qb eq 1" >经理奖钱包</if>
+											<if condition="$b.qb eq 2" >推荐奖钱包</if>
+											</font><br>
+                                             
+                                                                                         
+                                            <font>日期:{$b.date}</font><br>
+                                            <font>状态:
+											<if condition="$b.zt eq 0" >等待中</if>
+											<if condition="$b.zt eq 1" >配对成功</if>
+											
+											</font><br><if condition="$b.zt eq 1" >
+											<font>确认状态:<font color="#7CCD7C">
+											
+											<if condition="$b.qr_zt eq 0" >未确认</if>
+											<if condition="$b.qr_zt eq 1" >已确认</if>
+											
+											</font></font></if>
+											<if condition="$b.zt eq 0" >
+											 <div style="">
+                                               <!--<form method="post" id="wait" action="/tu/cancel_provide_request"> -->
+
+                                               <a href="javascript:if(confirm(' 确定要取消此定单吗?'))location='/Home/Index/jsbz_del/id/{$b.id}/'"  class="btn btn-danger btn-xs">取消</a>                                                <!--<button type="button" class="btn btn-info btn-xs" style="float:right">详细资料>></button> -->
+                                            <!--</form>-->
+                                            </div></if>
+											
+											<br>                                            <div style="">
+                                                <!-- <form method="post" action="/tu/cancel_get_request">-->
+                                                                                                 <!--<button type="button" class="btn btn-info btn-xs" style="float:right">详细资料>></button>-->
+                                            <!-- </form>-->
+                                            </div>
+                                        </div>
+
+                                     </div>
+									 
+									 
+									 
+									 </foreach>
+									 
+									 
+									 
+                            </div>
+
+                        </div>
+                    </div>
+                </div>        
+        
+        </div>
+
+
+        <!--group list end-->
+    </div>
+
+
+
+        
+</div>
+<!-- Vendor scripts -->
+
+
+
+
+<!-- Vendor scripts -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--gethelp modal-->
+  
+</div>
+
+<!--gethelp modal end-->
+
+
+
+
+
+
+
+
+
+<script>
+    $(function () {
+                
+              $('.time_countdown').each(function()
+            {
+                var $this = $(this);
+                var time = $this.data('time')+'';
+
+
+
+
+                 var y = time.split(' ');
+                  var ys  =  y[0].split('-');
+
+                 var sd = y[1].split(':');
+
+                 for (var i = 0; i < sd.length; i++) {
+                     ys.push(sd[i]);
+                 };
+
+                 console.log(ys);
+
+                var datez = new Date(ys[0],ys[1],ys[2],ys[3],ys[4],ys[5]).getTime();
+                //datez = datez+172800000;
+
+
+                var date = new Date(datez);
+                    Y = date.getFullYear() + '/';
+                    M = date.getMonth()+'/';
+                    D = date.getDate() + ' ';
+                    h = date.getHours() + ':';
+                    m = date.getMinutes() + ':';
+                    s = date.getSeconds(); 
+
+                    dates = Y+M+D+h+m+s;
+                    console.log(Y+M+D+h+m+s+'.......'); 
+
+                $this.countdown(dates, function(event) {
+
+
+                    $(this).text(
+                            event.strftime('%-D 天 %-H 小时 %M 分钟 %S 秒')
+                    );
+                });
+
+                datez = null;
+            });   
+
+
+           $("#canyuzhi").change(function(){
+
+                //alert($(this).val());
+
+                $("#regs").submit();
+
+
+           });   
+
+
+            var $from =  null;
+            
+            $(".cancel").click(function(){  
+                $from = $(this).parents().eq(0);
+
+           
+                $div = $(this).parents().eq(2);
+            
+                
+                //$("#myModa31").modal('toggle');
+                var order_id = $(this).data('id');
+                
+                 swal({
+                        title: "您确定要取消吗？",
+                        text: "",
+                        type: "warning",
+                        showCancelButton: true,
+                        confirmButtonColor: "#DD6B55",
+                        confirmButtonText: "是的，我要取消",
+                        cancelButtonText: "不，我不取消",
+                        closeOnConfirm: false,
+                        closeOnCancel: true },
+                    function (isConfirm) {
+                        if (isConfirm) {
+                            $.post('/tu/cancel_provide_request',{order_id:order_id},function(data){
+                                if(data){
+                                    swal("已取消", "取消成功.", "success");
+                                    $div.remove();
+                                }
+                            });
+                            
+                        } else {
+                            swal("", "", "error");
+                        }
+                    });
+            
+            });
+            
+            
+            $(".cancel2").click(function(){ 
+                $from = $(this).parents().eq(0);
+                $div = $(this).parents().eq(2);
+                
+                
+                //$("#myModa31").modal('toggle');
+                var order_id = $(this).data('id');
+                
+                 swal({
+                        title: "您确定要取消吗？",
+                        text: "",
+                        type: "warning",
+                        showCancelButton: true,
+                        confirmButtonColor: "#DD6B55",
+                        confirmButtonText: "是的，我要取消",
+                        cancelButtonText: "不，我不取消",
+                        closeOnConfirm: false,
+                        closeOnCancel: true },
+                    function (isConfirm) {
+                        if (isConfirm) {
+                            $.post('/tu/cancel_get_request',{order_id:order_id},function(data){
+                                if(data){
+                                    swal("已取消", "取消成功.", "success");
+                                    $div.remove();
+                            }
+                            });
+                            
+                        } else {
+                            swal("", "", "error");
+                        }
+                    });
+            
+            });
+            
+            
+            
+            
+            $("#yes_cancel").click(function(){
+            
+                console.log($from);
+                
+                $("#wait").submit();
+                //$from.submit();
+            });
+            
+            
+
+            
+            /*$("#next32").click(function(){
+                $("#myModa32").modal('toggle');
+            });
+            
+            $("#next30").click(function(){
+                $("#myModa30").modal('toggle');
+            });*/
+            
+            
+            
+            
+            $(".btngethelp").click(function(){
+            $(".balance").val($(this).data("cp"));
+            $(".sell").val($(this).data("cp"));
+            $(".get_amount").val("");
+            $("#wallet_type").val($(this).data("wallet_type"));
+            $("#gethelpmodal").modal("toggle");
+        });
+         $(".get_amount").bind("change",function(){
+                if(isNaN($(this).val())){
+                $(this).val(0);
+                }
+            var ths=$(this).val();
+            var mat=Math.floor(ths/10);
+            $(this).val(mat*10);
+            var amount=mat*10;
+            var cp=parseInt($(".balance").val());
+            var maxx=parseInt("2000");
+            var min=parseInt("100");
+            var getvalue=amount*7;
+            $("#gh_amount").text(amount);
+            $("#gh").text(getvalue);
+            if(amount<=cp&&amount<=maxx&&amount>=min){
+            $("#gh_amount").css("color","#00FF00");
+            $("#gh").css("color","#00FF00");
+            $('.btnconfirm').removeAttr("disabled");
+            }else{
+            $('.btnconfirm').attr('disabled',"true");
+                $("#gh_amount").css("color","red");
+                $("#gh").css("color","red");
+                }
+                 $("#amount_get").text(getvalue);
+        });
+            $(".btn_get_next").click(function () {
+            //alert("ss");
+                 var sstr = '';
+                 $('.ckbox2').each(function(index, element) {
+                if($(this).prop('checked')){
+                        sstr+=$(this).val()+',';    
+                    }
+            });
+            $("#payment_method2").val(sstr);
+           $("#get_help").submit();
+           //alert(1);
+        });
+
+        $("#select_fanshi").click(function(){
+
+            var id = $("#comid").val();
+            var status = $('.comfir:checked').val();
+
+            $.post('/tu/updateStatus',{status:status,id:id},function(data){
+
+                 if (data != 0) {
+
+                     alert('操作成功!');
+                    window.location.reload();
+                }else
+                {
+                    alert('操作失败!');
+                    window.location.reload();
+
+                }
+
+            });
+
+        });
+
+
+        $("#select_fanshi2").click(function(){
+
+            var id = $("#completid").val();
+
+            var status = $('.comfir2:checked').val();
+
+            $("#pro_status").val(status);
+
+            if(status == 1){
+                $("#myModa25").modal('toggle');
+            }else{
+
+                $.post('/tu/cancel',{provide_status:status,id:id},function(data){
+
+                    if(data != 0){
+
+                        alert('操作成功');
+                        window.location.reload();
+                    }else{
+                         alert('操作失败');
+                        window.location.reload();
+                    }
+
+                });
+
+            }
+
+        });
+
+        $("#select_fanshi3").click(function(){
+
+            var id = $("#completid").val();
+
+            $("#myModa25").modal('close');
+
+        });
+
+
+
+
+
+
+
+        
+        
+$('input:checkbox').each(function() {
+        
+        if ($(this).attr('checked') ==true) {
+                alert($(this).val());
+        }
+});
+        $(".addmsg").click(function(){
+
+            var id = $(this).data('id');
+            $("#orderid").text(id);
+
+            $.post('/tu/showMsg',{id:id},function(data){
+
+                var html = [];
+                var htmlstr = null;
+
+                console.log(eval(data));
+
+                var data = eval(data);
+
+                if(data){
+                    for(var i= 0,len = data.length;i<len;i++){
+
+                        html.push('<p>'+data[i].time+' , '+data[i].lid+'</p>');
+
+                        html.push('<p>'+data[i].context+'</p>');
+
+                    }
+                    htmlstr = html.join('');
+                    $("#msg").html(htmlstr);
+                }else{
+                    $("#msg").html('');
+                }
+
+            });
+
+
+            $("#id").val($(this).data('id'));
+
+            $("#mesg").focus();
+
+        });
+
+         $('.btn_next').click(function () {
+             var str = '';
+             $('.ckbox').each(function(index, element) {
+                if($(this).prop('checked')){
+                        str+=$(this).val()+','; 
+                    }
+            });
+            
+            $("#payment_method").val(str);
+             
+             var amount=$("#amount").val();
+             $("#amountpay").text(amount*7);
+         });
+
+        $('.btnNext').click(function () {
+            $("#provide_help").submit();
+        });
+        $(".btn_detail").click(function () {
+
+
+            $("#expire_date").text($(this).data("expire_date"));
+            $("#bank_number").text($(this).data("bank_number"));
+            $("#bank_user").text($(this).data("bank_user"));
+            $("#bank_name").text($(this).data("bank_name"));
+
+            $("#wechat").text($(this).data("wechat"));
+
+            $("#alipay").text($(this).data("alipay"));
+
+            $("#order_id").text($(this).data('id'));
+            $(".receiver_phone").text($(this).data("receiver_phone"));
+            $("#sender_phone").text($(this).data("sender_phone"));
+            $("#sender_lid").text($(this).data("sender_lid"));
+            $("#receiver_lid").text($(this).data("receiver_lid"));
+			 $(".receiver_wechat_contact").text($(this).data("receiver_wechat_contact"));
+            $("#amount_order").text($(this).data('amount_order'));
+			 $("#sender_wechat_contact").text($(this).data("sender_wechat_contact"));
+            $("#sender_manager_lid").text($(this).data('sender_manager_lid'));
+            $("#sender_manager_phone").text($(this).data('sender_manager_phone'));
+			 $("#sender_manager_wechat_contact").text($(this).data('sender_manager_wechat_contact'));
+            $("#receiver_manager_lid").text($(this).data('receiver_manager_lid'));
+            $("#receiver_manager_phone").text($(this).data('receiver_manager_phone'));
+			$(".receiver_manager_wechat_contact").text($(this).data('receiver_manager_wechat_contact'));
+
+
+        });
+
+        $(".provide_complete").click(function(){
+
+            $("#expire_date2").text($(this).data("expire_date"));
+            $("#bank_number2").text($(this).data("bank_number"));
+            $("#bank_user2").text($(this).data("bank_user"));
+            $("#bank_name2").text($(this).data("bank_name"));
+            $("#mavro").text($(this).data('mavro'));
+            $("#rmb").text(Number($(this).data('mavro'))*7);
+            $("#comid").val($(this).data('id'));
+
+        });
+
+
+        $(".complete").click(function(){
+
+            $("#completid").val($(this).data('id'));
+
+
+        });
+
+
+
+        var selec = $("#amount").val();
+        var tt = selec * 6;
+        $("#select").text(selec);
+        $("#pay").text(tt);
+        $("#amount").bind("change", function () {
+            $("#select").text($("#amount").val());
+            $("#pay").text($("#amount").val() * 6);
+        });
+
+
+        $("#ad").height($("#aa").css('height'));
+        $("#bd").height($("#ba").css('height'));
+        $("#cc").height($("#ca").css('height'));
+    });
+
+    //js timestamp -- data
+    function formatDate(timestamp, accuracy) {
+        var time = new Date(timestamp);
+        var year = time.getFullYear();
+        var month = time.getMonth() + 1;
+        var date = time.getDate();
+        var hour = time.getHours();
+        var minute = time.getMinutes();
+        var second = time.getSeconds();
+        var result = "";
+
+        switch (accuracy) {
+            case "year":
+            {
+                result = year;
+            }
+                break;
+            case "month":
+            {
+                result = year + "-" + month;
+            }
+                break;
+            case "day":
+            {
+                result = year + "-" + month + "-" + date;
+            }
+                break;
+            case "hour":
+            {
+                result = year + "-" + month + "-" + date + " " + hour + ":00";
+            }
+                break;
+            case "minute":
+            {
+                result = year + "-" + month + "-" + date + " " + hour + ":" + minute;
+            }
+                break;
+            case "second":
+            {
+                result = year + "-" + month + "-" + date + " " + hour + ":" + minute + ":" + second;
+            }
+                break;
+            default:
+                break;
+        }
+        return result;
+    }
+
+
+    try {
+        var socket = io('http://174.139.194.157:1338');
+    } catch (err) {
+        console.log('server errr');
+    }
+    var $show = $("#show");
+
+    var $total = $("#total");
+
+    socket.on('num', function (data) {
+
+        $total.html(data.num);
+
+    });
+
+    socket.on('show', function (data) {
+        console.log(data);
+
+        $total.html(data.num);
+
+        var reallen = $show.find('div').length;
+
+        if (reallen > 500) {
+
+            $show.find('div').last().remove();
+
+        }
+
+        $show.prepend('<div><span>' + formatDate(Number(data.data.add_time) * 1000, 'second') + '   </span><span>   ' + data.data.city + ' 的会员做了一次操作</span></div>');
+
+    });
+
+</script>
+
+
+<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="color-line"></div>
+                    <div class="modal-header">
+                        <h4 class="modal-title">提供帮助</h4>
+
+                        <p class="text-warning">申请完成后，请等待系统1-30日随机分配受善需求</p>
+                    </div>
+                    <form method="post" action="/Home/Index/tgbzcl" id="provide_help">
+                        <div class="modal-body" style="text-align:center">
+                            <br>
+                            <label class="col-sm-12 control-label">支付方式</label>
+
+                            <div class="radio" align="left">
+                          
+                                <label> <input type="checkbox" value="1" class="ckbox" name="zffs1" checked="">银行支付</label><br>
+                                <label> <input type="checkbox" value="1" class="ckbox" name="zffs2" checked="">支付宝支付</label><br>
+                                <label> <input type="checkbox" value="1" class="ckbox" name="zffs3" checked="">微信支付</label><br>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-12 control-label">提供帮助金额</label>
+
+                                <div class="col-sm-12">
+                                    <input type="text" class="form-control get_amount" placeholder="输入100-60000" name="amount" id="amount" autocomplete="off" required="">
+                                </div>
+                            </div>
+                           <!-- <div class="form-group">
+                                <font id="select" color="#00FF00">1000</font> MAVROx6=<font id="pay" color="#FF0000">7000</font>
+                                人民币
+                            </div>-->
+                            <div class="form-group">
+                                <h4>
+                                    目前，每月增长50%-300%
+                                </h4>
+                            </div>
+
+                            <div class="icheckbox_square-green checked" style="position: relative;"><input type="checkbox" class="i-checks" name="i-checks" checked="" required="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
+                            警告，我已完全了解所有风险。我决定参与保德信互助,尊重保德信互助文化与传统。
+                        </div>
+
+                        <div class="modal-footer">
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                           <!-- <button type="button" class="btn_next btn-warning btn-sm" data-dismiss="modal" data-toggle="modal" data-target="#myModal2">提供帮助</button>-->
+							<input name="jhwjjc"  id="jhwjjc" type="submit" class="btn_next btn-warning btn-sm" value="提供帮助">
+                    
+                </div></form>
+            </div>
+        </div>
+    </div><div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="color-line"></div>
+            <div class="modal-header">
+                <h5 class="modal-title" id="title2">留言信息</h5>
+                <small class="font-bold"></small>
+            </div>
+            <div class="modal-body" style="height:300px; overflow:auto">
+                <iframe src='' id="mainframe12" width="830px;" height="350px;" ></iframe>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn-default" data-dismiss="modal">关闭</button>
+            </div>
+        </div>
+    </div>
+</div><div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="color-line"></div>
+            <div class="modal-header">
+                <h5 class="modal-title" id="title">确认申请</h5>
+                <small class="font-bold"></small>
+            </div>
+            <div class="modal-body" style="height:300px;">
+            <p><strong><font color="#FF0000" id="amountpay"></font> RMB  : 人民币</strong></p>
+            <p>增长率为每日1% Mavro，最高30%  Mavro</p>
+            <p>注意：您的申请如果需要被取消，可以在配对单产生之前提交取消申请。一旦配对单产生了，该施善申请将无法被取消。</p>
+            <p><strong><font color="#FF0000">注意：请核实交易的资料，一旦完成申请，该交易是不能被取消或更改。</font></strong></p>
+
+            </div>
+            <div class="modal-footer">
+            <!--
+              <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+              -->
+              <button type="button" class="btnNext btn-primary">确认</button>
+            </div>
+        </div>
+    </div>
+</div><div class="modal fade" id="myModa20" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="color-line"></div>
+            <div class="modal-header">
+                <h5 class="modal-title" id="title3">确认申请</h5>
+                <small class="font-bold"></small>
+            </div>
+            <div class="modal-body" style="height:300px;">
+                <p><strong><font color="#FF0000" id="amountpay2"></font> RMB  : 人民币</strong></p>
+                <p>增长率为每日1% Mavro，最高30%  Mavro</p>
+                <p>注意：您的申请如果需要被取消，可以在配对单产生之前提交取消申请。一旦配对单产生了，该施善申请将无法被取消。</p>
+                <p><strong><font color="#FF0000">注意：请核实交易的资料，一旦完成申请，该交易是不能被取消或更改。</font></strong></p>
+
+            </div>
+            <div class="modal-footer">
+                <!--
+                  <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                  -->
+                <button type="button" class="btnNext btn-primary">确认</button>
+            </div>
+        </div>
+    </div>
+</div><div class="modal fade" id="myModa21" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="color-line"></div>
+            <div class="modal-header">
+                <h5 class="modal-title" id="title21">确认汇款</h5>
+                <small class="font-bold"></small>
+            </div>
+            <div class="modal-body" style="height:300px; overflow:auto">
+                <p><strong>Order: R2723351</strong></p>
+
+                <p>Member of the MMM has requested assistance in the amount of: <br>
+                    <span id="mavro" style="font-weight: bold"></span> MYR<br>
+                    <span id="rmb" style="font-weight: bold"></span> RMB
+
+                </p>
+
+                <p><strong>You have to provide help before <font id="expire_date2"></font>, according to bank details
+                    provided further:</strong></p>
+
+                <div style="border:1px solid #009">
+                    <p>Type in full beneficiary bank details below: </p>
+
+                    <p><strong>Beneficiary Bank: <font id="bank_name2"></font></strong></p>
+
+                    <p><strong>Beneficiary Name:<font id="bank_user2"></font></strong></p>
+
+                    <p><strong>Beneficiary Account No: <font id="bank_number2"></font></strong></p>
+
+                    <p><strong>SWIFT code/BIC:</strong></p>
+
+                    <p>Any additional information for sender: For fast confirmation, please sms to 0175027399 after
+                        transfer made.</p>
+
+                    <p>---------------------</p>
+
+                    <p><font color="#FF0000">WARNING!</font> While making transfers, please pay your attention to the
+                        purpose of the payment. Some banks require to specify the account number or the customers card
+                        during transfer process. This is due to the fact that the money goes first to a single
+                        correspondent account of the bank, and then distributed to clients accounts. In this case, you
+                        can not write private translation! Pay attention to the recommendations of the recipients!</p>
+                </div>
+                <p>After you receive assistance you need to confirm it by clicking appropriate button.</p>
+
+                <p>Never confirm payment before funds reception, as confirmation can not be reversed and the system will
+                    believe, that you have received funds.</p>
+
+                <p><font color="#FF0000">ATTENTION!!</font> Due to wishes of some banks we ask you not to mention about
+                    MMM in a payment purpose and use standart formulate.</p>
+
+                <p>At the request of some participants, which active use their own bank accounts for their personal
+                    purposes. We ask you to add to total amount two last numbers of your order to make your transfer
+                    identification more simple. For example for order R111111169 on transfer 3000 000 you can transfer
+                    3000 069 MYR. Thank you.</p>
+
+                <p><strong>Recepient:shukri025 0199816743 (******), phone: 0199816743045</strong></p>
+
+                <p><strong>Sender: Des CK 0175027399 (******), phone: 017502739</strong></p>
+
+                <p><font color="#FF0000">ATTENTION!!</font></p>
+
+                <p>1) SENDER HAS TO PROVIDE HELP IN THE AMOUNT ASSIGNED.
+
+                </p><p>IN CASE OF CASH TRANSFER, OR PERSONAL CARD USE (ONE, NOT LINKED TO THE SYSTEM) COMMISSIONS ARE PAID
+                    BY SENDER; IN CASE OF TRANSFER MADE FORM A SYSTEM ACCOUNT, COMMISSIONS ARE PAID BY THE SYSTEM. YOU
+                    WILL HAVE TO SHOW COMMISSIONS AMOUNT IN APPROPRIATE FIELD.</p>
+
+                <p>2) IN CASE ORDER WAS NOT COMPLETED ON 14-03-15 16:05:01, YOUR ACCOUNT WILL BE BLOCKED AND YOU WILL
+                    NOT BE ABLE TO USE THE SYSTEM. YOUR ORDER WOULD BE GIVEN (redirected) TO ANOTHER PARTICIPANT.</p>
+
+                <p>P.S. In case if the request came not for the full amount indicated in the application. Do not worry!
+                    Requests for remaining sum will be received within 10 days of the filing of your application.
+                    :-))</p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn-default" data-dismiss="modal">取消</button>
+                <button type="button" class="btn-next btn-warning btn-sm" data-dismiss="modal">确认</button>
+            </div>
+        </div>
+    </div>
+</div><div class="modal fade" id="myModa22" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="color-line"></div>
+            <div class="modal-header">
+                <h5 class="modal-title" id="title22">确认申请</h5>
+                <small class="font-bold"></small>
+            </div>
+            <div class="modal-body" style="height:300px;">
+                <p><strong><font color="#FF0000" id="amountpay22"></font> RMB  : 人民币</strong></p>
+                <p>增长率为每日1% Mavro，最高30%  Mavro</p>
+                <p>注意：您的申请如果需要被取消，可以在配对单产生之前提交取消申请。一旦配对单产生了，该施善申请将无法被取消。</p>
+                <p><strong><font color="#FF0000">注意：请核实交易的资料，一旦完成申请，该交易是不能被取消或更改。</font></strong></p>
+
+            </div>
+            <div class="modal-footer">
+                <!--
+                  <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                  -->
+                <button type="button" class="btn-primary" data-dismiss="modal">确认</button>
+            </div>
+        </div>
+    </div>
+</div><div class="modal fade" id="myModa23" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <div class="color-line"></div>
+            <div class="modal-header">
+                <h5 class="modal-title" id="title23">请选择</h5>
+                <small class="font-bold"></small>
+            </div>
+            <div class="modal-body" style="height:400px; overflow:auto">
+              <iframe src='' id="mainframe188" width="830px;" height="350px;" ></iframe>
+            </div>
+            <div class="modal-footer">
+                
+                  <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <!--  
+                <button type="button" class="btn-primary" data-dismiss="modal" id="select_fanshi">确认</button>-->
+            </div>
+
+
+
+        </div>
+    </div>
+</div><div class="modal fade" id="myModa24" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <div class="color-line"></div>
+            <div class="modal-header">
+                <h5 class="modal-title" id="title24">请选择</h5>
+                <small class="font-bold"></small>
+            </div>
+            <div class="modal-body" style="height:400px; overflow:auto">
+              <iframe src='' id="mainframe13" width="830px;" height="350px;" ></iframe>
+            </div>
+            <div class="modal-footer">
+                
+                  <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                 
+                <!--<button type="button" class="btn-primary" data-dismiss="modal" id="select_fanshi2">确认</button> -->
+            </div>
+        </div>
+    </div>
+</div><div class="modal fade" id="myModa25" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <div class="color-line"></div>
+            <div class="modal-header">
+                <h5 class="modal-title" id="title25">请完成操作</h5>
+                <small class="font-bold"></small>
+            </div>
+            <form class="" method="post" id="pfrom" enctype="multipart/form-data" action="updateStatus2">
+                <div class="modal-body" style="height:300px;">
+
+                    <p>上传打款图片</p>
+                    <p><input type="file" name="file">
+                        <span style="color: red">
+                            图片限制大小为2M
+                        </span>
+                    </p>
+
+                    <p>留言</p>
+
+                    <input type="hidden" name="completid" id="completid">
+                    <input type="hidden" name="pro_status" id="pro_status">
+
+                    <textarea rows="4" class="form-control" name="content" style="width: 100%;"></textarea>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn-primary" id="select_fanshi3">确认</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div><div class="modal fade" id="myModa33" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <div class="color-line"></div>
+            <div class="modal-header">
+                <h5 class="modal-title">通告</h5>
+                <small class="font-bold"></small>
+            </div>
+           
+                <div class="modal-body" style="height:300px;">
+                    
+                    <p>温馨提醒保德信会员 ，为保证系统运行流畅 ，确保配对成功会员收付款及时到账 ，请不确定会员在配对成功前提前点击取消键 ，以免耽误收款会员的等待期 。接收帮助款的会员也请保持电话畅通 ，收到款后及时点确认键 。感谢所有保德信慈善互助会员的爱心互助。</p>
+                    
+                    
+                    <br>
+                    <br>
+                    
+                    <p>保德信系统启</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn-primary" data-dismiss="modal" id="next32">关闭</button>
+                </div>
+
+           
+        </div>
+    </div>
+</div><div class="modal fade" id="myModa36" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <div class="color-line"></div>
+            <div class="modal-header">
+                <h5 class="modal-title">通告</h5>
+                <small class="font-bold"></small>
+            </div>
+           
+                <div class="modal-body" style="height:auto;">
+                    
+                    <p>各位会员大家好, </p>
+<p>请在 4月24号 登录的时候重新设置交易密码。一旦设置了交易密码，就无法再次被修改，请把交易密码安全的记录下来,谢谢。</p>
+
+<p>保德信 客服</p>
+                    
+                    
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn-primary" data-dismiss="modal" id="next35">下一条</button>
+                </div>
+
+           
+        </div>
+    </div>
+</div><div class="modal fade" id="myModa35" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <div class="color-line"></div>
+            <div class="modal-header">
+                <h5 class="modal-title">消息提醒</h5>
+                <small class="font-bold"></small>
+            </div>
+           
+                <div class="modal-body" style="height:auto;">
+                    
+                 <p>您在4月11号过后所注册的会员必须重新输入，保德信激活码已经发到你后台，对你造成的不便，向你表达歉意。</p>
+
+                 <p>保德信 客服</p>
+                    
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn-primary" data-dismiss="modal" id="next34">关闭</button>
+                </div>
+
+           
+        </div>
+    </div>
+</div><div class="modal fade" id="myModa31" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="color-line"></div>
+            <div class="modal-header">
+                <h5 class="modal-title" id="title31">确认取消</h5>
+                <small class="font-bold"></small>
+            </div>
+            <div class="modal-body" style="height:300px;">
+                <p>您确定要取消吗？</p>
+            </div>
+            <div class="modal-footer">
+                <!--
+                  <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                  -->
+                  <button type="button" class="btn-primary" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn-primary" id="yes_cancel" data-dismiss="modal">确认</button>
+            </div>
+        </div>
+    </div>
+</div><div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="color-line"></div>
+            <div class="modal-header">
+                <h5 class="modal-title" id="title">详细的订单信息</h5>
+                <small class="font-bold"></small>
+            </div>
+            <div class="modal-body" style="height:400px; overflow:auto">
+              <iframe src='' id="mainframe11" width="830px;" height="350px;" ></iframe>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div><div class="modal fade" id="gethelpmodal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="color-line"></div>
+                    <div class="modal-header">
+                        <h4 class="modal-title">接受帮助</h4>
+
+                        <p class="text-warning"></p>
+                    </div>
+                    <form method="post" action="/Home/Index/jsbzcl" id="get_help">
+                        <div class="modal-body" style="text-align:center">
+                        <input type="hidden" value="" id="wallet_type" name="wallet_type">
+                          
+                          <div class="input-group m-b"><span class="input-group-addon">可出售余额</span> <input type="text" placeholder="" class="form-control" value="{$userData['ue_money']}RMB" readonly=""></div>
+                          <div class="input-group m-b"><span class="input-group-addon">最低出售数量</span> <input type="text" class="form-control" value="{$a|hk=100,###}" readonly=""></div>
+                           
+                            <br>
+                            <label class="col-sm-12 control-label">接受帮助支付方式</label>
+
+                            <div class="radio" align="left">
+                            
+                                <label> <input type="checkbox" value="1" class="ckbox2" name="zffs1" checked="">银行支付</label><br>
+                                <label> <input type="checkbox" value="1" class="ckbox2" name="zffs2" checked="">支付宝支付</label><br>
+                                <label> <input type="checkbox" value="1" class="ckbox2" name="zffs3" checked="">微信支付</label><br>
+                            </div>
+
+                            <div class="form-group">
+                        <div class="input-group">
+                            <input type="text" class="form-control get_amount" placeholder="输入RMB,100起,100的倍数" name="get_amount" autocomplete="off" required="">
+                           
+                        </div>
+                                
+                            </div>
+                            <!--<div class="form-group">
+                                <font id="gh_amount"></font> MAVROx7=<font id="gh"></font>
+                                人民币
+                            </div>-->
+                            <div class="form-group">
+                                <h4>
+                                </h4>
+                            </div>
+
+                            <div class="icheckbox_square-green checked" style="position: relative;"><input type="checkbox" class="i-checks" name="i-checks" checked="" required="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
+                            警告，我已完全了解所有风险。我决定参与保德信,尊重保德信文化与传统。
+                        </div>
+
+                        <div class="modal-footer">
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                            <input name="jhwjjc"  id="jhwjjc" type="submit" class="btn_next btn-warning btn-sm" value="接受帮助">
+                    
+                </div></form>
+            </div>
+        </div>
+    </div><div class="modal fade" id="get_help_comfirm" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="color-line"></div>
+            <div class="modal-header">
+                <h5 class="modal-title" id="title">确认申请</h5>
+                <small class="font-bold"></small>
+            </div>
+            <div class="modal-body" style="height:300px;">
+            <p><strong>您将会获得<font color="00FF00" id="amount_get"></font> RMB  : 人民币</strong></p>
+            <p></p>
+            <p>注意：您的申请如果需要被取消，可以在配对单产生之前提交取消申请。一旦配对单产生了，该申请将无法被取消。</p>
+            <p><strong><font color="#FF0000">注意：请核实交易的资料，一旦完成申请，该交易是不能被取消或更改。</font></strong></p>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+              <button type="button" class="btn_get_next btn-primary">确认</button>
+              
+            </div>
+        </div>
+    </div>
+</div><div><div class="sweet-overlay" tabindex="-1"></div><div class="sweet-alert" tabindex="-1"><div class="icon error"><span class="x-mark"><span class="line left"></span><span class="line right"></span></span></div><div class="icon warning"> <span class="body"></span> <span class="dot"></span> </div> <div class="icon info"></div> <div class="icon success"> <span class="line tip"></span> <span class="line long"></span> <div class="placeholder"></div> <div class="fix"></div> </div> <div class="icon custom"></div> <h2>Title</h2><p>Text</p><button class="cancel" tabindex="2">Cancel</button><button class="confirm" tabindex="1">OK</button></div></div></body></html>

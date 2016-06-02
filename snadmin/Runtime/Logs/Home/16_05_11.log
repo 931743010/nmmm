@@ -1,0 +1,1098 @@
+[ 2016-05-11T17:42:05+08:00 ] 173.245.48.163 /admin.php/Home/Index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2016-05-11T17:42:05+08:00 ] 173.245.48.163 /admin.php/Home/Index/df1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_drrz` WHERE `user` = 'admin' AND `leixin` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_regTime`> '2016-05-11 00:00:00' AND `UE_regTime` < '2016-05-11 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_activeTime`> '2016-05-11 00:00:00' AND `UE_activeTime` < '2016-05-11 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_regTime`> '2016-05-10 00:00:00' AND `UE_regTime` < '2016-05-10 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_activeTime`> '2016-05-10 00:00:00' AND `UE_activeTime` < '2016-05-10 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' AND `UE_check` = '1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' AND `UE_check` = '1' AND `UE_stop` = '0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(UE_money) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(ybhe) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(zsbhe) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2016-05-11T17:42:05+08:00 ] 173.245.48.163 /admin.php/Home/Index/top.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-05-11T17:42:05+08:00 ] 173.245.48.163 /admin.php/Home/Index/left.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2016-05-11T17:42:12+08:00 ] 173.245.48.163 /admin.php/Home/Index/userlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/IndexController.class.php 第 300 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '127.0.0.1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '123.151.42.47' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '14.156.245.8' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '14.156.245.8' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '117.136.40.177' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '199.27.133.110' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-05-11T17:42:18+08:00 ] 173.245.48.163 /admin.php/Home/Index/userdel/id/10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 10 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `ot_user` WHERE `UE_ID` = 10 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2016-05-11T17:42:47+08:00 ] 173.245.48.163 /admin.php/Home/Index/userlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/IndexController.class.php 第 300 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '127.0.0.1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '123.151.42.47' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '14.156.245.8' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '14.156.245.8' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '117.136.40.177' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2016-05-11T17:44:01+08:00 ] 173.245.48.163 /admin.php/Home/Index/user_xg/user/13266776666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13266776666' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: UE_status /phpstudy/www/www.cngsoros.com/snadmin/Runtime/Cache/Home/a2671ee013aaea3677a317bb326b9791.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2016-05-11T17:44:05+08:00 ] 173.245.48.163 /admin.php/Home/Index/userdel/id/8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `ot_user` WHERE `UE_ID` = 8 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-05-11T17:44:07+08:00 ] 173.245.48.163 /admin.php/Home/Index/userlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/IndexController.class.php 第 300 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '127.0.0.1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '123.151.42.47' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '14.156.245.8' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '117.136.40.177' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2016-05-11T17:44:11+08:00 ] 173.245.48.163 /admin.php/Home/Index/userdel/id/7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `ot_user` WHERE `UE_ID` = 7 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2016-05-11T17:44:12+08:00 ] 173.245.48.163 /admin.php/Home/Index/userlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/IndexController.class.php 第 300 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '127.0.0.1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '123.151.42.47' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '117.136.40.177' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2016-05-11T17:44:15+08:00 ] 173.245.48.163 /admin.php/Home/Index/user_xg/user/admin@qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: UE_status /phpstudy/www/www.cngsoros.com/snadmin/Runtime/Cache/Home/a2671ee013aaea3677a317bb326b9791.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2016-05-11T17:48:35+08:00 ] 173.245.48.163 /admin.php/Home/Index/userlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/IndexController.class.php 第 300 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '127.0.0.1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '123.151.42.47' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '117.136.40.177' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2016-05-11T17:48:37+08:00 ] 173.245.48.163 /admin.php/Home/Index/user_xg/user/13662201618
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13662201618' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: UE_status /phpstudy/www/www.cngsoros.com/snadmin/Runtime/Cache/Home/a2671ee013aaea3677a317bb326b9791.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2016-05-11T17:48:41+08:00 ] 173.245.48.163 /admin.php/Home/Index/userdel/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `ot_user` WHERE `UE_ID` = 9 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2016-05-11T17:48:49+08:00 ] 173.245.48.163 /admin.php/Home/Index/userdel/id/6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `ot_user` WHERE `UE_ID` = 6 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-05-11T17:48:51+08:00 ] 173.245.48.163 /admin.php/Home/Index/main
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2016-05-11T17:48:51+08:00 ] 173.245.48.163 /admin.php/Home/Index/top.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2016-05-11T17:49:27+08:00 ] 173.245.48.143 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+ERR: 非法操作:index
+
+[ 2016-05-11T17:49:28+08:00 ] 173.245.48.143 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+ERR: 非法操作:index
+
+[ 2016-05-11T17:49:34+08:00 ] 173.245.48.143 /admin.php/Home/Index/main
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2016-05-11T17:49:35+08:00 ] 173.245.48.143 /admin.php/Home/Index/top.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-05-11T17:49:35+08:00 ] 173.245.48.143 /admin.php/Home/Index/df1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_drrz` WHERE `user` = 'admin' AND `leixin` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_regTime`> '2016-05-11 00:00:00' AND `UE_regTime` < '2016-05-11 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_activeTime`> '2016-05-11 00:00:00' AND `UE_activeTime` < '2016-05-11 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_regTime`> '2016-05-10 00:00:00' AND `UE_regTime` < '2016-05-10 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_activeTime`> '2016-05-10 00:00:00' AND `UE_activeTime` < '2016-05-10 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' AND `UE_check` = '1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' AND `UE_check` = '1' AND `UE_stop` = '0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(UE_money) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(ybhe) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(zsbhe) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-05-11T17:49:35+08:00 ] 173.245.48.143 /admin.php/Home/Index/left.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2016-05-11T17:49:37+08:00 ] 173.245.48.143 /admin.php/Home/Index/userlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/IndexController.class.php 第 300 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '127.0.0.1' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2016-05-11T17:49:44+08:00 ] 173.245.48.143 /admin.php/Home/Index/pin_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `zt` = 0 ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-05-11T17:49:51+08:00 ] 173.245.48.143 /admin.php/Home/Index/pin_del/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+SQL: DELETE FROM `ot_pin` WHERE `id` = 9 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2016-05-11T17:49:55+08:00 ] 173.245.48.143 /admin.php/Home/Index/pin_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `zt` = 0 ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2016-05-11T17:51:19+08:00 ] 173.245.48.143 /admin.php/Home/Code/code_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/CodeController.class.php 第 64 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/CodeController.class.php 第 69 行.
+SQL: SELECT * FROM `ot_code` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2016-05-11T17:51:30+08:00 ] 173.245.48.143 /admin.php/Home/Code/code_list/p/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/CodeController.class.php 第 64 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/CodeController.class.php 第 69 行.
+SQL: SELECT * FROM `ot_code` ORDER BY id DESC LIMIT 20,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2016-05-11T17:51:31+08:00 ] 173.245.48.143 /admin.php/Home/Code/code_list/p/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/CodeController.class.php 第 64 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/CodeController.class.php 第 69 行.
+SQL: SELECT * FROM `ot_code` ORDER BY id DESC LIMIT 60,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2016-05-11T17:52:10+08:00 ] 173.245.48.143 /admin.php/Home/Code/code_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/CodeController.class.php 第 64 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/CodeController.class.php 第 69 行.
+SQL: SELECT * FROM `ot_code` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2016-05-11T17:52:12+08:00 ] 173.245.48.143 /admin.php/Home/Code/code_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: page /phpstudy/www/www.cngsoros.com/snadmin/Runtime/Cache/Home/0db364029371349824c8dbe1d39bb281.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2016-05-11T17:52:14+08:00 ] 173.245.48.143 /admin.php/Home/Code/code_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/CodeController.class.php 第 64 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/CodeController.class.php 第 69 行.
+SQL: SELECT * FROM `ot_code` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2016-05-11T17:52:18+08:00 ] 173.245.48.143 /admin.php/Home/Index/pin_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `zt` = 0 ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2016-05-11T18:00:11+08:00 ] 173.245.48.143 /admin.php/Home/Index/pin_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `zt` = 0 ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2016-05-11T18:00:13+08:00 ] 173.245.48.143 /admin.php/Home/Index/pin_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: page /phpstudy/www/www.cngsoros.com/snadmin/Runtime/Cache/Home/c57dd95c4c85874edcc04d830e0d78f8.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-05-11T18:00:16+08:00 ] 173.245.48.143 /admin.php/Home/Index/userlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/IndexController.class.php 第 300 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '127.0.0.1' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-05-11T18:00:18+08:00 ] 173.245.48.143 /admin.php/Home/Index/jbzs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `ot_userget` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_userget` WHERE `UG_dataType` = 'xtzs' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Think\Crypt::decrypt(), called in /phpstudy/www/www.cngsoros.com/snadmin/Home/Common/function.php on line 96 and defined /phpstudy/www/www.cngsoros.com/ThinkPHP/Library/Think/Crypt.class.php 第 46 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/www.cngsoros.com/ThinkPHP/Library/Think/Crypt.class.php 第 51 行.
+NOTIC: [2] Missing argument 2 for Think\Crypt::encrypt(), called in /phpstudy/www/www.cngsoros.com/snadmin/Home/Common/function.php on line 282 and defined /phpstudy/www/www.cngsoros.com/ThinkPHP/Library/Think/Crypt.class.php 第 32 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/www.cngsoros.com/ThinkPHP/Library/Think/Crypt.class.php 第 37 行.
+SQL: SELECT * FROM `ot_userget` WHERE `UG_dataType` = 'xtzs' ORDER BY UG_ID DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: userdata /phpstudy/www/www.cngsoros.com/snadmin/Runtime/Cache/Home/5da695a2c3b8808e2fba288086be86d6.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-05-11T18:00:19+08:00 ] 173.245.48.143 /admin.php/Home/Index/team
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-05-11T18:00:21+08:00 ] 173.245.48.143 /admin.php/Home/Common/getTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `UE_account` FROM `ot_user` WHERE `UE_accName` = 'admin@qq.com'  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2016-05-11T18:00:21+08:00 ] 173.245.48.143 /admin.php/Home/Index/txlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `ot_tixian` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/IndexController.class.php 第 266 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tixian` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/IndexController.class.php 第 271 行.
+SQL: SELECT * FROM `ot_tixian` ORDER BY id LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2016-05-11T18:00:23+08:00 ] 173.245.48.143 /admin.php/Home/Index/jbzs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `ot_userget` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_userget` WHERE `UG_dataType` = 'xtzs' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Think\Crypt::decrypt(), called in /phpstudy/www/www.cngsoros.com/snadmin/Home/Common/function.php on line 96 and defined /phpstudy/www/www.cngsoros.com/ThinkPHP/Library/Think/Crypt.class.php 第 46 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/www.cngsoros.com/ThinkPHP/Library/Think/Crypt.class.php 第 51 行.
+NOTIC: [2] Missing argument 2 for Think\Crypt::encrypt(), called in /phpstudy/www/www.cngsoros.com/snadmin/Home/Common/function.php on line 282 and defined /phpstudy/www/www.cngsoros.com/ThinkPHP/Library/Think/Crypt.class.php 第 32 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/www.cngsoros.com/ThinkPHP/Library/Think/Crypt.class.php 第 37 行.
+SQL: SELECT * FROM `ot_userget` WHERE `UG_dataType` = 'xtzs' ORDER BY UG_ID DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: userdata /phpstudy/www/www.cngsoros.com/snadmin/Runtime/Cache/Home/5da695a2c3b8808e2fba288086be86d6.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-05-11T18:00:24+08:00 ] 173.245.48.143 /admin.php/Home/Index/team
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2016-05-11T18:00:24+08:00 ] 173.245.48.143 /admin.php/Home/Common/getTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `UE_account` FROM `ot_user` WHERE `UE_accName` = 'admin@qq.com'  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-05-11T18:00:29+08:00 ] 173.245.48.143 /admin.php/Home/Index/tgbz_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0008s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `zt` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `zt` <> 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `zt` = 0 ORDER BY date  LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-05-11T20:10:09+08:00 ] 173.245.48.143 /admin.php/Home/Index/userlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/www.cngsoros.com/snadmin/Home/Controller/IndexController.class.php 第 300 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '127.0.0.1' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2016-05-11T20:10:13+08:00 ] 173.245.48.143 /admin.php/Home/Index/userlist/ip/127.0.0.1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '127.0.0.1' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_regIP` = '127.0.0.1' ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '127.0.0.1' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2016-05-11T20:10:16+08:00 ] 173.245.48.143 /admin.php/Home/Index/userlist/ip/127.0.0.1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '127.0.0.1' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_regIP` = '127.0.0.1' ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '127.0.0.1' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-05-11T20:10:19+08:00 ] 173.245.48.143 /admin.php/Home/Shop/zsbyg_list_xg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined variable: caution /phpstudy/www/www.cngsoros.com/snadmin/Runtime/Cache/Home/c1f2963ad68801675ac0a9c0b693df8c.php 第 81 行.
+NOTIC: [8] Undefined variable: page /phpstudy/www/www.cngsoros.com/snadmin/Runtime/Cache/Home/c1f2963ad68801675ac0a9c0b693df8c.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2016-05-11T20:10:24+08:00 ] 173.245.48.143 /admin.php/Home/Shop/ly_list/type/0/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `ot_message` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_message` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_message` WHERE `zt` = 0 ORDER BY MA_ID DESC LIMIT 0,100   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2016-05-11T20:10:26+08:00 ] 173.245.48.143 /admin.php/Home/Index/pin_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: page /phpstudy/www/www.cngsoros.com/snadmin/Runtime/Cache/Home/c57dd95c4c85874edcc04d830e0d78f8.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-05-11T20:38:40+08:00 ] 173.245.48.143 /admin.php/Home/Index/main
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+

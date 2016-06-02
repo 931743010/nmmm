@@ -1,0 +1,2312 @@
+[ 2016-05-02T17:20:23+08:00 ] 14.156.245.8 /admin.php/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+
+[ 2016-05-02T17:20:25+08:00 ] 14.156.245.8 /admin.php/Home/Login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2016-05-02T17:20:26+08:00 ] 180.153.201.79 /admin.php/home/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2016-05-02T17:20:26+08:00 ] 14.156.245.8 /admin.php/Home/login/verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-05-02T17:20:26+08:00 ] 101.226.33.208 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+
+[ 2016-05-02T17:20:36+08:00 ] 112.64.235.245 /admin.php/home/login/logincl
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2016-05-02T17:20:38+08:00 ] 14.156.245.8 /admin.php/Home/Login/logincl
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+NOTIC: [2] Missing argument 2 for Think\Crypt::decrypt(), called in /phpstudy/www/mmm.bianji.cn/snadmin/Home/Common/function.php on line 96 and defined /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 46 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 51 行.
+NOTIC: [2] Missing argument 2 for Think\Crypt::encrypt(), called in /phpstudy/www/mmm.bianji.cn/snadmin/Home/Common/function.php on line 282 and defined /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 32 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 37 行.
+NOTIC: [2] Missing argument 2 for Think\Crypt::decrypt(), called in /phpstudy/www/mmm.bianji.cn/snadmin/Home/Common/function.php on line 96 and defined /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 46 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 51 行.
+NOTIC: [2] Missing argument 2 for Think\Crypt::encrypt(), called in /phpstudy/www/mmm.bianji.cn/snadmin/Home/Common/function.php on line 282 and defined /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 32 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `ot_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_member` WHERE `MB_username` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.0004s ]
+SQL: INSERT INTO `ot_drrz` (`date`,`ip`,`user`,`leixin`) VALUES ('2016-05-02 17:20:38','14.156.245.8','admin','1') [ RunTime:0.0002s ]
+
+[ 2016-05-02T17:20:39+08:00 ] 14.156.245.8 /admin.php/Home/Index/main
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-05-02T17:20:40+08:00 ] 14.156.245.8 /admin.php/Home/Index/top.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-05-02T17:20:40+08:00 ] 14.156.245.8 /admin.php/Home/Index/df1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_drrz` WHERE `user` = 'admin' AND `leixin` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_regTime`> '2016-05-02 00:00:00' AND `UE_regTime` < '2016-05-02 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_activeTime`> '2016-05-02 00:00:00' AND `UE_activeTime` < '2016-05-02 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_regTime`> '2016-05-01 00:00:00' AND `UE_regTime` < '2016-05-01 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_activeTime`> '2016-05-01 00:00:00' AND `UE_activeTime` < '2016-05-01 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' AND `UE_check` = '1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' AND `UE_check` = '1' AND `UE_stop` = '0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(UE_money) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(ybhe) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(zsbhe) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2016-05-02T17:20:40+08:00 ] 14.156.245.8 /admin.php/Home/Index/left.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2016-05-02T17:20:42+08:00 ] 180.153.206.35 /admin.php/Home/Index/left.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+
+[ 2016-05-02T17:20:42+08:00 ] 180.153.206.13 /admin.php/Home/Index/left.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+
+[ 2016-05-02T17:20:43+08:00 ] 180.153.163.191 /admin.php/Home/Index/left.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+
+[ 2016-05-02T17:20:46+08:00 ] 14.156.245.8 /admin.php/Home/Code/code_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/CodeController.class.php 第 64 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/CodeController.class.php 第 69 行.
+SQL: SELECT * FROM `ot_code` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2016-05-02T17:20:49+08:00 ] 14.156.245.8 /admin.php/Home/Index/jjset
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2016-05-02T17:20:49+08:00 ] 14.156.245.8 /admin.php/Home/Index/txset
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-05-02T17:20:50+08:00 ] 14.156.245.8 /admin.php/Home/Common/getTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2016-05-02T17:20:53+08:00 ] 14.156.245.8 /admin.php/Home/Index/lixi
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2016-05-02T17:20:53+08:00 ] 14.156.245.8 /admin.php/Home/Common/getTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2016-05-02T17:20:56+08:00 ] 14.156.245.8 /admin.php/Home/Index/txset
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2016-05-02T17:20:56+08:00 ] 14.156.245.8 /admin.php/Home/Common/getTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2016-05-02T17:20:56+08:00 ] 14.156.245.8 /admin.php/Home/Index/jjset
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2016-05-02T17:20:57+08:00 ] 14.156.245.8 /admin.php/Home/Common/getTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2016-05-02T17:20:58+08:00 ] 14.156.245.8 /admin.php/Home/Index/userlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/IndexController.class.php 第 300 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '127.0.0.1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '123.151.42.47' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2016-05-02T17:21:15+08:00 ] 14.156.245.8 /admin.php/Home/Index/user_xg/user/18623720555
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18623720555' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: UE_status /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/a2671ee013aaea3677a317bb326b9791.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2016-05-02T17:21:43+08:00 ] 14.156.245.8 /admin.php/Home/Code/code_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined variable: page /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/0db364029371349824c8dbe1d39bb281.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-05-02T17:21:45+08:00 ] 180.153.161.55 /admin.php/Home/Code/code_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+
+[ 2016-05-02T17:21:46+08:00 ] 180.153.161.55 /admin.php/Home/Login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-05-02T17:21:51+08:00 ] 14.156.245.8 /admin.php/Home/Code/code_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/CodeController.class.php 第 64 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/CodeController.class.php 第 69 行.
+SQL: SELECT * FROM `ot_code` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-05-02T17:21:52+08:00 ] 14.156.245.8 /admin.php/Home/Code/code_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: page /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/0db364029371349824c8dbe1d39bb281.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-05-02T17:21:56+08:00 ] 14.156.245.8 /admin.php/Home/Code/code_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant UE_account - assumed 'UE_account' /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/CodeController.class.php 第 17 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18623720555' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '57271c34444519779' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('18623720555','57271c34444519779','1','2016-05-02 17:21:56') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '57271c34449498597' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('18623720555','57271c34449498597','1','2016-05-02 17:21:56') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '57271c3444b684797' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('18623720555','57271c3444b684797','1','2016-05-02 17:21:56') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '57271c3444d895425' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('18623720555','57271c3444d895425','1','2016-05-02 17:21:56') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '57271c3444f9a6340' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('18623720555','57271c3444f9a6340','1','2016-05-02 17:21:56') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '57271c34451bd2478' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('18623720555','57271c34451bd2478','1','2016-05-02 17:21:56') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '57271c34453cf1805' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('18623720555','57271c34453cf1805','1','2016-05-02 17:21:56') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '57271c34455f38416' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('18623720555','57271c34455f38416','1','2016-05-02 17:21:56') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '57271c344580d1778' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('18623720555','57271c344580d1778','1','2016-05-02 17:21:56') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '57271c3445a254284' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('18623720555','57271c3445a254284','1','2016-05-02 17:21:56') [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2016-05-02T17:21:57+08:00 ] 14.156.245.8 /admin.php/Home/Code/code_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: page /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/0db364029371349824c8dbe1d39bb281.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2016-05-02T17:21:59+08:00 ] 14.156.245.8 /admin.php/Home/Code/code_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/CodeController.class.php 第 64 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/CodeController.class.php 第 69 行.
+SQL: SELECT * FROM `ot_code` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2016-05-02T17:22:28+08:00 ] 14.156.245.8 /admin.php/Home/Index/tgbz_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0009s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `zt` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `zt` <> 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `zt` = 0 ORDER BY date  LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-05-02T17:22:31+08:00 ] 101.226.68.217 /admin.php/Home/Index/tgbz_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+
+[ 2016-05-02T17:22:31+08:00 ] 101.226.68.217 /admin.php/Home/Login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-05-02T17:22:37+08:00 ] 101.226.33.208 /admin.php/Home/Login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-05-02T17:23:11+08:00 ] 14.156.245.8 /admin.php/Home/Index/tgbz_list_sd/id/1/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE (  `zffs1` = '1' OR `zffs2` = '1' OR `zffs3` = '1' ) AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE (  `zffs1` = '1' OR `zffs2` = '1' OR `zffs3` = '1' ) AND `zt` = 0 ORDER BY date  LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/33282565f5a32dccf2e530a76b535d4e.php 第 51 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/33282565f5a32dccf2e530a76b535d4e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2016-05-02T17:23:13+08:00 ] 14.156.245.8 /admin.php/Home/Index/jsbz_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0009s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` WHERE `zt` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` WHERE `zt` <> '1' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `zt` = 0 ORDER BY date  LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2016-05-02T17:23:16+08:00 ] 14.156.245.8 /admin.php/Home/Index/tgbz_list/cz/0/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0009s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `zt` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `zt` <> 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `zt` = 0 ORDER BY date  LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2016-05-02T17:23:21+08:00 ] 14.156.245.8 /admin.php/Home/Index/tgbz_list_sd/id/1/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE (  `zffs1` = '1' OR `zffs2` = '1' OR `zffs3` = '1' ) AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE (  `zffs1` = '1' OR `zffs2` = '1' OR `zffs3` = '1' ) AND `zt` = 0 ORDER BY date  LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/33282565f5a32dccf2e530a76b535d4e.php 第 51 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/33282565f5a32dccf2e530a76b535d4e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2016-05-02T17:23:26+08:00 ] 14.156.245.8 /admin.php/Home/Index/tgbz_list_cf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0009s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `qr_zt` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `qr_zt` <> '1' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `zt` = 0 ORDER BY id LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2016-05-02T17:23:42+08:00 ] 180.153.206.35 /admin.php/Home/Login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-05-02T17:25:26+08:00 ] 14.156.245.8 /admin.php/Home/Index/jsbz_list_cf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0009s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` WHERE `qr_zt` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` WHERE `qr_zt` <> '1' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `zt` = 0 ORDER BY id LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2016-05-02T17:25:28+08:00 ] 14.156.245.8 /admin.php/Home/Index/jsbz_list_cf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0009s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` WHERE `qr_zt` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` WHERE `qr_zt` <> '1' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `zt` = 0 ORDER BY id LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-05-02T17:25:29+08:00 ] 180.153.214.188 /admin.php/Home/Index/jsbz_list_cf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+
+[ 2016-05-02T17:25:32+08:00 ] 14.156.245.8 /admin.php/Home/Index/tgbz_list_cf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0009s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `qr_zt` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `qr_zt` <> '1' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `zt` = 0 ORDER BY id LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2016-05-02T17:25:34+08:00 ] 14.156.245.8 /admin.php/Home/Index/tgbz_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0010s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `zt` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `zt` <> 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `zt` = 0 ORDER BY date  LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-05-02T17:28:14+08:00 ] 180.153.214.188 /admin.php/Home/Login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2016-05-02T17:33:51+08:00 ] 14.156.245.8 /admin.php/Home/Index/tgbz_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0009s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `zt` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `zt` <> 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `zt` = 0 ORDER BY date  LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-05-02T17:33:56+08:00 ] 14.156.245.8 /admin.php/Home/Index/tgbz_list_sd/id/2/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE (  `zffs1` = '1' OR `zffs2` = '1' OR `zffs3` = '1' ) AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE (  `zffs1` = '1' OR `zffs2` = '1' OR `zffs3` = '1' ) AND `zt` = 0 ORDER BY date  LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/33282565f5a32dccf2e530a76b535d4e.php 第 51 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/33282565f5a32dccf2e530a76b535d4e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2016-05-02T17:33:59+08:00 ] 14.156.245.8 /admin.php/Home/Index/adminlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `ot_member` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/IndexController.class.php 第 322 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_member` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/IndexController.class.php 第 327 行.
+SQL: SELECT * FROM `ot_member` ORDER BY MB_ID LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-05-02T17:35:16+08:00 ] 14.156.245.8 /admin.php/Home/Index/pin_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: page /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/c57dd95c4c85874edcc04d830e0d78f8.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2016-05-02T17:35:16+08:00 ] 14.156.245.8 /admin.php/Home/Index/pin_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `zt` = 0 ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2016-05-02T17:51:03+08:00 ] 14.156.245.8 /admin.php/Home/Index/pin_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined variable: page /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/c57dd95c4c85874edcc04d830e0d78f8.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2016-05-02T17:51:06+08:00 ] 14.156.245.8 /admin.php/Home/Code/code_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: page /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/0db364029371349824c8dbe1d39bb281.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2016-05-02T17:51:08+08:00 ] 14.156.245.8 /admin.php/Home/Code/code_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/CodeController.class.php 第 64 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/CodeController.class.php 第 69 行.
+SQL: SELECT * FROM `ot_code` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2016-05-02T17:51:17+08:00 ] 14.156.245.8 /admin.php/Home/Code/code_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: page /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/0db364029371349824c8dbe1d39bb281.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2016-05-02T17:53:50+08:00 ] 14.156.245.8 /admin.php/Home/Index/pin_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `zt` = 0 ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2016-05-02T17:54:15+08:00 ] 14.156.245.8 /admin.php/Home/Index/userlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/IndexController.class.php 第 300 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '127.0.0.1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '123.151.42.47' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '14.156.245.8' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2016-05-02T17:55:16+08:00 ] 14.156.245.8 /admin.php/Home/Code/code_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: page /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/0db364029371349824c8dbe1d39bb281.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2016-05-02T17:55:25+08:00 ] 14.156.245.8 /admin.php/Home/Code/code_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+NOTIC: [8] Use of undefined constant UE_account - assumed 'UE_account' /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/CodeController.class.php 第 17 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13266776667' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '5727240de9c611379' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('13266776667','5727240de9c611379','1','2016-05-02 17:55:25') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '5727240dea15a2518' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('13266776667','5727240dea15a2518','1','2016-05-02 17:55:25') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '5727240dea38a6956' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('13266776667','5727240dea38a6956','1','2016-05-02 17:55:25') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '5727240dea5a53550' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('13266776667','5727240dea5a53550','1','2016-05-02 17:55:25') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '5727240dea7bd3473' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('13266776667','5727240dea7bd3473','1','2016-05-02 17:55:25') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '5727240dea9d62087' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('13266776667','5727240dea9d62087','1','2016-05-02 17:55:25') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '5727240deabec9734' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('13266776667','5727240deabec9734','1','2016-05-02 17:55:25') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '5727240deae0b2686' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('13266776667','5727240deae0b2686','1','2016-05-02 17:55:25') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '5727240deb0206419' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('13266776667','5727240deb0206419','1','2016-05-02 17:55:25') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '5727240deb23d5245' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('13266776667','5727240deb23d5245','1','2016-05-02 17:55:25') [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2016-05-02T17:55:27+08:00 ] 14.156.245.8 /admin.php/Home/Code/code_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: page /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/0db364029371349824c8dbe1d39bb281.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2016-05-02T18:00:04+08:00 ] 14.156.245.8 /admin.php/Home/Index/tgbz_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0009s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `zt` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `zt` <> 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `zt` = 0 ORDER BY date  LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2016-05-02T18:00:44+08:00 ] 14.156.245.8 /admin.php/Home/Index/df1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_drrz` WHERE `user` = 'admin' AND `leixin` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_regTime`> '2016-05-02 00:00:00' AND `UE_regTime` < '2016-05-02 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_activeTime`> '2016-05-02 00:00:00' AND `UE_activeTime` < '2016-05-02 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_regTime`> '2016-05-01 00:00:00' AND `UE_regTime` < '2016-05-01 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_activeTime`> '2016-05-01 00:00:00' AND `UE_activeTime` < '2016-05-01 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' AND `UE_check` = '1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' AND `UE_check` = '1' AND `UE_stop` = '0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(UE_money) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(ybhe) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(zsbhe) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2016-05-02T18:00:50+08:00 ] 14.156.245.8 /admin.php/Home/Index/lixi
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2016-05-02T18:00:50+08:00 ] 14.156.245.8 /admin.php/Home/Common/getTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2016-05-02T18:00:51+08:00 ] 14.156.245.8 /admin.php/Home/Index/txset
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-05-02T18:00:51+08:00 ] 14.156.245.8 /admin.php/Home/Common/getTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2016-05-02T18:00:54+08:00 ] 14.156.245.8 /admin.php/Home/Index/jjset
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2016-05-02T18:00:54+08:00 ] 14.156.245.8 /admin.php/Home/Common/getTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-05-02T18:02:43+08:00 ] 14.156.245.8 /admin.php/Home/Index/pin_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined variable: page /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/c57dd95c4c85874edcc04d830e0d78f8.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2016-05-02T18:02:44+08:00 ] 14.156.245.8 /admin.php/Home/Index/pin_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `zt` = 0 ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2016-05-02T18:02:52+08:00 ] 14.156.245.8 /admin.php/Home/Index/pin_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `zt` = 0 ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2016-05-02T18:02:54+08:00 ] 14.156.245.8 /admin.php/Home/Index/main
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-05-02T18:02:54+08:00 ] 14.156.245.8 /admin.php/Home/Index/top.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2016-05-02T18:02:54+08:00 ] 14.156.245.8 /admin.php/Home/Index/left.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-05-02T18:02:54+08:00 ] 14.156.245.8 /admin.php/Home/Index/df1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_drrz` WHERE `user` = 'admin' AND `leixin` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_regTime`> '2016-05-02 00:00:00' AND `UE_regTime` < '2016-05-02 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_activeTime`> '2016-05-02 00:00:00' AND `UE_activeTime` < '2016-05-02 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_regTime`> '2016-05-01 00:00:00' AND `UE_regTime` < '2016-05-01 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_activeTime`> '2016-05-01 00:00:00' AND `UE_activeTime` < '2016-05-01 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' AND `UE_check` = '1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' AND `UE_check` = '1' AND `UE_stop` = '0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(UE_money) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(ybhe) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(zsbhe) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-05-02T18:02:56+08:00 ] 14.156.245.8 /admin.php/Home/Index/txlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `ot_tixian` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/IndexController.class.php 第 266 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tixian` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/IndexController.class.php 第 271 行.
+SQL: SELECT * FROM `ot_tixian` ORDER BY id LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2016-05-02T18:02:59+08:00 ] 14.156.245.8 /admin.php/Home/Index/pin_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `zt` = 0 ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-05-02T18:08:26+08:00 ] 14.156.245.8 /admin.php/Home/Index/tgbz_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0010s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `zt` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `zt` <> 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `zt` = 0 ORDER BY date  LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2016-05-02T18:08:30+08:00 ] 14.156.245.8 /admin.php/Home/Index/tgbz_list_sd/id/3/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE (  `zffs1` = '1' OR `zffs2` = '1' OR `zffs3` = '1' ) AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE (  `zffs1` = '1' OR `zffs2` = '1' OR `zffs3` = '1' ) AND `zt` = 0 ORDER BY date  LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/33282565f5a32dccf2e530a76b535d4e.php 第 51 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/33282565f5a32dccf2e530a76b535d4e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2016-05-02T18:08:33+08:00 ] 14.156.245.8 /admin.php/Home/Index/tgbz_list_sd_cl
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+
+[ 2016-05-02T18:08:36+08:00 ] 14.156.245.8 /admin.php/Home/Index/jsbz_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0008s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` WHERE `zt` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` WHERE `zt` <> '1' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `zt` = 0 ORDER BY date  LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2016-05-02T18:08:38+08:00 ] 14.156.245.8 /admin.php/Home/Index/tgbz_list/cz/0/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0009s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `zt` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `zt` <> 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `zt` = 0 ORDER BY date  LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2016-05-02T18:08:41+08:00 ] 14.156.245.8 /admin.php/Home/Index/tgbz_list_sd/id/3/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE (  `zffs1` = '1' OR `zffs2` = '1' OR `zffs3` = '1' ) AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE (  `zffs1` = '1' OR `zffs2` = '1' OR `zffs3` = '1' ) AND `zt` = 0 ORDER BY date  LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Use of undefined constant c - assumed 'c' /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/33282565f5a32dccf2e530a76b535d4e.php 第 51 行.
+NOTIC: [8] Use of undefined constant a - assumed 'a' /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/33282565f5a32dccf2e530a76b535d4e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-05-02T18:14:46+08:00 ] 14.156.245.8 /admin.php/Home/Index/jsbz_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0009s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` WHERE `zt` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_jsbz` WHERE `zt` <> '1' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `zt` = 0 ORDER BY date  LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2016-05-02T18:14:47+08:00 ] 14.156.245.8 /admin.php/Home/Index/tgbz_list/cz/0/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0010s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `zt` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_tgbz` WHERE `zt` <> 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `zt` = 0 ORDER BY date  LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2016-05-02T18:21:15+08:00 ] 14.156.245.8 /admin.php/Home/Index/jbzs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `ot_userget` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_userget` WHERE `UG_dataType` = 'xtzs' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Think\Crypt::decrypt(), called in /phpstudy/www/mmm.bianji.cn/snadmin/Home/Common/function.php on line 96 and defined /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 46 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 51 行.
+NOTIC: [2] Missing argument 2 for Think\Crypt::encrypt(), called in /phpstudy/www/mmm.bianji.cn/snadmin/Home/Common/function.php on line 282 and defined /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 32 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 37 行.
+SQL: SELECT * FROM `ot_userget` WHERE `UG_dataType` = 'xtzs' ORDER BY UG_ID DESC LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: userdata /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/5da695a2c3b8808e2fba288086be86d6.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2016-05-02T18:21:22+08:00 ] 14.156.245.8 /admin.php/Home/Index/jbzs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `ot_userget` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_userget` WHERE `UG_dataType` = 'xtzs' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Think\Crypt::decrypt(), called in /phpstudy/www/mmm.bianji.cn/snadmin/Home/Common/function.php on line 96 and defined /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 46 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 51 行.
+NOTIC: [2] Missing argument 2 for Think\Crypt::encrypt(), called in /phpstudy/www/mmm.bianji.cn/snadmin/Home/Common/function.php on line 282 and defined /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 32 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 37 行.
+SQL: SELECT * FROM `ot_userget` WHERE `UG_dataType` = 'xtzs' ORDER BY UG_ID DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: userdata /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/5da695a2c3b8808e2fba288086be86d6.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-05-02T18:21:55+08:00 ] 14.156.245.8 /admin.php/Home/Index/team
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2016-05-02T18:21:55+08:00 ] 14.156.245.8 /admin.php/Home/Common/getTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `UE_account` FROM `ot_user` WHERE `UE_accName` = 'admin@qq.com'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13266776666' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `UE_account` FROM `ot_user` WHERE `UE_accName` = '13266776666'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '13266776667' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `UE_account` FROM `ot_user` WHERE `UE_accName` = '13266776667'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18623720555' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `UE_account` FROM `ot_user` WHERE `UE_accName` = '18623720555'  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-05-02T18:22:01+08:00 ] 14.156.245.8 /admin.php/Home/Index/txlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `ot_tixian` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/IndexController.class.php 第 266 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tixian` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/IndexController.class.php 第 271 行.
+SQL: SELECT * FROM `ot_tixian` ORDER BY id LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2016-05-02T18:22:06+08:00 ] 14.156.245.8 /admin.php/Home/Index/jbzs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `ot_userget` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_userget` WHERE `UG_dataType` = 'xtzs' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Think\Crypt::decrypt(), called in /phpstudy/www/mmm.bianji.cn/snadmin/Home/Common/function.php on line 96 and defined /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 46 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 51 行.
+NOTIC: [2] Missing argument 2 for Think\Crypt::encrypt(), called in /phpstudy/www/mmm.bianji.cn/snadmin/Home/Common/function.php on line 282 and defined /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 32 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 37 行.
+SQL: SELECT * FROM `ot_userget` WHERE `UG_dataType` = 'xtzs' ORDER BY UG_ID DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined variable: userdata /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/5da695a2c3b8808e2fba288086be86d6.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-05-02T18:22:11+08:00 ] 14.156.245.8 /admin.php/Home/Index/userlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/IndexController.class.php 第 300 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '127.0.0.1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '123.151.42.47' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '14.156.245.8' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '14.156.245.8' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2016-05-02T18:22:14+08:00 ] 14.156.245.8 /admin.php/Home/Index/jbzs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `ot_userget` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_userget` WHERE `UG_dataType` = 'xtzs' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Think\Crypt::decrypt(), called in /phpstudy/www/mmm.bianji.cn/snadmin/Home/Common/function.php on line 96 and defined /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 46 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 51 行.
+NOTIC: [2] Missing argument 2 for Think\Crypt::encrypt(), called in /phpstudy/www/mmm.bianji.cn/snadmin/Home/Common/function.php on line 282 and defined /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 32 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 37 行.
+SQL: SELECT * FROM `ot_userget` WHERE `UG_dataType` = 'xtzs' ORDER BY UG_ID DESC LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: userdata /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/5da695a2c3b8808e2fba288086be86d6.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2016-05-02T18:59:21+08:00 ] 116.18.189.231 /admin.php/Home/Index/userlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/IndexController.class.php 第 295 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/IndexController.class.php 第 300 行.
+SQL: SELECT * FROM `ot_user` ORDER BY UE_ID LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '127.0.0.1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '123.151.42.47' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '14.156.245.8' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_user` WHERE `UE_regIP` = '14.156.245.8' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2016-05-02T18:59:26+08:00 ] 116.18.189.231 /admin.php/Home/Code/code_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/CodeController.class.php 第 64 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/CodeController.class.php 第 69 行.
+SQL: SELECT * FROM `ot_code` ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2016-05-02T18:59:30+08:00 ] 116.18.189.231 /admin.php/Home/Code/code_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: page /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/0db364029371349824c8dbe1d39bb281.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2016-05-02T18:59:33+08:00 ] 116.18.189.231 /admin.php/Home/Code/code_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0024s ]
+NOTIC: [8] Use of undefined constant UE_account - assumed 'UE_account' /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/CodeController.class.php 第 17 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18623720555' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '57273315897ff1782' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('18623720555','57273315897ff1782','1','2016-05-02 18:59:33') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '5727331589cc15819' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('18623720555','5727331589cc15819','1','2016-05-02 18:59:33') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '5727331589ee32435' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('18623720555','5727331589ee32435','1','2016-05-02 18:59:33') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '572733158a0fd5406' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('18623720555','572733158a0fd5406','1','2016-05-02 18:59:33') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '572733158a31b8971' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('18623720555','572733158a31b8971','1','2016-05-02 18:59:33') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '572733158a5328130' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('18623720555','572733158a5328130','1','2016-05-02 18:59:33') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '572733158a7623232' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('18623720555','572733158a7623232','1','2016-05-02 18:59:33') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '572733158a97b6255' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('18623720555','572733158a97b6255','1','2016-05-02 18:59:33') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '572733158ab953191' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('18623720555','572733158ab953191','1','2016-05-02 18:59:33') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_code` WHERE `code` = '572733158adab7994' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ot_code` (`onwer`,`code`,`status`,`addtime`) VALUES ('18623720555','572733158adab7994','1','2016-05-02 18:59:33') [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2016-05-02T18:59:35+08:00 ] 116.18.189.231 /admin.php/Home/Code/code_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: page /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/0db364029371349824c8dbe1d39bb281.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2016-05-02T22:05:01+08:00 ] 116.18.189.231 /admin.php/Home/Index/pin_add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: page /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/c57dd95c4c85874edcc04d830e0d78f8.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-05-02T22:05:03+08:00 ] 116.18.189.231 /admin.php/Home/Index/pin_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `zt` = 0 ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-05-02T22:05:15+08:00 ] 116.18.189.231 /admin.php/Home/Index/df1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_drrz` WHERE `user` = 'admin' AND `leixin` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_regTime`> '2016-05-02 00:00:00' AND `UE_regTime` < '2016-05-02 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_activeTime`> '2016-05-02 00:00:00' AND `UE_activeTime` < '2016-05-02 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_regTime`> '2016-05-01 00:00:00' AND `UE_regTime` < '2016-05-01 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_activeTime`> '2016-05-01 00:00:00' AND `UE_activeTime` < '2016-05-01 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' AND `UE_check` = '1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' AND `UE_check` = '1' AND `UE_stop` = '0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(UE_money) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(ybhe) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(zsbhe) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2016-05-02T22:05:18+08:00 ] 116.18.189.231 /admin.php/Home/Index/pin_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ot_pin` WHERE `zt` = 0 ORDER BY id DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-05-02T22:05:21+08:00 ] 116.18.189.231 /admin.php/Home/Index/main
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2016-05-02T22:05:21+08:00 ] 116.18.189.231 /admin.php/Home/Index/top.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2016-05-02T22:05:21+08:00 ] 116.18.189.231 /admin.php/Home/Index/left.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-05-02T22:05:21+08:00 ] 116.18.189.231 /admin.php/Home/Index/df1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_drrz` WHERE `user` = 'admin' AND `leixin` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_regTime`> '2016-05-02 00:00:00' AND `UE_regTime` < '2016-05-02 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_activeTime`> '2016-05-02 00:00:00' AND `UE_activeTime` < '2016-05-02 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_regTime`> '2016-05-01 00:00:00' AND `UE_regTime` < '2016-05-01 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_activeTime`> '2016-05-01 00:00:00' AND `UE_activeTime` < '2016-05-01 23:59:59' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' AND `UE_check` = '1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(UE_ID) AS tp_count FROM `ot_user` WHERE ( `UE_ID`> '0' AND `UE_check` = '1' AND `UE_stop` = '0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(UE_money) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(ybhe) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(zsbhe) AS tp_sum FROM `ot_user` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2016-05-02T22:05:27+08:00 ] 116.18.189.231 /admin.php/Home/Index/jbzs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `ot_userget` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_userget` WHERE `UG_dataType` = 'xtzs' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Think\Crypt::decrypt(), called in /phpstudy/www/mmm.bianji.cn/snadmin/Home/Common/function.php on line 96 and defined /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 46 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 51 行.
+NOTIC: [2] Missing argument 2 for Think\Crypt::encrypt(), called in /phpstudy/www/mmm.bianji.cn/snadmin/Home/Common/function.php on line 282 and defined /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 32 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 37 行.
+SQL: SELECT * FROM `ot_userget` WHERE `UG_dataType` = 'xtzs' ORDER BY UG_ID DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: userdata /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/5da695a2c3b8808e2fba288086be86d6.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2016-05-02T22:05:28+08:00 ] 116.18.189.231 /admin.php/Home/Index/txlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `ot_tixian` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/IndexController.class.php 第 266 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tixian` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /phpstudy/www/mmm.bianji.cn/snadmin/Home/Controller/IndexController.class.php 第 271 行.
+SQL: SELECT * FROM `ot_tixian` ORDER BY id LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2016-05-02T22:05:34+08:00 ] 116.18.189.231 /admin.php/Home/Index/jbzs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `ot_userget` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_userget` WHERE `UG_dataType` = 'xtzs' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Think\Crypt::decrypt(), called in /phpstudy/www/mmm.bianji.cn/snadmin/Home/Common/function.php on line 96 and defined /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 46 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 51 行.
+NOTIC: [2] Missing argument 2 for Think\Crypt::encrypt(), called in /phpstudy/www/mmm.bianji.cn/snadmin/Home/Common/function.php on line 282 and defined /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 32 行.
+NOTIC: [8] Undefined variable: key /phpstudy/www/mmm.bianji.cn/ThinkPHP/Library/Think/Crypt.class.php 第 37 行.
+SQL: SELECT * FROM `ot_userget` WHERE `UG_dataType` = 'xtzs' ORDER BY UG_ID DESC LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: userdata /phpstudy/www/mmm.bianji.cn/snadmin/Runtime/Cache/Home/5da695a2c3b8808e2fba288086be86d6.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-05-02T22:05:40+08:00 ] 116.18.189.231 /admin.php/Home/Index/txset
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2016-05-02T22:05:41+08:00 ] 116.18.189.231 /admin.php/Home/Common/getTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2016-05-02T22:05:43+08:00 ] 116.18.189.231 /admin.php/Home/Index/lixi
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2016-05-02T22:05:43+08:00 ] 116.18.189.231 /admin.php/Home/Common/getTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+

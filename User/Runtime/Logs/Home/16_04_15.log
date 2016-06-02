@@ -1,0 +1,879 @@
+[ 2016-04-15T10:18:58+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: uname /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: uname /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: uname /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = null [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: uid /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 95 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-15T10:18:58+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: uname /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: uname /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: uname /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = null [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uid /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 95 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-15T10:18:58+08:00 ] ::1 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: uname /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: uname /Library/WebServer/Documents/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-15T10:18:58+08:00 ] ::1 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001393s ]
+
+[ 2016-04-15T10:18:58+08:00 ] ::1 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-04-15T10:19:05+08:00 ] ::1 /Home/Reg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001171s ]
+
+[ 2016-04-15T10:19:21+08:00 ] ::1 /Home/Login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0165s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0098s ]
+NOTIC: [2] Missing argument 2 for Think\Crypt::decrypt(), called in /Library/WebServer/Documents/User/Home/Common/function.php on line 591 and defined /Library/WebServer/Documents/ThinkPHP/Library/Think/Crypt.class.php 第 46 行.
+NOTIC: [8] Undefined variable: key /Library/WebServer/Documents/ThinkPHP/Library/Think/Crypt.class.php 第 51 行.
+NOTIC: [2] Missing argument 2 for Think\Crypt::encrypt(), called in /Library/WebServer/Documents/User/Home/Common/function.php on line 762 and defined /Library/WebServer/Documents/ThinkPHP/Library/Think/Crypt.class.php 第 32 行.
+NOTIC: [8] Undefined variable: key /Library/WebServer/Documents/ThinkPHP/Library/Think/Crypt.class.php 第 37 行.
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' AND `zt` = 0  [ RunTime:0.0082s ]
+NOTIC: [8] Use of undefined constant ue_id - assumed 'ue_id' /Library/WebServer/Documents/User/Home/Controller/LoginController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' /Library/WebServer/Documents/User/Home/Controller/LoginController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' /Library/WebServer/Documents/User/Home/Controller/LoginController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.0038s ]
+SQL: INSERT INTO `ot_drrz` (`date`,`ip`,`user`,`leixin`) VALUES ('2016-04-15 10:19:21','','admin@qq.com','0') [ RunTime:0.0064s ]
+NOTIC: [8] Use of undefined constant sf - assumed 'sf' /Library/WebServer/Documents/User/Home/Controller/LoginController.class.php 第 131 行.
+
+[ 2016-04-15T10:19:21+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `ot_user` SET `levelname`='G4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-04-15T10:19:22+08:00 ] ::1 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `ot_user` SET `levelname`='G4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+NOTIC: [8] Undefined variable: home /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 758 行.
+NOTIC: [8] Undefined variable: news /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 761 行.
+NOTIC: [8] Undefined variable: she_list /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 765 行.
+NOTIC: [8] Undefined variable: de_list /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 769 行.
+NOTIC: [8] Undefined variable: reg /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 773 行.
+NOTIC: [8] Undefined variable: profile /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 777 行.
+NOTIC: [8] Undefined variable: manage /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 780 行.
+NOTIC: [8] Undefined variable: cwmx /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 788 行.
+NOTIC: [8] Undefined variable: detail /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 793 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'a1@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'a1@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'a3@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'a1@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'a2@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'a1@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'a1@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: b /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1360 行.
+NOTIC: [8] Undefined variable: b /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1360 行.
+NOTIC: [8] Undefined variable: b /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1360 行.
+NOTIC: [8] Undefined variable: b /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1360 行.
+NOTIC: [8] Undefined variable: b /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1360 行.
+NOTIC: [8] Undefined variable: b /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1360 行.
+NOTIC: [8] Undefined variable: b /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1360 行.
+NOTIC: [8] Undefined variable: b /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 1360 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2016-04-15T10:19:22+08:00 ] ::1 /Home/Index/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `ot_user` SET `levelname`='G4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-04-15T10:19:22+08:00 ] ::1 /Home/Index/google.h.h
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `ot_user` SET `levelname`='G4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:google.h.h
+
+[ 2016-04-15T10:19:24+08:00 ] ::1 /Home/Index/google.js.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `ot_user` SET `levelname`='G4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+ERR: 非法操作:google.js.js
+
+[ 2016-04-15T10:22:52+08:00 ] ::1 /Home/Info/pin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `ot_user` SET `levelname`='G4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_pin` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+NOTIC: [8] Undefined variable: home /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 523 行.
+NOTIC: [8] Undefined variable: news /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 526 行.
+NOTIC: [8] Undefined variable: she_list /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 530 行.
+NOTIC: [8] Undefined variable: de_list /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 534 行.
+NOTIC: [8] Undefined variable: reg /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 538 行.
+NOTIC: [8] Undefined variable: profile /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 542 行.
+NOTIC: [8] Undefined variable: manage /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 545 行.
+NOTIC: [8] Undefined variable: cwmx /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 553 行.
+NOTIC: [8] Undefined variable: detail /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 558 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2016-04-15T10:22:52+08:00 ] ::1 /Home/Info/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `ot_user` SET `levelname`='G4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-04-15T10:22:52+08:00 ] ::1 /Home/Info/google.h.h
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `ot_user` SET `levelname`='G4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:google.h.h
+
+[ 2016-04-15T10:22:52+08:00 ] ::1 /Home/Info/google.js.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = 'admin@qq.com' AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `ot_user` SET `levelname`='G4' WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 1 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:google.js.js
+
+[ 2016-04-15T10:23:00+08:00 ] ::1 /Home/Reg/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+
+[ 2016-04-15T10:23:00+08:00 ] ::1 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2016-04-15T10:23:00+08:00 ] ::1 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-04-15T10:23:03+08:00 ] ::1 /Home/Reg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001267s ]
+
+[ 2016-04-15T10:23:11+08:00 ] ::1 /Home/Reg/send_sms
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `ot_mobile_code` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ot_mobile_code` WHERE `phone` = '18058212004' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `ot_mobile_code` SET `code`='164136',`add_time`='1460686990' WHERE ( phone=18058212004 ) [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2016-04-15T10:24:44+08:00 ] ::1 /Home/Login/loginadmin/account/18058212004/password/e10adc3949ba59abbe56e057f20f883e/secpw/e10adc3949ba59abbe56e057f20f883e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18058212004' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant ue_id - assumed 'ue_id' /Library/WebServer/Documents/User/Home/Controller/LoginController.class.php 第 202 行.
+NOTIC: [8] Use of undefined constant ue_id - assumed 'ue_id' /Library/WebServer/Documents/User/Home/Controller/LoginController.class.php 第 204 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' /Library/WebServer/Documents/User/Home/Controller/LoginController.class.php 第 206 行.
+
+[ 2016-04-15T10:24:44+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18058212004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18058212004' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18058212004' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-04-15T10:24:44+08:00 ] ::1 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18058212004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18058212004' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18058212004' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = '18058212004' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = '18058212004' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = '18058212004' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '18058212004' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = '18058212004' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = '18058212004' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = '18058212004' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = '18058212004' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = '18058212004' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+NOTIC: [8] Undefined variable: home /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 758 行.
+NOTIC: [8] Undefined variable: news /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 761 行.
+NOTIC: [8] Undefined variable: she_list /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 765 行.
+NOTIC: [8] Undefined variable: de_list /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 769 行.
+NOTIC: [8] Undefined variable: reg /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 773 行.
+NOTIC: [8] Undefined variable: profile /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 777 行.
+NOTIC: [8] Undefined variable: manage /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 780 行.
+NOTIC: [8] Undefined variable: cwmx /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 788 行.
+NOTIC: [8] Undefined variable: detail /Library/WebServer/Documents/User/Runtime/Cache/Home/9b888f9a05177cc78c87c9cd7e37319c.php 第 793 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2016-04-15T10:24:44+08:00 ] ::1 /Home/Index/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18058212004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18058212004' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18058212004' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-04-15T10:24:44+08:00 ] ::1 /Home/Index/google.h.h
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18058212004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18058212004' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18058212004' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:google.h.h
+
+[ 2016-04-15T10:24:44+08:00 ] ::1 /Home/Index/google.js.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18058212004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18058212004' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18058212004' [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:google.js.js
+
+[ 2016-04-15T10:24:47+08:00 ] ::1 /Home/Info/pin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18058212004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18058212004' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18058212004' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18058212004' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_pin` WHERE `user` = '18058212004' ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18058212004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Undefined variable: home /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 523 行.
+NOTIC: [8] Undefined variable: news /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 526 行.
+NOTIC: [8] Undefined variable: she_list /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 530 行.
+NOTIC: [8] Undefined variable: de_list /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 534 行.
+NOTIC: [8] Undefined variable: reg /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 538 行.
+NOTIC: [8] Undefined variable: profile /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 542 行.
+NOTIC: [8] Undefined variable: manage /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 545 行.
+NOTIC: [8] Undefined variable: cwmx /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 553 行.
+NOTIC: [8] Undefined variable: detail /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 558 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2016-04-15T10:24:47+08:00 ] ::1 /Home/Info/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18058212004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18058212004' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18058212004' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-04-15T10:24:47+08:00 ] ::1 /Home/Info/google.h.h
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18058212004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18058212004' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18058212004' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0006s ]
+ERR: 非法操作:google.h.h
+
+[ 2016-04-15T10:24:47+08:00 ] ::1 /Home/Info/google.js.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18058212004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18058212004' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18058212004' [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0009s ]
+ERR: 非法操作:google.js.js
+
+[ 2016-04-15T10:25:09+08:00 ] ::1 /Home/Info/pin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18058212004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18058212004' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18058212004' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18058212004' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_pin` WHERE `user` = '18058212004' ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18058212004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Undefined variable: home /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 523 行.
+NOTIC: [8] Undefined variable: news /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 526 行.
+NOTIC: [8] Undefined variable: she_list /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 530 行.
+NOTIC: [8] Undefined variable: de_list /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 534 行.
+NOTIC: [8] Undefined variable: reg /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 538 行.
+NOTIC: [8] Undefined variable: profile /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 542 行.
+NOTIC: [8] Undefined variable: manage /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 545 行.
+NOTIC: [8] Undefined variable: cwmx /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 553 行.
+NOTIC: [8] Undefined variable: detail /Library/WebServer/Documents/User/Runtime/Cache/Home/bf304dab9709729f41042ad3b2073dd1.php 第 558 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-04-15T10:25:09+08:00 ] ::1 /Home/Info/google.h.h
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18058212004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18058212004' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18058212004' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:google.h.h
+
+[ 2016-04-15T10:25:09+08:00 ] ::1 /Home/Info/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18058212004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18058212004' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18058212004' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-04-15T10:25:09+08:00 ] ::1 /Home/Info/google.js.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = '18058212004' AND `zt` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18058212004' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = '18058212004' [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0006s ]
+ERR: 非法操作:google.js.js
+
+[ 2016-04-15T10:25:16+08:00 ] ::1 /Home/Reg/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+
+[ 2016-04-15T10:25:16+08:00 ] ::1 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2016-04-15T10:25:16+08:00 ] ::1 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+ERR: 非法操作:google.h.c
+
+[ 2016-04-15T10:25:17+08:00 ] ::1 /Home/Reg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000611s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2016-04-15T10:25:25+08:00 ] ::1 /Home/Reg/send_sms
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `ot_mobile_code` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ot_mobile_code` WHERE `phone` = '18667873050' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `ot_mobile_code` SET `code`='68702',`add_time`='1460687125' WHERE ( phone=18667873050 ) [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2016-04-15T10:26:19+08:00 ] ::1 /Home/Reg/regadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' /Library/WebServer/Documents/User/Home/Controller/RegController.class.php 第 651 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18667873050' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18058212004' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ot_pin` WHERE `pin` = 'd2575e1772523a1146ccc03355ac87bf' AND `zt` = '0' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `ot_user` (`UE_account`,`UE_accName`,`UE_theme`,`UE_password`,`pin`,`UE_secpwd`,`UE_status`,`UE_level`,`UE_check`,`UE_truename`,`UE_phone`,`UE_question`,`UE_answer`,`UE_regIP`,`zcr`,`UE_regTime`) VALUES ('18667873050','18058212004','马马','e10adc3949ba59abbe56e057f20f883e','d2575e1772523a1146ccc03355ac87bf','e10adc3949ba59abbe56e057f20f883e','0','0','1','马马','18667873050','q1','1.1','0.0.0.0','18058212004','2016-04-15 10:26:19') [ RunTime:0.0010s ]
+SQL: UPDATE `ot_pin` SET `zt`='1',`sy_user`='18667873050',`sy_date`='2016-04-15 10:26:19' WHERE `pin` = 'd2575e1772523a1146ccc03355ac87bf' [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_accName` = '18058212004'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0007s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_ppdd` WHERE `p_user` = '18667873050' AND `zt` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `ot_ppdd` WHERE `p_user` = '18058212004' AND `zt` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `ot_user` SET `sfjl`='1' WHERE `UE_account` = '18058212004' [ RunTime:0.0003s ]
+SQL: UPDATE `ot_user` SET `tj_num`=tj_num+1 WHERE `UE_account` = '18058212004' [ RunTime:0.0026s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '18058212004'  [ RunTime:0.0005s ]
+SQL: UPDATE `ot_user` SET `tj_num`=tj_num+1 WHERE `UE_account` = 'admin@qq.com' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ot_user_jl` [ RunTime:0.0041s ]
+SQL: INSERT INTO `ot_user_jl` (`user`,`r_id`,`date`,`note`,`jb`,`jj`,`ds`) VALUES ('18667873050','0','2016-04-15 10:26:19','新用户注册奖励200元','200','200','0') [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant UE_account - assumed 'UE_account' /Library/WebServer/Documents/User/Home/Common/function.php 第 700 行.
+SQL: UPDATE `ot_user` SET `UE_money`=UE_money+200 WHERE `UE_account` = '18667873050' [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2016-04-15T10:26:21+08:00 ] ::1 /Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2016-04-15T10:26:21+08:00 ] ::1 /Home/Login/google.h.c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+ERR: 非法操作:google.h.c
+

@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="/sncss/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="/sncss/js/jquery.js"></script>
+
+<script type="text/javascript">
+$(function(){	
+	//导航切换
+	$(".menuson li").click(function(){
+		$(".menuson li.active").removeClass("active")
+		$(this).addClass("active");
+	});
+	
+	$('.title').click(function(){
+		var $ul = $(this).next('ul');
+		$('dd').find('ul').slideUp();
+		if($ul.is(':visible')){
+			$(this).next('ul').slideUp();
+		}else{
+			$(this).next('ul').slideDown();
+		}
+	});
+})	
+</script>
+
+
+</head>
+
+<body style="background:#f0f9fd;">
+	<div class="lefttop"><span></span>功能欄</div>
+    
+    <dl class="leftmenu">
+        
+    <dd>
+    <div class="title">
+    <span><img src="/sncss/images/leftico01.png" /></span>會員管理
+    </div>
+    	<ul class="menuson">
+        <li><cite></cite><a href="/admin.php/Home/Index/userlist" target="rightFrame">所有會員</a><i></i></li>
+       
+        <li><cite></cite><a href="/admin.php/Home/Index/jbzs" target="rightFrame">金幣增送</a><i></i></li>
+        <li><cite></cite><a href="/admin.php/Home/Index/team" target="rightFrame">會員關系圖</a><i></i></li>
+		
+        </ul>    
+    </dd>
+        
+    
+   <!-- <dd>
+    <div class="title">
+    <span><img src="/sncss/images/leftico02.png" /></span>獎金管理
+    </div>
+    <ul class="menuson">
+        <li><cite></cite><a href="#">統計昨日獎金</a><i></i></li>
+        <li><cite></cite><a href="#">日分紅和領導獎統計</a><i></i></li>
+		<li><cite></cite><a href="#">所有金幣明細</a><i></i></li>
+		<li><cite></cite><a href="#">所有銀幣明細</a><i></i></li>
+		<li><cite></cite><a href="#">所有鑽石幣明細</a><i></i></li>
+        </ul>     
+    </dd> -->
+    
+    
+    <dd><div class="title"><span><img src="/sncss/images/leftico03.png" /></span>文章管理</div>
+    <ul class="menuson">
+
+		<li><cite></cite><a href="/admin.php/Home/Shop/zsbyg_list" target="rightFrame">新闻公告</a><i></i></li>
+		<li><cite></cite><a href="/admin.php/Home/Shop/zsbyg_list_xg" target="rightFrame">添加内容</a><i></i></li>
+    </ul>    
+    </dd>  
+    
+	
+	 <dd><div class="title"><span><img src="/sncss/images/leftico03.png" /></span>留言管理</div>
+    <ul class="menuson">
+
+		<li><cite></cite><a href="/admin.php/Home/Shop/ly_list/type/0/" target="rightFrame">未处理留言</a><i></i></li>
+		<li><cite></cite><a href="/admin.php/Home/Shop/ly_list/type/1/" target="rightFrame">已处理留言</a><i></i></li>
+    </ul>    
+    </dd>  
+    
+  <dd><div class="title"><span><img src="/sncss/images/leftico04.png" /></span>激活码管理</div>
+    <ul class="menuson">
+        <li><cite></cite><a href="/admin.php/Home/Index/pin_add" target="rightFrame">生成激活码</a><i></i></li>
+		<li><cite></cite><a href="/admin.php/Home/Index/pin_list" target="rightFrame">PIN管理</a><i></i></li>
+    </ul>
+    
+    </dd>   
+	
+	
+	
+	
+	
+	
+	  <dd><div class="title"><span><img src="/sncss/images/leftico04.png" /></span>匹配系统</div>
+    <ul class="menuson">
+        <li><cite></cite><a href="/admin.php/Home/Index/tgbz_list" target="rightFrame">提供帮助</a><i></i></li>
+		<li><cite></cite><a href="/admin.php/Home/Index/jsbz_list" target="rightFrame">接受帮助</a><i></i></li>
+		<li><cite></cite><a href="/admin.php/Home/Index/ppdd_list" target="rightFrame">交易中的订单</a><i></i></li>
+		<li><cite></cite><a href="/admin.php/Home/Index/ppdd_list/cz/1/" target="rightFrame">成功交易订单</a><i></i></li>
+		<li><cite></cite><a href="/admin.php/Home/Index/ts1_list" target="rightFrame">48小时未打款</a><i></i></li>
+		<li><cite></cite><a href="/admin.php/Home/Index/ts3_list" target="rightFrame">未收到款</a><i></i></li>
+			 <li><cite></cite><a href="/admin.php/Home/Index/tgbz_list_cf" target="rightFrame">提供拆分</a><i></i></li>
+		<li><cite></cite><a href="/admin.php/Home/Index/jsbz_list_cf" target="rightFrame">接受拆分</a><i></i></li>
+		<!--<li><cite></cite><a href="/admin.php/Home/Index/pin_list" target="rightFrame">PIN管理</a><i></i></li>-->
+		<!--<li><cite></cite><a href="/admin.php/Home/Shop/zsbyg_list" target="rightFrame">钻石币云购管理</a><i></i></li>
+        <li><cite></cite><a href="#">正能量文章</a><i></i></li>
+        <li><cite></cite><a href="#">首頁公告</a><i></i></li>-->
+    </ul>
+    
+    </dd>   
+
+	
+	
+	
+	
+	  <!--
+	<dd><div class="title"><span><img src="/sncss/images/leftico04.png" /></span>留言管理</div>
+    <ul class="menuson">
+        <li><cite></cite><a href="#">所有留言</a><i></i></li>
+    </ul>
+    
+    </dd>  -->
+	
+    
+    </dl>
+    
+</body>
+</html>

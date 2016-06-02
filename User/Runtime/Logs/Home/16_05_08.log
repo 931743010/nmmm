@@ -1,0 +1,192 @@
+[ 2016-05-08T09:53:41+08:00 ] 173.245.50.175 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = null [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 97 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-05-08T09:53:41+08:00 ] 173.245.50.175 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-05-08T09:53:41+08:00 ] 173.245.50.175 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-05-08T19:33:17+08:00 ] 199.27.128.161 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = null [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 97 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-05-08T19:33:17+08:00 ] 199.27.128.161 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-05-08T19:33:17+08:00 ] 199.27.128.161 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2016-05-08T19:33:18+08:00 ] 199.27.128.161 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ot_user` SET `levelname`='G1' WHERE `UE_account` = null [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 97 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-05-08T19:33:18+08:00 ] 199.27.128.161 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_pin` WHERE `user` = null AND `zt` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ot_code` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uname /phpstudy/www/www.cngsoros.com/User/Home/Controller/CommonController.class.php 第 60 行.
+SQL: SELECT * FROM `ot_code` WHERE `onwer` = null AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-05-08T19:33:18+08:00 ] 199.27.128.161 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+

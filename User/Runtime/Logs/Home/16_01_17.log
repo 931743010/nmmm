@@ -1,0 +1,1502 @@
+[ 2016-01-17T00:31:55+08:00 ] 66.249.69.19 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T00:31:56+08:00 ] 66.249.69.19 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T00:31:56+08:00 ] 66.249.69.19 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T00:55:37+08:00 ] 136.243.103.164 /Home/Reg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+NOTIC: [8] Use of undefined constant UE_ID - assumed 'UE_ID' D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\RegController.class.php 第 12 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_pin` WHERE `user` = null AND `zt` = '0' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T01:48:39+08:00 ] 212.47.253.128 /Home/Reg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0313s ]
+NOTIC: [8] Use of undefined constant UE_ID - assumed 'UE_ID' D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\RegController.class.php 第 12 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_pin` WHERE `user` = null AND `zt` = '0' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.015625s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015625s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T06:55:48+08:00 ] 220.181.108.183 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T06:58:28+08:00 ] 220.181.108.145 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T07:00:47+08:00 ] 220.181.108.179 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T09:51:51+08:00 ] 220.181.108.147 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T09:51:51+08:00 ] 220.181.108.176 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T09:51:51+08:00 ] 220.181.108.144 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T09:58:13+08:00 ] 51.255.51.249 /Home/Reg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant UE_ID - assumed 'UE_ID' D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\RegController.class.php 第 12 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_pin` WHERE `user` = null AND `zt` = '0' LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T11:50:41+08:00 ] 123.125.71.71 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T11:53:35+08:00 ] 123.125.71.110 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015624s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T11:55:08+08:00 ] 123.125.71.86 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T11:59:52+08:00 ] 220.181.108.181 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T12:02:48+08:00 ] 220.181.108.140 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T12:03:28+08:00 ] 220.181.108.145 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T13:40:39+08:00 ] 51.254.32.77 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2016-01-17T13:40:43+08:00 ] 51.254.32.77 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T13:40:46+08:00 ] 51.254.32.77 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T15:08:44+08:00 ] 51.254.97.23 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T15:08:46+08:00 ] 51.254.97.23 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T15:08:48+08:00 ] 51.254.97.23 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T15:52:50+08:00 ] 51.254.121.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T15:52:51+08:00 ] 51.254.121.186 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T15:52:54+08:00 ] 51.254.121.186 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T17:22:04+08:00 ] 117.27.149.13 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T17:22:05+08:00 ] 117.27.149.13 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T17:22:05+08:00 ] 117.27.149.13 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T17:26:59+08:00 ] 62.210.90.118 /?c=domain&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Domain
+
+[ 2016-01-17T17:27:19+08:00 ] 62.210.90.118 /?c=public&a=findPasswdFrom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-01-17T17:27:24+08:00 ] 62.210.90.118 /?c=public&a=pagelistnews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-01-17T17:27:26+08:00 ] 62.210.90.118 /?c=public&a=register_n
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015626s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-01-17T17:27:28+08:00 ] 62.210.90.118 /?c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:User
+
+[ 2016-01-17T17:37:47+08:00 ] 42.92.127.103 /?qqdrsign=02941
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T17:37:51+08:00 ] 42.92.127.103 /?qqdrsign=02941
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T17:37:52+08:00 ] 42.92.127.103 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T17:37:52+08:00 ] 42.92.127.103 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T17:39:13+08:00 ] 220.181.132.217 /?qqdrsign=02941
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T17:39:15+08:00 ] 27.221.19.17 /?qqdrsign=02941
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T17:39:15+08:00 ] 27.221.19.17 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T17:39:15+08:00 ] 27.221.19.17 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T17:39:19+08:00 ] 220.181.132.217 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T17:39:21+08:00 ] 182.140.230.21 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T17:39:21+08:00 ] 182.140.230.21 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T17:39:31+08:00 ] 101.199.108.57 /?qqdrsign=02941
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0313s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T17:39:31+08:00 ] 101.199.108.57 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T17:39:32+08:00 ] 101.199.108.57 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T17:39:33+08:00 ] 101.199.112.55 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2016-01-17T17:39:33+08:00 ] 101.199.112.55 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T17:40:11+08:00 ] 220.181.132.217 /?qqdrsign=02941
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T17:40:11+08:00 ] 182.140.230.21 /?qqdrsign=02941
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0313s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T17:40:12+08:00 ] 182.140.230.21 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T17:40:13+08:00 ] 182.140.230.21 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015626s ]
+
+[ 2016-01-17T17:40:33+08:00 ] 101.199.108.52 /?qqdrsign=02941
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T17:40:33+08:00 ] 101.199.108.52 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T17:40:33+08:00 ] 101.199.108.52 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T17:40:50+08:00 ] 47.88.150.161 /?qqdrsign=02941
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T17:40:50+08:00 ] 47.88.150.161 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T17:40:50+08:00 ] 47.88.150.161 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T19:56:28+08:00 ] 220.181.108.177 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T19:56:31+08:00 ] 220.181.108.159 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T19:56:31+08:00 ] 220.181.108.185 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T20:52:26+08:00 ] 123.125.71.116 /Home/Reg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant UE_ID - assumed 'UE_ID' D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\RegController.class.php 第 12 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_pin` WHERE `user` = null AND `zt` = '0' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T20:52:26+08:00 ] 123.125.71.115 /Home/Reg/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant UE_ID - assumed 'UE_ID' D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\RegController.class.php 第 12 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_pin` WHERE `user` = null AND `zt` = '0' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T21:53:00+08:00 ] 123.125.71.21 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T21:55:56+08:00 ] 123.125.71.17 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T21:58:29+08:00 ] 123.125.71.17 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T22:26:39+08:00 ] 119.186.131.253 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T22:26:40+08:00 ] 119.186.131.253 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T22:26:40+08:00 ] 119.186.131.253 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T22:26:47+08:00 ] 119.186.131.253 /Home/Login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' AND `zt` = 0 AND `ts_zt` = 0  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant ue_id - assumed 'ue_id' D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\LoginController.class.php 第 107 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\LoginController.class.php 第 109 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\LoginController.class.php 第 117 行.
+SQL: SHOW COLUMNS FROM `ot_drrz` [ RunTime:0.0156s ]
+SQL: INSERT INTO `ot_drrz` (`date`,`ip`,`user`,`leixin`) VALUES ('2016-01-17 22:26:47','123.129.101.221','admin@qq.com','0') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T22:26:48+08:00 ] 119.186.131.253 /Home/Login/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T22:26:49+08:00 ] 119.186.131.253 /Home/Index/home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61451 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_jsbz` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_jsbz` WHERE `user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `p_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_ppdd` WHERE `g_user` = 'admin@qq.com' ORDER BY id DESC LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: aaa1 D:\wwwroot\yijiayi\wwwroot\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 508 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: aa2 D:\wwwroot\yijiayi\wwwroot\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 550 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_account` = '333333@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: a D:\wwwroot\yijiayi\wwwroot\User\Runtime\Cache\Home\9b888f9a05177cc78c87c9cd7e37319c.php 第 1660 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.156251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T22:27:15+08:00 ] 119.186.131.253 /Home/Myuser/lxwm/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61451 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_message` WHERE `MA_userName` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_message` WHERE `MA_userName` = 'admin@qq.com' ORDER BY MA_ID DESC LIMIT 0,12   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61451 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T22:36:22+08:00 ] 119.186.131.253 /Home/Myuser/lxwm/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61451 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = 'admin@qq.com' AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_message` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ot_message` WHERE `MA_userName` = 'admin@qq.com' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_message` WHERE `MA_userName` = 'admin@qq.com' ORDER BY MA_ID DESC LIMIT 0,12   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 61451 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2016-01-17T22:50:22+08:00 ] 66.249.69.27 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_tgbz` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '500' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '1000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '3000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: uname D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\CommonController.class.php 第 101 行.
+SQL: SELECT * FROM `ot_tgbz` WHERE `user` = null AND `jb` = '5000' AND `showflag` = 1 ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T22:50:23+08:00 ] 66.249.69.19 /Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-01-17T22:50:23+08:00 ] 66.249.69.19 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T22:51:15+08:00 ] 66.249.69.19 /Home/Reg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ot_user` [ RunTime:0.0156s ]
+NOTIC: [8] Use of undefined constant UE_ID - assumed 'UE_ID' D:\wwwroot\yijiayi\wwwroot\User\Home\Controller\RegController.class.php 第 12 行.
+SQL: SELECT * FROM `ot_user` WHERE `UE_ID` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ot_pin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ot_pin` WHERE `user` = null AND `zt` = '0' LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-17T22:56:15+08:00 ] 66.249.69.27 /Home/Reg/xm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
